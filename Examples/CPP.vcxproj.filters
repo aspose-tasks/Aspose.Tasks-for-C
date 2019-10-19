@@ -1,0 +1,1569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Articles">
+      <UniqueIdentifier>{e0889a5d-b61f-4b6a-a73a-1366e951c5c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConvertingProjectData">
+      <UniqueIdentifier>{5dbf8087-629b-4789-b1a9-6c2c4a2970ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KnowledgeBase">
+      <UniqueIdentifier>{e76ebacc-8dcb-4097-9785-25299d2b5f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Licensing">
+      <UniqueIdentifier>{ba2df0d9-2861-4d2d-8a7c-10f8fc328db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Miscellaneous">
+      <UniqueIdentifier>{c67a11cc-44e1-4719-80aa-bee2ee98df84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkingWithCalendarExceptions">
+      <UniqueIdentifier>{7e367b06-a964-47b6-8ed2-08eccb74af09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkingWithCalendars">
+      <UniqueIdentifier>{30588e20-752e-4a08-8b04-86f3a6e9ea48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkingWithCalendars\CreatingUpdatingAndRemoving">
+      <UniqueIdentifier>{884b9fd4-78b0-4c97-bbb9-ce3d761d2564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkingWithCurrencies">
+      <UniqueIdentifier>{ce3416ac-eaef-4d97-b111-3c194a3fd231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkingWithFormulas">
+      <UniqueIdentifier>{9231370a-a635-4004-98e8-971e6378d966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkingWithProjects">
+      <UniqueIdentifier>{9020d8f4-c61c-45b5-b953-8928e781b094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkingWithProjects\CreatingReadingAndSaving">
+      <UniqueIdentifier>{ff3e6172-a560-4b9e-a684-32add7a84787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkingWithProjects\ImportingAndExporting%27">
+      <UniqueIdentifier>{2e1f2711-e5ab-464c-b608-a8b9f5a4c5d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkingWithProjects\Miscellaneous">
+      <UniqueIdentifier>{ada8252e-f5be-4b70-8bb7-1565f24ca4c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkingWithProjects\Rescheduling">
+      <UniqueIdentifier>{0921d7a2-648e-4dc1-ab27-e24ab54a4e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkingWithProjects\WorkingWithExtendedAttributes">
+      <UniqueIdentifier>{39e8bce4-cb30-4083-b6f6-b88829a42c52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkingWithProjects\WorkingWithProjectProperties">
+      <UniqueIdentifier>{b33847e9-8c05-4d9e-b2f8-b29acc8c4535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkingWithProjects\WorkingWithProjectViews">
+      <UniqueIdentifier>{ca36c3fe-b6f2-4974-a941-d997d339a4fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkingWithResourceAssignments">
+      <UniqueIdentifier>{b5499a87-e4e9-493e-be86-405ec4876f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkingWithResources">
+      <UniqueIdentifier>{520eded7-3553-4324-9d08-51f335658abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkingWithTaskBaselines">
+      <UniqueIdentifier>{399d9657-4f52-4ebd-b904-2c91e844e1fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkingWithTaskLinks">
+      <UniqueIdentifier>{3d54e4a0-e9a4-41d0-a2d5-2f30ee19b065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkingWithTasks">
+      <UniqueIdentifier>{629a6080-d59a-4c0d-a4d1-c3ab623e6942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkingWithTasks\WorkingWithTaskConstraints">
+      <UniqueIdentifier>{350fb7d8-5b81-48ac-96cf-f4dbb37b6b38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkingWithVBA">
+      <UniqueIdentifier>{6ed90da4-2573-453b-ac45-c06bab24c61f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="version_compatibility.cpp" />
+    <ClCompile Include="CPP\Articles\AlignCellContents.cpp">
+      <Filter>Articles</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Articles\ChangeGanttBarsColorGradient.cpp">
+      <Filter>Articles</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Articles\CustomizeTextWithTaskBars.cpp">
+      <Filter>Articles</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Articles\ImplementCustomBarStyleWriting.cpp">
+      <Filter>Articles</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Articles\ReadCustomBarStyle.cpp">
+      <Filter>Articles</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Articles\RenderDifferentPresentationFormatsToXAML.cpp">
+      <Filter>Articles</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Articles\RenderGanttChartWithBarsNotRolledUp.cpp">
+      <Filter>Articles</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Articles\RenderGanttChartWithBarsRolledUp.cpp">
+      <Filter>Articles</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Articles\RenderMultipageTIFF.cpp">
+      <Filter>Articles</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Articles\RenderProjectToPredefinedPageSizes.cpp">
+      <Filter>Articles</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Articles\RenderToXAML.cpp">
+      <Filter>Articles</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Articles\RenderXAMLWithOptions.cpp">
+      <Filter>Articles</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Articles\SetGanttChartViewStartDate.cpp">
+      <Filter>Articles</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Articles\SortTasksByColumnInGanttChart.cpp">
+      <Filter>Articles</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Articles\TimescaleSettings.cpp">
+      <Filter>Articles</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\AddDefaultFontDuringSavingAsPDF.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\AddingCssStylePrefix.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\ControlHeaderNameDuringHTMLExport.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\CustomizeDateFormats.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\CustomizeTextStyle.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\FitContentsToCellSize.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\HideLegendsDuringSave.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\PrintProjectPagesToSeparateFiles.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\ReducingGapBetweenTasksListAndFooter.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\RenderCommentsWhenConverting.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\RenderProjectDataToFormat24bppRgb.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\SaveProjectAsCSV.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\SaveProjectAsJPEG.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\SaveProjectAsPDF.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\SaveProjectAsSVG.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\SaveProjectAsText.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\SaveProjectAsXLSX.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\SaveProjectDataAsHTML.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\SaveProjectDataAsTemplate.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\SaveProjectDataToSpreadsheet2003XML.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\SaveToMultiplePDFFiles.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\UsingSpreadsheet2003SaveOptions.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\UsingSvgOptions.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ConvertingProjectData\UsingXlsxOptions.cpp">
+      <Filter>ConvertingProjectData</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\KnowledgeBase\AddNewTask.cpp">
+      <Filter>KnowledgeBase</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\KnowledgeBase\CreateResourcesAndLinkToTasks.cpp">
+      <Filter>KnowledgeBase</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\KnowledgeBase\LinkTasks.cpp">
+      <Filter>KnowledgeBase</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\KnowledgeBase\ReadCriticalPath.cpp">
+      <Filter>KnowledgeBase</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\KnowledgeBase\ReadTaskAndResources.cpp">
+      <Filter>KnowledgeBase</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Licensing\ApplyLicenseUsingFile.cpp">
+      <Filter>Licensing</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Licensing\ApplyLicenseUsingStream.cpp">
+      <Filter>Licensing</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Licensing\EvaluationDateTimeLimitations.cpp">
+      <Filter>Licensing</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\HandleExceptions.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\PerformRiskAnalysis.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\SaveBestPracticeAnalyzerReport.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\SaveBurnDownReport.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\SaveCashFlowReport.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\SaveCostOverrunsReport.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\SaveCostOverviewReport.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\SaveCriticalTasksReport.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\SaveLateTasksReport.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\SaveMilestonesReport.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\SaveOverallocatedResourcesReport.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\SaveProjectOverviewReport.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\SaveResourceCostOverviewReport.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\SaveResourceOverviewReport.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\SaveSlippingTasksReport.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\SaveTaskCostOverviewReport.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\SaveUpcomingTasksReport.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\SaveWorkOverviewReport.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\SortResourcesByName.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\SortTasksByName.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\UpdateOutlineCodes.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Miscellaneous\WriteMetadataToMPP.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithCalendarExceptions\AddRemoveCalendarExceptions.cpp">
+      <Filter>WorkingWithCalendarExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithCalendarExceptions\DefineWeekdayExceptions.cpp">
+      <Filter>WorkingWithCalendarExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithCalendarExceptions\HandleExceptionOccurences.cpp">
+      <Filter>WorkingWithCalendarExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithCalendarExceptions\RetrieveCalendarExceptions.cpp">
+      <Filter>WorkingWithCalendarExceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithCalendars\CalculateWorkHours.cpp">
+      <Filter>WorkingWithCalendars</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithCalendars\GeneralCalendarProperties.cpp">
+      <Filter>WorkingWithCalendars</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithCalendars\ReadWorkWeeksInformation.cpp">
+      <Filter>WorkingWithCalendars</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithCalendars\RetrieveCalendarInfo.cpp">
+      <Filter>WorkingWithCalendars</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithCalendars\CreatingUpdatingAndRemoving\CreatingCalendar.cpp">
+      <Filter>WorkingWithCalendars\CreatingUpdatingAndRemoving</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithCalendars\CreatingUpdatingAndRemoving\DefineWeekdaysForCalendar.cpp">
+      <Filter>WorkingWithCalendars\CreatingUpdatingAndRemoving</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithCalendars\CreatingUpdatingAndRemoving\MakeAStandardCalendar.cpp">
+      <Filter>WorkingWithCalendars\CreatingUpdatingAndRemoving</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithCalendars\CreatingUpdatingAndRemoving\ReplaceCalendar.cpp">
+      <Filter>WorkingWithCalendars\CreatingUpdatingAndRemoving</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithCalendars\CreatingUpdatingAndRemoving\ReplaceCalendarWithNewCalendar.cpp">
+      <Filter>WorkingWithCalendars\CreatingUpdatingAndRemoving</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithCalendars\CreatingUpdatingAndRemoving\WriteUpdatedCalendarDataToMPP.cpp">
+      <Filter>WorkingWithCalendars\CreatingUpdatingAndRemoving</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithCurrencies\GetCurrencyCodes.cpp">
+      <Filter>WorkingWithCurrencies</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithCurrencies\GetCurrencyDigits.cpp">
+      <Filter>WorkingWithCurrencies</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithCurrencies\GetCurrencySymbol.cpp">
+      <Filter>WorkingWithCurrencies</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithCurrencies\SetCurrencyCodes.cpp">
+      <Filter>WorkingWithCurrencies</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithCurrencies\SetCurrencyDigits.cpp">
+      <Filter>WorkingWithCurrencies</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithCurrencies\SetCurrencySymbol.cpp">
+      <Filter>WorkingWithCurrencies</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithFormulas\AccessReadOnlyCustomFieldValuesUsingFormulas.cpp">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithFormulas\CalculateDateTimeFunctions.cpp">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithFormulas\CalculateGeneralFunctions.cpp">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithFormulas\CalculateMathExpressions.cpp">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithFormulas\CalculateTextFunctions.cpp">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithFormulas\FormulaWithBooleanValues.cpp">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithFormulas\FormulaWithProjectFields.cpp">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithFormulas\ReadFormulasExtendedAttributesFromMPP.cpp">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithFormulas\UsingArithmeticExpression.cpp">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithFormulas\UsingTaskNumberFields.cpp">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithFormulas\UsingTasksAndResourceFieldsInFormulaCalculations.cpp">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithFormulas\WriteFormulasInExtendedAttributesToMPP.cpp">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\AddImageToPageHeaderFooter.cpp">
+      <Filter>WorkingWithProjects</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\GetNumberOfPages.cpp">
+      <Filter>WorkingWithProjects</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\GetNumberOfPagesForViews.cpp">
+      <Filter>WorkingWithProjects</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\GetPageCountOnStartAndEndDates.cpp">
+      <Filter>WorkingWithProjects</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\MPPFileUpdate.cpp">
+      <Filter>WorkingWithProjects</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\ReadHeaderFooterInfo.cpp">
+      <Filter>WorkingWithProjects</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\TaskSettingStartFinishDates.cpp">
+      <Filter>WorkingWithProjects</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithOutlineCodes.cpp">
+      <Filter>WorkingWithProjects</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\CreateEmptyProjectSaveStream.cpp">
+      <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\CreateEmptyProjectSaveXML.cpp">
+      <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\IgnoreInvalidCharactersDuringloadingProject.cpp">
+      <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\ReadPasswordProtectedProjectFile.cpp">
+      <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\ReadProjectFileFromStream.cpp">
+      <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\ReadProjectFiles.cpp">
+      <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\WorkingWithEncodings.cpp">
+      <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\ImportingAndExporting\ExportProjectDataToPrimaveraMPXFormat.cpp">
+      <Filter>WorkingWithProjects\ImportingAndExporting%27</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\ImportingAndExporting\ExportProjectDataToXERFormat.cpp">
+      <Filter>WorkingWithProjects\ImportingAndExporting%27</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\ImportingAndExporting\ExportProjectDataToXMLFormat.cpp">
+      <Filter>WorkingWithProjects\ImportingAndExporting%27</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\ImportingAndExporting\ImportDataFromMPXFileFormats.cpp">
+      <Filter>WorkingWithProjects\ImportingAndExporting%27</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\ImportingAndExporting\ImportDataFromXMLFileFormats.cpp">
+      <Filter>WorkingWithProjects\ImportingAndExporting%27</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\ImportingAndExporting\ReadProjectUIDsFromXMLFile.cpp">
+      <Filter>WorkingWithProjects\ImportingAndExporting%27</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\ImportingAndExporting\ReadXMLFileWithMultipleProjects.cpp">
+      <Filter>WorkingWithProjects\ImportingAndExporting%27</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\ImportingAndExporting\UsingPrimaveraXMLSaveOptions.cpp">
+      <Filter>WorkingWithProjects\ImportingAndExporting%27</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\Miscellaneous\CalculateCriticalPath.cpp">
+      <Filter>WorkingWithProjects\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\Miscellaneous\EmbeddedObjectsCreatedInsideApplication.cpp">
+      <Filter>WorkingWithProjects\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\Miscellaneous\ExtractEmbeddedObjects.cpp">
+      <Filter>WorkingWithProjects\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\Miscellaneous\PrintTaskWritingException.cpp">
+      <Filter>WorkingWithProjects\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\Miscellaneous\ReadFilterCriteriaData.cpp">
+      <Filter>WorkingWithProjects\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\Miscellaneous\ReadFilterDefinitionData.cpp">
+      <Filter>WorkingWithProjects\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\Miscellaneous\ReadGroupDefinitionData.cpp">
+      <Filter>WorkingWithProjects\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\Miscellaneous\ReadTableDataFromProjectFile.cpp">
+      <Filter>WorkingWithProjects\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\Rescheduling\RescheduleProjectFromFinishDate.cpp">
+      <Filter>WorkingWithProjects\Rescheduling</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\Rescheduling\RescheduleProjectFromStartDate.cpp">
+      <Filter>WorkingWithProjects\Rescheduling</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\Rescheduling\RescheduleProjectStartOrFinishDate.cpp">
+      <Filter>WorkingWithProjects\Rescheduling</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\Rescheduling\UpdateProjectAndRescheduleUncompletedWork.cpp">
+      <Filter>WorkingWithProjects\Rescheduling</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithExtendedAttributes\CreateExtendedAttributes.cpp">
+      <Filter>WorkingWithProjects\WorkingWithExtendedAttributes</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithExtendedAttributes\WriteExtendedAttributes.cpp">
+      <Filter>WorkingWithProjects\WorkingWithExtendedAttributes</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithExtendedAttributes\WriteUpdatedExtendedAttributeDefinitions.cpp">
+      <Filter>WorkingWithProjects\WorkingWithExtendedAttributes</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\ApplyCalculationModeAuto.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\ApplyCalculationModeManual.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\ApplyCalculationModeNone.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\DetermineProjectVersion.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\ReadCurrencyProperties.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\ReadDefaultProperties.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\ReadFiscalYearProperties.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\ReadProjectInfo.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\ReadWeekdayProperties.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\SetAttributesForNewTasks.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\WriteCurrencyProperties.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\WriteDefaultProperties.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\WriteFiscalYearProperties.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\WriteMPPProjectSummary.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\WriteProjectInfo.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\WriteWeekdayProperties.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectViews\ConfigureGantChart.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectViews</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectViews\ConfigureTheGantChartViewShowSelectedColumnFields.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectViews</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectViews\CustomizeTimescaleTierLabels.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectViews</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectViews\ReadSpecificGantChartViewData.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectViews</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectViews\SetTimeScaleCount.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectViews</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectViews\SupportForTextStyle.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectViews</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResourceAssignments\AddExtendedAttributesToRAWithLookUp.cpp">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResourceAssignments\AddExtendedAttributesToResourceAssignment.cpp">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResourceAssignments\CreateResourceAssignments.cpp">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResourceAssignments\GenerateResourceAssignmentTimephasedData.cpp">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResourceAssignments\GetGeneralResourceAssignmentProperties.cpp">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResourceAssignments\GetResourceAssignmentBudget.cpp">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResourceAssignments\GetResourceAssignmentCosts.cpp">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResourceAssignments\GetResourceAssignmentOvertimes.cpp">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResourceAssignments\GetResourceAssignmentPercentWorkComplete.cpp">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResourceAssignments\GetResourceAssignmentStopResumeDates.cpp">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResourceAssignments\GetResourceAssignmentVariance.cpp">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResourceAssignments\ReadWriteRateScaleForResourceAssignment.cpp">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResourceAssignments\SetGeneralResourceAssignmentProperties.cpp">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResourceAssignments\UpdateResourceAssignmentInMPP.cpp">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResources\CreateResources.cpp">
+      <Filter>WorkingWithResources</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResources\GetResourceCalendar.cpp">
+      <Filter>WorkingWithResources</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResources\GetResourceCosts.cpp">
+      <Filter>WorkingWithResources</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResources\GetResourceOvertime.cpp">
+      <Filter>WorkingWithResources</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResources\GetResourcePercentWorkComplete.cpp">
+      <Filter>WorkingWithResources</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResources\GetResourceWorkVariance.cpp">
+      <Filter>WorkingWithResources</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResources\ReadResourceTimephasedData.cpp">
+      <Filter>WorkingWithResources</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResources\RenderResourceSheetView.cpp">
+      <Filter>WorkingWithResources</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResources\RenderResourceUsageView.cpp">
+      <Filter>WorkingWithResources</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResources\ResourcePrefixForNestedResources.cpp">
+      <Filter>WorkingWithResources</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResources\SetGeneralResourceProperties.cpp">
+      <Filter>WorkingWithResources</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResources\SetResourceCalendar.cpp">
+      <Filter>WorkingWithResources</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResources\SetResourceExtendedAttributes.cpp">
+      <Filter>WorkingWithResources</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithResources\UpdateResourceDataInMPP.cpp">
+      <Filter>WorkingWithResources</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTaskBaselines\CreateTaskBaseline.cpp">
+      <Filter>WorkingWithTaskBaselines</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTaskBaselines\GetTaskBaselineDuration.cpp">
+      <Filter>WorkingWithTaskBaselines</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTaskBaselines\GetTaskBaselineSchedule.cpp">
+      <Filter>WorkingWithTaskBaselines</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTaskLinks\CreateTaskLinks.cpp">
+      <Filter>WorkingWithTaskLinks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTaskLinks\GetCrossProjectTaskLinks.cpp">
+      <Filter>WorkingWithTaskLinks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTaskLinks\GetPredecessorSuccessorTasks.cpp">
+      <Filter>WorkingWithTaskLinks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTaskLinks\GetTaskLinkType.cpp">
+      <Filter>WorkingWithTaskLinks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTaskLinks\IdentifyCrossProjectTasks.cpp">
+      <Filter>WorkingWithTaskLinks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTaskLinks\SetTaskLinkType.cpp">
+      <Filter>WorkingWithTaskLinks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\WorkingWithTaskConstraints\GetConstraints.cpp">
+      <Filter>WorkingWithTasks\WorkingWithTaskConstraints</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\WorkingWithTaskConstraints\SetConstraintAsLateAsPossible.cpp">
+      <Filter>WorkingWithTasks\WorkingWithTaskConstraints</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\WorkingWithTaskConstraints\SetConstraintFinishNoEarlierThan.cpp">
+      <Filter>WorkingWithTasks\WorkingWithTaskConstraints</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\WorkingWithTaskConstraints\SetConstraintMustFinishOn.cpp">
+      <Filter>WorkingWithTasks\WorkingWithTaskConstraints</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\WorkingWithTaskConstraints\SetConstraintMustStartOn.cpp">
+      <Filter>WorkingWithTasks\WorkingWithTaskConstraints</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\WorkingWithTaskConstraints\SetConstraintStartNoEarlierThan.cpp">
+      <Filter>WorkingWithTasks\WorkingWithTaskConstraints</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\AddTaskExtendedAttributes.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\AddWBSCodes.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\CalculateSplitTaskFinishDate.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\CalculateTaskDurations.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\ChangeTaskProgress.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\CreateRecurringTask.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\CreateSplitTasks.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\CreateSubProjectTask.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\CreateTasks.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\FindCriticalEffortDrivenTasks.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\FindEstimatedMilestoneTasks.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\MoveTaskAtTheEnd.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\MoveTaskUnderAnotherParent.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\MoveTaskUnderSameParent.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\ReadActualTaskProperties.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\ReadBudgetWorkAndCost.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\ReadParentChildTasks.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\ReadStopResumeDates.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\ReadTaskCalendar.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\ReadTaskCosts.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\ReadTaskExtendedAttributes.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\ReadTaskOutlineProperties.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\ReadTaskOvertimes.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\ReadTaskPercentageCompletion.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\ReadTaskPriority.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\ReadTaskProperties.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\ReadTaskWBS.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\ReadWriteTimephasedData.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\RenderTaskSheetView.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\RenderTaskUsageView.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\RenderTaskUsageViewWithDetails.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\RenumberTaskWBSCodes.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\TaskWarning.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\UpdateTaskData.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\ViewSplitTasks.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\WriteTaskCalendar.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\WriteTaskDuration.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithTasks\WriteTaskProperties.cpp">
+      <Filter>WorkingWithTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithVBA\ReadModuleAttributesInformation.cpp">
+      <Filter>WorkingWithVBA</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithVBA\ReadModulesInformation.cpp">
+      <Filter>WorkingWithVBA</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithVBA\ReadReferencesInformation.cpp">
+      <Filter>WorkingWithVBA</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithVBA\ReadVBAProjectInformation.cpp">
+      <Filter>WorkingWithVBA</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\RunExamples.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPP\Articles\AlignCellContents.h">
+      <Filter>Articles</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Articles\ChangeGanttBarsColorGradient.h">
+      <Filter>Articles</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Articles\CustomizeTextWithTaskBars.h">
+      <Filter>Articles</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Articles\ImplementCustomBarStyleWriting.h">
+      <Filter>Articles</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Articles\ReadCustomBarStyle.h">
+      <Filter>Articles</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Articles\RenderDifferentPresentationFormatsToXAML.h">
+      <Filter>Articles</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Articles\RenderGanttChartWithBarsNotRolledUp.h">
+      <Filter>Articles</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Articles\RenderGanttChartWithBarsRolledUp.h">
+      <Filter>Articles</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Articles\RenderMultipageTIFF.h">
+      <Filter>Articles</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Articles\RenderProjectToPredefinedPageSizes.h">
+      <Filter>Articles</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Articles\RenderToXAML.h">
+      <Filter>Articles</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Articles\RenderXAMLWithOptions.h">
+      <Filter>Articles</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Articles\SetGanttChartViewStartDate.h">
+      <Filter>Articles</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Articles\SortTasksByColumnInGanttChart.h">
+      <Filter>Articles</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Articles\TimescaleSettings.h">
+      <Filter>Articles</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\AddDefaultFontDuringSavingAsPDF.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\AddingCssStylePrefix.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\ControlHeaderNameDuringHTMLExport.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\CustomizeDateFormats.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\CustomizeTextStyle.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\FitContentsToCellSize.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\HideLegendsDuringSave.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\PrintProjectPagesToSeparateFiles.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\ReducingGapBetweenTasksListAndFooter.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\RenderCommentsWhenConverting.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\RenderProjectDataToFormat24bppRgb.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\SaveProjectAsCSV.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\SaveProjectAsJPEG.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\SaveProjectAsPDF.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\SaveProjectAsSVG.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\SaveProjectAsText.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\SaveProjectAsXLSX.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\SaveProjectDataAsHTML.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\SaveProjectDataAsTemplate.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\SaveProjectDataToSpreadsheet2003XML.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\SaveToMultiplePDFFiles.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\UsingSpreadsheet2003SaveOptions.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\UsingSvgOptions.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\ConvertingProjectData\UsingXlsxOptions.h">
+      <Filter>ConvertingProjectData</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\KnowledgeBase\AddNewTask.h">
+      <Filter>KnowledgeBase</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\KnowledgeBase\CreateResourcesAndLinkToTasks.h">
+      <Filter>KnowledgeBase</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\KnowledgeBase\LinkTasks.h">
+      <Filter>KnowledgeBase</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\KnowledgeBase\ReadCriticalPath.h">
+      <Filter>KnowledgeBase</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\KnowledgeBase\ReadTaskAndResources.h">
+      <Filter>KnowledgeBase</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Licensing\ApplyLicenseUsingFile.h">
+      <Filter>Licensing</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Licensing\ApplyLicenseUsingStream.h">
+      <Filter>Licensing</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Licensing\EvaluationDateTimeLimitations.h">
+      <Filter>Licensing</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\HandleExceptions.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\PerformRiskAnalysis.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\SaveBestPracticeAnalyzerReport.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\SaveBurnDownReport.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\SaveCashFlowReport.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\SaveCostOverrunsReport.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\SaveCostOverviewReport.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\SaveCriticalTasksReport.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\SaveLateTasksReport.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\SaveMilestonesReport.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\SaveOverallocatedResourcesReport.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\SaveProjectOverviewReport.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\SaveResourceCostOverviewReport.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\SaveResourceOverviewReport.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\SaveSlippingTasksReport.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\SaveTaskCostOverviewReport.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\SaveUpcomingTasksReport.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\SaveWorkOverviewReport.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\SortResourcesByName.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\SortTasksByName.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\UpdateOutlineCodes.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\Miscellaneous\WriteMetadataToMPP.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithCalendarExceptions\AddRemoveCalendarExceptions.h">
+      <Filter>WorkingWithCalendarExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithCalendarExceptions\DefineWeekdayExceptions.h">
+      <Filter>WorkingWithCalendarExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithCalendarExceptions\HandleExceptionOccurences.h">
+      <Filter>WorkingWithCalendarExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithCalendarExceptions\RetrieveCalendarExceptions.h">
+      <Filter>WorkingWithCalendarExceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithCalendars\CalculateWorkHours.h">
+      <Filter>WorkingWithCalendars</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithCalendars\GeneralCalendarProperties.h">
+      <Filter>WorkingWithCalendars</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithCalendars\ReadWorkWeeksInformation.h">
+      <Filter>WorkingWithCalendars</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithCalendars\RetrieveCalendarInfo.h">
+      <Filter>WorkingWithCalendars</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithCalendars\CreatingUpdatingAndRemoving\CreatingCalendar.h">
+      <Filter>WorkingWithCalendars\CreatingUpdatingAndRemoving</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithCalendars\CreatingUpdatingAndRemoving\DefineWeekdaysForCalendar.h">
+      <Filter>WorkingWithCalendars\CreatingUpdatingAndRemoving</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithCalendars\CreatingUpdatingAndRemoving\MakeAStandardCalendar.h">
+      <Filter>WorkingWithCalendars\CreatingUpdatingAndRemoving</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithCalendars\CreatingUpdatingAndRemoving\ReplaceCalendar.h">
+      <Filter>WorkingWithCalendars\CreatingUpdatingAndRemoving</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithCalendars\CreatingUpdatingAndRemoving\ReplaceCalendarWithNewCalendar.h">
+      <Filter>WorkingWithCalendars\CreatingUpdatingAndRemoving</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithCalendars\CreatingUpdatingAndRemoving\WriteUpdatedCalendarDataToMPP.h">
+      <Filter>WorkingWithCalendars\CreatingUpdatingAndRemoving</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithCurrencies\GetCurrencyCodes.h">
+      <Filter>WorkingWithCurrencies</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithCurrencies\GetCurrencyDigits.h">
+      <Filter>WorkingWithCurrencies</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithCurrencies\GetCurrencySymbol.h">
+      <Filter>WorkingWithCurrencies</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithCurrencies\SetCurrencyCodes.h">
+      <Filter>WorkingWithCurrencies</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithCurrencies\SetCurrencyDigits.h">
+      <Filter>WorkingWithCurrencies</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithCurrencies\SetCurrencySymbol.h">
+      <Filter>WorkingWithCurrencies</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithFormulas\AccessReadOnlyCustomFieldValuesUsingFormulas.h">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithFormulas\CalculateDateTimeFunctions.h">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithFormulas\CalculateGeneralFunctions.h">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithFormulas\CalculateMathExpressions.h">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithFormulas\CalculateTextFunctions.h">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithFormulas\FormulaWithBooleanValues.h">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithFormulas\FormulaWithProjectFields.h">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithFormulas\ReadFormulasExtendedAttributesFromMPP.h">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithFormulas\UsingArithmeticExpression.h">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithFormulas\UsingTaskNumberFields.h">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithFormulas\UsingTasksAndResourceFieldsInFormulaCalculations.h">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithFormulas\WriteFormulasInExtendedAttributesToMPP.h">
+      <Filter>WorkingWithFormulas</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\AddImageToPageHeaderFooter.h">
+      <Filter>WorkingWithProjects</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\GetNumberOfPages.h">
+      <Filter>WorkingWithProjects</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\GetNumberOfPagesForViews.h">
+      <Filter>WorkingWithProjects</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\GetPageCountOnStartAndEndDates.h">
+      <Filter>WorkingWithProjects</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\MPPFileUpdate.h">
+      <Filter>WorkingWithProjects</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\ReadHeaderFooterInfo.h">
+      <Filter>WorkingWithProjects</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\TaskSettingStartFinishDates.h">
+      <Filter>WorkingWithProjects</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithOutlineCodes.h">
+      <Filter>WorkingWithProjects</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\CreateEmptyProjectSaveStream.h">
+      <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\CreateEmptyProjectSaveXML.h">
+      <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\IgnoreInvalidCharactersDuringloadingProject.h">
+      <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\ReadPasswordProtectedProjectFile.h">
+      <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\ReadProjectFileFromStream.h">
+      <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\ReadProjectFiles.h">
+      <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\WorkingWithEncodings.h">
+      <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\ImportingAndExporting\ExportProjectDataToPrimaveraMPXFormat.h">
+      <Filter>WorkingWithProjects\ImportingAndExporting%27</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\ImportingAndExporting\ExportProjectDataToXERFormat.h">
+      <Filter>WorkingWithProjects\ImportingAndExporting%27</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\ImportingAndExporting\ExportProjectDataToXMLFormat.h">
+      <Filter>WorkingWithProjects\ImportingAndExporting%27</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\ImportingAndExporting\ImportDataFromMPXFileFormats.h">
+      <Filter>WorkingWithProjects\ImportingAndExporting%27</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\ImportingAndExporting\ImportDataFromXMLFileFormats.h">
+      <Filter>WorkingWithProjects\ImportingAndExporting%27</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\ImportingAndExporting\ReadProjectUIDsFromXMLFile.h">
+      <Filter>WorkingWithProjects\ImportingAndExporting%27</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\ImportingAndExporting\ReadXMLFileWithMultipleProjects.h">
+      <Filter>WorkingWithProjects\ImportingAndExporting%27</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\ImportingAndExporting\UsingPrimaveraXMLSaveOptions.h">
+      <Filter>WorkingWithProjects\ImportingAndExporting%27</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\Miscellaneous\CalculateCriticalPath.h">
+      <Filter>WorkingWithProjects\Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\Miscellaneous\EmbeddedObjectsCreatedInsideApplication.h">
+      <Filter>WorkingWithProjects\Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\Miscellaneous\ExtractEmbeddedObjects.h">
+      <Filter>WorkingWithProjects\Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\Miscellaneous\PrintTaskWritingException.h">
+      <Filter>WorkingWithProjects\Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\Miscellaneous\ReadFilterCriteriaData.h">
+      <Filter>WorkingWithProjects\Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\Miscellaneous\ReadFilterDefinitionData.h">
+      <Filter>WorkingWithProjects\Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\Miscellaneous\ReadGroupDefinitionData.h">
+      <Filter>WorkingWithProjects\Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\Miscellaneous\ReadTableDataFromProjectFile.h">
+      <Filter>WorkingWithProjects\Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\Rescheduling\RescheduleProjectFromFinishDate.h">
+      <Filter>WorkingWithProjects\Rescheduling</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\Rescheduling\RescheduleProjectFromStartDate.h">
+      <Filter>WorkingWithProjects\Rescheduling</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\Rescheduling\RescheduleProjectStartOrFinishDate.h">
+      <Filter>WorkingWithProjects\Rescheduling</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\Rescheduling\UpdateProjectAndRescheduleUncompletedWork.h">
+      <Filter>WorkingWithProjects\Rescheduling</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithExtendedAttributes\CreateExtendedAttributes.h">
+      <Filter>WorkingWithProjects\WorkingWithExtendedAttributes</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithExtendedAttributes\WriteExtendedAttributes.h">
+      <Filter>WorkingWithProjects\WorkingWithExtendedAttributes</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithExtendedAttributes\WriteUpdatedExtendedAttributeDefinitions.h">
+      <Filter>WorkingWithProjects\WorkingWithExtendedAttributes</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\ApplyCalculationModeAuto.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\ApplyCalculationModeManual.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\ApplyCalculationModeNone.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\DetermineProjectVersion.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\ReadCurrencyProperties.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\ReadDefaultProperties.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\ReadFiscalYearProperties.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\ReadProjectInfo.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\ReadWeekdayProperties.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\SetAttributesForNewTasks.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\WriteCurrencyProperties.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\WriteDefaultProperties.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\WriteFiscalYearProperties.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\WriteMPPProjectSummary.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\WriteProjectInfo.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\WriteWeekdayProperties.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectViews\ConfigureGantChart.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectViews</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectViews\ConfigureTheGantChartViewShowSelectedColumnFields.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectViews</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectViews\CustomizeTimescaleTierLabels.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectViews</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectViews\ReadSpecificGantChartViewData.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectViews</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectViews\SetTimeScaleCount.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectViews</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectViews\SupportForTextStyle.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectViews</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResourceAssignments\AddExtendedAttributesToRAWithLookUp.h">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResourceAssignments\AddExtendedAttributesToResourceAssignment.h">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResourceAssignments\CreateResourceAssignments.h">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResourceAssignments\GenerateResourceAssignmentTimephasedData.h">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResourceAssignments\GetGeneralResourceAssignmentProperties.h">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResourceAssignments\GetResourceAssignmentBudget.h">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResourceAssignments\GetResourceAssignmentCosts.h">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResourceAssignments\GetResourceAssignmentOvertimes.h">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResourceAssignments\GetResourceAssignmentPercentWorkComplete.h">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResourceAssignments\GetResourceAssignmentStopResumeDates.h">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResourceAssignments\GetResourceAssignmentVariance.h">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResourceAssignments\ReadWriteRateScaleForResourceAssignment.h">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResourceAssignments\SetGeneralResourceAssignmentProperties.h">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResourceAssignments\UpdateResourceAssignmentInMPP.h">
+      <Filter>WorkingWithResourceAssignments</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResources\CreateResources.h">
+      <Filter>WorkingWithResources</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResources\GetResourceCalendar.h">
+      <Filter>WorkingWithResources</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResources\GetResourceCosts.h">
+      <Filter>WorkingWithResources</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResources\GetResourceOvertime.h">
+      <Filter>WorkingWithResources</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResources\GetResourcePercentWorkComplete.h">
+      <Filter>WorkingWithResources</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResources\GetResourceWorkVariance.h">
+      <Filter>WorkingWithResources</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResources\ReadResourceTimephasedData.h">
+      <Filter>WorkingWithResources</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResources\RenderResourceSheetView.h">
+      <Filter>WorkingWithResources</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResources\RenderResourceUsageView.h">
+      <Filter>WorkingWithResources</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResources\ResourcePrefixForNestedResources.h">
+      <Filter>WorkingWithResources</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResources\SetGeneralResourceProperties.h">
+      <Filter>WorkingWithResources</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResources\SetResourceCalendar.h">
+      <Filter>WorkingWithResources</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResources\SetResourceExtendedAttributes.h">
+      <Filter>WorkingWithResources</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithResources\UpdateResourceDataInMPP.h">
+      <Filter>WorkingWithResources</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTaskBaselines\CreateTaskBaseline.h">
+      <Filter>WorkingWithTaskBaselines</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTaskBaselines\GetTaskBaselineDuration.h">
+      <Filter>WorkingWithTaskBaselines</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTaskBaselines\GetTaskBaselineSchedule.h">
+      <Filter>WorkingWithTaskBaselines</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTaskLinks\CreateTaskLinks.h">
+      <Filter>WorkingWithTaskLinks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTaskLinks\GetCrossProjectTaskLinks.h">
+      <Filter>WorkingWithTaskLinks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTaskLinks\GetPredecessorSuccessorTasks.h">
+      <Filter>WorkingWithTaskLinks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTaskLinks\GetTaskLinkType.h">
+      <Filter>WorkingWithTaskLinks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTaskLinks\IdentifyCrossProjectTasks.h">
+      <Filter>WorkingWithTaskLinks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTaskLinks\SetTaskLinkType.h">
+      <Filter>WorkingWithTaskLinks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\WorkingWithTaskConstraints\GetConstraints.h">
+      <Filter>WorkingWithTasks\WorkingWithTaskConstraints</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\WorkingWithTaskConstraints\SetConstraintAsLateAsPossible.h">
+      <Filter>WorkingWithTasks\WorkingWithTaskConstraints</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\WorkingWithTaskConstraints\SetConstraintFinishNoEarlierThan.h">
+      <Filter>WorkingWithTasks\WorkingWithTaskConstraints</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\WorkingWithTaskConstraints\SetConstraintMustFinishOn.h">
+      <Filter>WorkingWithTasks\WorkingWithTaskConstraints</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\WorkingWithTaskConstraints\SetConstraintMustStartOn.h">
+      <Filter>WorkingWithTasks\WorkingWithTaskConstraints</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\WorkingWithTaskConstraints\SetConstraintStartNoEarlierThan.h">
+      <Filter>WorkingWithTasks\WorkingWithTaskConstraints</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\AddTaskExtendedAttributes.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\AddWBSCodes.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\CalculateSplitTaskFinishDate.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\CalculateTaskDurations.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\ChangeTaskProgress.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\CreateRecurringTask.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\CreateSplitTasks.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\CreateSubProjectTask.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\CreateTasks.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\FindCriticalEffortDrivenTasks.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\FindEstimatedMilestoneTasks.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\MoveTaskAtTheEnd.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\MoveTaskUnderAnotherParent.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\MoveTaskUnderSameParent.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\ReadActualTaskProperties.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\ReadBudgetWorkAndCost.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\ReadParentChildTasks.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\ReadStopResumeDates.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\ReadTaskCalendar.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\ReadTaskCosts.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\ReadTaskExtendedAttributes.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\ReadTaskOutlineProperties.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\ReadTaskOvertimes.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\ReadTaskPercentageCompletion.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\ReadTaskPriority.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\ReadTaskProperties.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\ReadTaskWBS.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\ReadWriteTimephasedData.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\RenderTaskSheetView.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\RenderTaskUsageView.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\RenderTaskUsageViewWithDetails.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\RenumberTaskWBSCodes.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\TaskWarning.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\UpdateTaskData.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\ViewSplitTasks.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\WriteTaskCalendar.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\WriteTaskDuration.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithTasks\WriteTaskProperties.h">
+      <Filter>WorkingWithTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithVBA\ReadModuleAttributesInformation.h">
+      <Filter>WorkingWithVBA</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithVBA\ReadModulesInformation.h">
+      <Filter>WorkingWithVBA</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithVBA\ReadReferencesInformation.h">
+      <Filter>WorkingWithVBA</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithVBA\ReadVBAProjectInformation.h">
+      <Filter>WorkingWithVBA</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\RunExamples.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="$(MSBuildThisFileDirectory)tools\aspose_types.natvis" />
+  </ItemGroup>
+</Project>
