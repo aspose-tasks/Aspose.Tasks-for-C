@@ -56,6 +56,7 @@ RTTI_INFO_IMPL_HASH(1268776269u, ::Aspose::Tasks::Examples::CPP::WorkingWithProj
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wreturn-type"
 #endif
+// ExStart:IgnoreInvalidCharactersDuringloadingProject 
 void IgnoreInvalidCharactersDuringloadingProject::Run()
 {
     // Open modified xml stream
@@ -75,6 +76,7 @@ void IgnoreInvalidCharactersDuringloadingProject::Run()
         }
     }
 }
+// ExEnd:IgnoreInvalidCharactersDuringloadingProject 
 #if defined(__MSVC__)
 #pragma warning( pop )
 #elif defined(__GNUC__)
