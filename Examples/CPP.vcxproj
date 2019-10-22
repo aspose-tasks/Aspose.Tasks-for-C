@@ -258,7 +258,6 @@
     <ClCompile Include="CPP\WorkingWithVBA\ReadModulesInformation.cpp" />
     <ClCompile Include="CPP\WorkingWithVBA\ReadReferencesInformation.cpp" />
     <ClCompile Include="CPP\WorkingWithVBA\ReadVBAProjectInformation.cpp" />
-    <ClCompile Include="version_compatibility.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CPP\Articles\AlignCellContents.h" />

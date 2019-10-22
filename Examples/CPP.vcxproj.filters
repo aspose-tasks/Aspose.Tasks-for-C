@@ -78,7 +78,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="version_compatibility.cpp" />
     <ClCompile Include="CPP\Articles\AlignCellContents.cpp">
       <Filter>Articles</Filter>
     </ClCompile>
