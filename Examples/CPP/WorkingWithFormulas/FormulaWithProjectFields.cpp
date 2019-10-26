@@ -40,6 +40,7 @@ RTTI_INFO_IMPL_HASH(4037105883u, ::Aspose::Tasks::Examples::CPP::WorkingWithForm
 
 void FormulaWithProjectFields::Run()
 {
+	// ExStart:FormulaWithProjectFields
     System::SharedPtr<Project> project = CreateTestProjectWithCustomFieldWithoutResource();
     
     // Set formula
@@ -48,6 +49,7 @@ void FormulaWithProjectFields::Run()
     // Print if formula value is computed correctly
     System::SharedPtr<Task> task = project->get_RootTask()->get_Children()->GetById(1);
     System::Console::WriteLine(u"Check Total tasks: 1 Total resources: 0 - {0}", System::ObjectExt::Box<bool>(System::ObjectExt::Equals(task->get_ExtendedAttributes()->idx_get(0)->get_TextValue(), u"Total tasks: 1 Total resources: 0")));
+	// ExEnd:FormulaWithProjectFields
 }
 
 System::SharedPtr<Project> FormulaWithProjectFields::CreateTestProjectWithCustomFieldWithoutResource()

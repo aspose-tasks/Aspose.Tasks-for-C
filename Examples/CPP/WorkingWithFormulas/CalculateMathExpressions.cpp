@@ -32,7 +32,7 @@ void CalculateMathExpressions::Run()
 {
     EvaluateSine();
 }
-
+// ExStart:CalculateMathExpressions
 void CalculateMathExpressions::EvaluateSine()
 {
     System::SharedPtr<Project> project = CreateTestProjectWithCustomField();
@@ -57,7 +57,7 @@ System::SharedPtr<Project> CalculateMathExpressions::CreateTestProjectWithCustom
     task->get_ExtendedAttributes()->Add(a);
     return project;
 }
-
+// ExEnd:CalculateMathExpressions
 } // namespace WorkingWithFormulas
 } // namespace CPP
 } // namespace Examples

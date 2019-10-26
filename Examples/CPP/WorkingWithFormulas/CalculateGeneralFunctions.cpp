@@ -33,7 +33,7 @@ void CalculateGeneralFunctions::Run()
     EvaluateIsNumeric();
     EvaluateSwitch();
 }
-
+// ExStart:CalculateGeneralFunctions
 void CalculateGeneralFunctions::EvaluateChoose()
 {
     System::SharedPtr<Project> project = CreateTestProjectWithCustomField();
@@ -51,8 +51,7 @@ void CalculateGeneralFunctions::EvaluateIsNumeric()
     System::ArrayPtr<System::String> numericFormulas = System::MakeArray<System::String>({u"IsNumeric('AAA')", u"IsNUmeric(1)", u"IsNumeric(1<0)", u"IsNumeric(\"1.1\")", u"IsNumeric(Choose((2 + Sgn(2^-3)), 123, \"one two three\"))"});
     
     System::SharedPtr<Project> project = CreateTestProjectWithCustomField();
-    
-    
+   
     {
         for (System::String numericFormula : numericFormulas)
         {
@@ -91,7 +90,7 @@ System::SharedPtr<Project> CalculateGeneralFunctions::CreateTestProjectWithCusto
     task->get_ExtendedAttributes()->Add(a);
     return project;
 }
-
+// ExEnd:CalculateGeneralFunctions
 } // namespace WorkingWithFormulas
 } // namespace CPP
 } // namespace Examples

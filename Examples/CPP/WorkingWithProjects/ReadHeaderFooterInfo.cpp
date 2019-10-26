@@ -43,7 +43,7 @@ namespace CPP {
 namespace WorkingWithProjects {
 
 RTTI_INFO_IMPL_HASH(2603176686u, ::Aspose::Tasks::Examples::CPP::WorkingWithProjects::ReadHeaderFooterInfo, ThisTypeBaseTypesInfo);
-
+// ExStart:ReadHeaderFooterInfo
 void ReadHeaderFooterInfo::Run()
 {
     // The path to the documents directory.
@@ -119,7 +119,7 @@ void ReadHeaderFooterInfo::AssertLegendCorrect(System::SharedPtr<Aspose::Tasks::
     System::Console::WriteLine(u"LegendOn Equals Legend.OnEveryPage : {0} ", System::ObjectExt::Box<bool>(System::ObjectExt::Equals(info->get_Legend()->get_LegendOn(), Aspose::Tasks::Visualization::Legend::OnEveryPage)));
     System::Console::WriteLine(u"Legend Width Equals 5 : {0} ", System::ObjectExt::Box<bool>((info->get_Legend()->get_Width() - 5 <= 1e-5) ? true : false));
 }
-
+// ExEnd:ReadHeaderFooterInfo
 } // namespace WorkingWithProjects
 } // namespace CPP
 } // namespace Examples

@@ -55,6 +55,7 @@ void UsingTasksAndResourceFieldsInFormulaCalculations::Run()
 {
     try
     {
+		// ExStart:UsingTasksAndResourceFieldsInFormulaCalculations
         // The path to the documents directory.
         System::String dataDir = RunExamples::GetDataDir(System::Reflection::MethodBase::GetCurrentMethod(ASPOSE_CURRENT_FUNCTION)->get_DeclaringType().get_FullName());
         
@@ -70,6 +71,7 @@ void UsingTasksAndResourceFieldsInFormulaCalculations::Run()
         System::SharedPtr<Task> task1 = project->get_RootTask()->get_Children()->GetById(1);
         task->Set(Tsk::Deadline(), System::DateTime(2015, 3, 20, 17, 0, 0));
         project->Save(dataDir + u"project_UsingTasksAndResourceFields_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+		// ExEnd:UsingTasksAndResourceFieldsInFormulaCalculations
     }
     catch (System::Exception& ex)
     {

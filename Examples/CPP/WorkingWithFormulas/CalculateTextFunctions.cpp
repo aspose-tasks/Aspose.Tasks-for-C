@@ -31,7 +31,7 @@ void CalculateTextFunctions::Run()
     EvaluateStrConv();
     EvaluateStringFunction();
 }
-
+// ExStart:CalculateTextFunctions
 void CalculateTextFunctions::EvaluateStrConv()
 {
     System::SharedPtr<Project> project = CreateTestProjectWithCustomField();
@@ -73,7 +73,7 @@ System::SharedPtr<Project> CalculateTextFunctions::CreateTestProjectWithCustomFi
     task->get_ExtendedAttributes()->Add(a);
     return project;
 }
-
+// ExEnd:CalculateTextFunctions
 } // namespace WorkingWithFormulas
 } // namespace CPP
 } // namespace Examples

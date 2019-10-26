@@ -66,6 +66,7 @@ System::String& ResourcePrefixForNestedResources::dataDir()
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wreturn-type"
 #endif
+// ExStart:ResourcePrefixForNestedResources
 void ResourcePrefixForNestedResources::Run()
 {
     // The path to the documents directory.
@@ -178,7 +179,7 @@ System::SharedPtr<Aspose::Tasks::Saving::HtmlSaveOptions> ResourcePrefixForNeste
     
     return saveOptions;
 }
-
+// ExEnd:ResourcePrefixForNestedResources
 } // namespace WorkingWithResources
 } // namespace CPP
 } // namespace Examples
