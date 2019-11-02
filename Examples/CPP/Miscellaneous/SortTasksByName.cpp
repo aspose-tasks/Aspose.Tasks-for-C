@@ -39,7 +39,7 @@ namespace CPP {
 namespace Miscellaneous {
 
 RTTI_INFO_IMPL_HASH(1484668144u, ::Aspose::Tasks::Examples::CPP::Miscellaneous::SortTasksByName::TaskNameComparer, ThisTypeBaseTypesInfo);
-
+// ExStart:ImplementIComparer
 int32_t SortTasksByName::TaskNameComparer::Compare(System::SharedPtr<Task> const &x, System::SharedPtr<Task> const &y) ASPOSE_CONST
 {
     if (System::String::IsNullOrEmpty(x->Get(Tsk::Name())))
@@ -52,7 +52,7 @@ int32_t SortTasksByName::TaskNameComparer::Compare(System::SharedPtr<Task> const
     }
     return x->Get(Tsk::Name()).CompareTo(y->Get(Tsk::Name()));
 }
-
+// ExEnd:ImplementIComparer
 
 RTTI_INFO_IMPL_HASH(239093779u, ::Aspose::Tasks::Examples::CPP::Miscellaneous::SortTasksByName, ThisTypeBaseTypesInfo);
 
