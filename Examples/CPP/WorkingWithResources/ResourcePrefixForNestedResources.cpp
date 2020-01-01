@@ -134,7 +134,7 @@ void ResourcePrefixForNestedResources::ImageSaving(System::SharedPtr<ImageSaving
         args->set_Stream(stream1);
         args->set_KeepStreamOpen(false);
         args->set_Uri(dataDir() + u"resources/" + args->get_FileName());
-        args->set_NestedUri(dataDir() + u"nestedResources/" + args->get_FileName());
+        //args->set_NestedUri(dataDir() + u"nestedResources/" + args->get_FileName());
     }
     else
     {
