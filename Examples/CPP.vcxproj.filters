@@ -817,6 +817,9 @@
       <Filter>WorkingWithVBA</Filter>
     </ClCompile>
     <ClCompile Include="CPP\RunExamples.cpp" />
+    <ClCompile Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\CreateEmptyProjectSaveMPP.cpp">
+      <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CPP\Articles\AlignCellContents.h">
@@ -1558,6 +1561,9 @@
       <Filter>WorkingWithVBA</Filter>
     </ClInclude>
     <ClInclude Include="CPP\RunExamples.h" />
+    <ClInclude Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\CreateEmptyProjectSaveMPP.h">
+      <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Natvis Include="$(MSBuildThisFileDirectory)tools\aspose_types.natvis" />

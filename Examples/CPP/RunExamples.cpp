@@ -144,6 +144,7 @@
 #include "WorkingWithProjects/CreatingReadingAndSaving/ReadProjectFileFromStream.h"
 #include "WorkingWithProjects/CreatingReadingAndSaving/ReadPasswordProtectedProjectFile.h"
 #include "WorkingWithProjects/CreatingReadingAndSaving/IgnoreInvalidCharactersDuringloadingProject.h"
+#include "WorkingWithProjects/CreatingReadingAndSaving/CreateEmptyProjectSaveMPP.h"
 #include "WorkingWithProjects/CreatingReadingAndSaving/CreateEmptyProjectSaveXML.h"
 #include "WorkingWithProjects/CreatingReadingAndSaving/CreateEmptyProjectSaveStream.h"
 #include "WorkingWithProjects/AddImageToPageHeaderFooter.h"
@@ -474,6 +475,7 @@ void RunExamples::Main()
     // Creating, Reading and Saving
     // =====================================================
     
+	WorkingWithProjects::CreatingReadingAndSaving::CreateEmptyProjectSaveMPP::Run();
     WorkingWithProjects::CreatingReadingAndSaving::CreateEmptyProjectSaveXML::Run();
     WorkingWithProjects::CreatingReadingAndSaving::CreateEmptyProjectSaveStream::Run();
     WorkingWithProjects::CreatingReadingAndSaving::IgnoreInvalidCharactersDuringloadingProject::Run();
