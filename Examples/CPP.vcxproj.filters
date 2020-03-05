@@ -820,6 +820,9 @@
     <ClCompile Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\CreateEmptyProjectSaveMPP.cpp">
       <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
     </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\ReadMetaProperties.cpp">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CPP\Articles\AlignCellContents.h">
@@ -1564,11 +1567,14 @@
     <ClInclude Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\CreateEmptyProjectSaveMPP.h">
       <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Natvis Include="$(MSBuildThisFileDirectory)tools\aspose_types.natvis" />
+    <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\ReadMetaProperties.h">
+      <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="$(MSBuildThisFileDirectory)tools\aspose_types.natvis" />
   </ItemGroup>
 </Project>

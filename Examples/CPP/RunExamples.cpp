@@ -113,6 +113,7 @@
 #include "WorkingWithProjects/WorkingWithProjectProperties/ApplyCalculationModeNone.h"
 #include "WorkingWithProjects/WorkingWithProjectProperties/ApplyCalculationModeManual.h"
 #include "WorkingWithProjects/WorkingWithProjectProperties/ApplyCalculationModeAuto.h"
+#include "WorkingWithProjects/WorkingWithProjectProperties/ReadMetaProperties.h"
 #include "WorkingWithProjects/WorkingWithOutlineCodes.h"
 #include "WorkingWithProjects/WorkingWithExtendedAttributes/WriteUpdatedExtendedAttributeDefinitions.h"
 #include "WorkingWithProjects/WorkingWithExtendedAttributes/WriteExtendedAttributes.h"
@@ -559,6 +560,7 @@ void RunExamples::Main()
     WorkingWithProjects::WorkingWithProjectProperties::WriteMPPProjectSummary::Run();
     WorkingWithProjects::WorkingWithProjectProperties::WriteProjectInfo::Run();
     WorkingWithProjects::WorkingWithProjectProperties::WriteWeekdayProperties::Run();
+    WorkingWithProjects::WorkingWithProjectProperties::ReadMetaProperties::Run();
     
     // Working with Project Views
     // =====================================================
