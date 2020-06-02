@@ -823,6 +823,12 @@
     <ClCompile Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\ReadMetaProperties.cpp">
       <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
     </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\ReadProjectOnline.cpp">
+      <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\CreateProjectOnline.cpp">
+      <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CPP\Articles\AlignCellContents.h">
@@ -1569,6 +1575,12 @@
     </ClInclude>
     <ClInclude Include="CPP\WorkingWithProjects\WorkingWithProjectProperties\ReadMetaProperties.h">
       <Filter>WorkingWithProjects\WorkingWithProjectProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\ReadProjectOnline.h">
+      <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\CreateProjectOnline.h">
+      <Filter>WorkingWithProjects\CreatingReadingAndSaving</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

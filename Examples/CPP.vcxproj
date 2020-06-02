@@ -117,7 +117,9 @@
     <ClCompile Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\CreateEmptyProjectSaveMPP.cpp" />
     <ClCompile Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\CreateEmptyProjectSaveStream.cpp" />
     <ClCompile Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\CreateEmptyProjectSaveXML.cpp" />
+    <ClCompile Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\CreateProjectOnline.cpp" />
     <ClCompile Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\IgnoreInvalidCharactersDuringloadingProject.cpp" />
+    <ClCompile Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\ReadProjectOnline.cpp" />
     <ClCompile Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\ReadPasswordProtectedProjectFile.cpp" />
     <ClCompile Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\ReadProjectFileFromStream.cpp" />
     <ClCompile Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\ReadProjectFiles.cpp" />
@@ -368,7 +370,9 @@
     <ClInclude Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\CreateEmptyProjectSaveMPP.h" />
     <ClInclude Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\CreateEmptyProjectSaveStream.h" />
     <ClInclude Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\CreateEmptyProjectSaveXML.h" />
+    <ClInclude Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\CreateProjectOnline.h" />
     <ClInclude Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\IgnoreInvalidCharactersDuringloadingProject.h" />
+    <ClInclude Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\ReadProjectOnline.h" />
     <ClInclude Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\ReadPasswordProtectedProjectFile.h" />
     <ClInclude Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\ReadProjectFileFromStream.h" />
     <ClInclude Include="CPP\WorkingWithProjects\CreatingReadingAndSaving\ReadProjectFiles.h" />
