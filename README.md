@@ -19,7 +19,7 @@ Directory | Description
 
 - Convert project data to other [supported file formats](https://docs.aspose.com/tasks/cpp/supported-file-formats/).
 - [Create an empty project file](https://docs.aspose.com/tasks/cpp/creating-and-saving/) and save it as XML, to stream or to Microsoft Project format.
-- Supports [encoding of the `MPX` files](https://docs.aspose.com/tasks/cpp/reading-project).
+- Supports [encoding of the `MPX` files](https://docs.aspose.com/tasks/cpp/reading-project/).
 - [Read and write default properties of projects](https://docs.aspose.com/tasks/cpp/default-project-properties/) to speed up the project setup.
 - [Set the project calculation mode](https://docs.aspose.com/tasks/cpp/project-calculation-modes/) to be manual, automatic or none.
 - Read and write project calendar properties, such as, fiscal year and weekday properties.
