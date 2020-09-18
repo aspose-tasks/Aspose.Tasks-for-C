@@ -35,7 +35,7 @@ class ResourcePrefixForNestedResources : public Aspose::Tasks::ICssSavingCallbac
     
 public:
 
-    static System::String& dataDir();
+    static System::String dataDir();
     static void Run();
     void CssSaving(System::SharedPtr<CssSavingArgs> args);
     void FontSaving(System::SharedPtr<FontSavingArgs> args);

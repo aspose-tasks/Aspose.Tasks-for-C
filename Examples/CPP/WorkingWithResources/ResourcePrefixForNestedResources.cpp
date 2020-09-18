@@ -44,15 +44,9 @@ namespace WorkingWithResources {
 
 RTTI_INFO_IMPL_HASH(2682247042u, ::Aspose::Tasks::Examples::CPP::WorkingWithResources::ResourcePrefixForNestedResources, ThisTypeBaseTypesInfo);
 
-System::String& ResourcePrefixForNestedResources::dataDir()
+System::String ResourcePrefixForNestedResources::dataDir()
 {
-    static System::String value;
-    static std::once_flag once;
-    std::call_once(once, []
-    {
-        value = RunExamples::GetDataDir(System::Reflection::MethodBase::GetCurrentMethod(ASPOSE_CURRENT_FUNCTION)->get_DeclaringType().get_FullName());
-    });
-    return value;
+    return RunExamples::GetDataDir(System::Reflection::MethodBase::GetCurrentMethod(ASPOSE_CURRENT_FUNCTION)->get_DeclaringType().get_FullName());;
 }
 
 // Using statement is translated using System::Details::DisposeGuard class which may store exception and then throw from destructor.

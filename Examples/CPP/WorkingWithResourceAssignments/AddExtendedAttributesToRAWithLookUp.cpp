@@ -57,11 +57,11 @@ void AddExtendedAttributesToRAWithLookUp::Run()
     System::SharedPtr<ExtendedAttributeDefinition> resCostAttr = ExtendedAttributeDefinition::CreateLookupResourceDefinition(Aspose::Tasks::CustomFieldType::Cost, Aspose::Tasks::ExtendedAttributeResource::Cost5, u"My lookup resource cost");
     project->get_ExtendedAttributes()->Add(resCostAttr);
     
-    auto value1 = [&]{ auto tmp_0 = System::MakeObject<Value>(); tmp_0->set_NumberValue(1500); tmp_0->set_Description(u"Val 1"); tmp_0->set_Id(1); tmp_0->set_Val(u"1500"); return tmp_0; }();
+    auto value1 = [&]{ auto tmp_0 = System::MakeObject<Value>(); tmp_0->set_NumericValue(1500); tmp_0->set_Description(u"Val 1"); tmp_0->set_Id(1); tmp_0->set_Val(u"1500"); return tmp_0; }();
     
     resCostAttr->AddLookupValue(value1);
     
-    resCostAttr->AddLookupValue([&]{ auto tmp_1 = System::MakeObject<Value>(); tmp_1->set_NumberValue(2500); tmp_1->set_Description(u"Val 2"); tmp_1->set_Id(2); return tmp_1; }());
+    resCostAttr->AddLookupValue([&]{ auto tmp_1 = System::MakeObject<Value>(); tmp_1->set_NumericValue(2500); tmp_1->set_Description(u"Val 2"); tmp_1->set_Id(2); return tmp_1; }());
     
     // This value can be seen in "Resource usage" view of MS Project.
     auto attributeValue = resCostAttr->CreateExtendedAttribute(value1);
@@ -72,10 +72,10 @@ void AddExtendedAttributesToRAWithLookUp::Run()
     
     project->get_ExtendedAttributes()->Add(taskCostAttr);
     
-    auto taskLookupValue1 = [&]{ auto tmp_2 = System::MakeObject<Value>(); tmp_2->set_NumberValue(18); tmp_2->set_Description(u"Task val 1"); tmp_2->set_Id(3); tmp_2->set_Val(u"18"); return tmp_2; }();
+    auto taskLookupValue1 = [&]{ auto tmp_2 = System::MakeObject<Value>(); tmp_2->set_NumericValue(18); tmp_2->set_Description(u"Task val 1"); tmp_2->set_Id(3); tmp_2->set_Val(u"18"); return tmp_2; }();
     taskCostAttr->AddLookupValue(taskLookupValue1);
     
-    resCostAttr->AddLookupValue([&]{ auto tmp_3 = System::MakeObject<Value>(); tmp_3->set_NumberValue(30); tmp_3->set_Description(u"Task val 2"); tmp_3->set_Id(4); return tmp_3; }());
+    resCostAttr->AddLookupValue([&]{ auto tmp_3 = System::MakeObject<Value>(); tmp_3->set_NumericValue(30); tmp_3->set_Description(u"Task val 2"); tmp_3->set_Id(4); return tmp_3; }());
     
     // This value can be seen in "Task usage" view of MS Project.
     assignment->get_ExtendedAttributes()->Add(taskCostAttr->CreateExtendedAttribute(taskLookupValue1));
