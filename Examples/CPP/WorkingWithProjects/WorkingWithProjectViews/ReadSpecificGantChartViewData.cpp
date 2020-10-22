@@ -84,7 +84,8 @@ void ReadSpecificGantChartViewData::Run()
         while (barStyle_enumerator->MoveNext() && (barStyle = barStyle_enumerator->get_Current(), true))
         {
             System::Console::WriteLine(System::String(u"Name: ") + barStyle->get_Name());
-            System::Console::WriteLine(System::String(u"ShowFor: ") + System::ObjectExt::ToString(barStyle->get_ShowFor()));
+            System::Console::WriteLine(System::String(u"ShowForCategories: ") + System::ObjectExt::ToString(barStyle->get_ShowForCategories()));
+            System::Console::WriteLine(System::String(u"ShowForTaskUid: ") + System::ObjectExt::ToString(barStyle->get_ShowForTaskUid()));
             System::Console::WriteLine(System::String(u"Row: ") + barStyle->get_Row());
             System::Console::WriteLine(System::String(u"From: ") + System::ObjectExt::ToString(barStyle->get_From()));
             System::Console::WriteLine(System::String(u"To: ") + System::ObjectExt::ToString(barStyle->get_To()));

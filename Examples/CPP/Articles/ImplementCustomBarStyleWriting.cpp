@@ -83,7 +83,7 @@ void ImplementCustomBarStyleWriting::ImplementCustomBarSytle()
 System::SharedPtr<Aspose::Tasks::Visualization::GanttBarStyle> ImplementCustomBarStyleWriting::GetCustomBarStyle()
 {
     System::SharedPtr<GanttBarStyle> style = System::MakeObject<GanttBarStyle>();
-    style->set_ShowFor(u"1");
+    style->set_ShowForTaskUid(1);
     style->set_MiddleShape(Aspose::Tasks::Visualization::GanttBarMiddleShape::RectangleBottom);
     style->set_MiddleFillPattern(Aspose::Tasks::Visualization::GanttBarFillPattern::MediumFill);
     style->set_MiddleShapeColor(System::Drawing::Color::get_Blue());
