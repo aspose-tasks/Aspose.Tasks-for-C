@@ -38,7 +38,7 @@ namespace Aspose {
 
                             System::SharedPtr<ProjectServerCredentials> credentials = System::MakeObject<ProjectServerCredentials>(sharepointDomainAddress, userName, password);
 
-                            System::SharedPtr<Project> project = System::MakeObject<Project>(u"sample.mpp");
+                            System::SharedPtr<Project> project = System::MakeObject<Project>(System::String("sample.mpp"));
 
                             System::SharedPtr<ProjectServerManager> manager = System::MakeObject<ProjectServerManager>(credentials);
                             manager->CreateNewProject(project);
