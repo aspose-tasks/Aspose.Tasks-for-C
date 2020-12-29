@@ -230,7 +230,6 @@
 #include "ConvertingProjectData/CustomizeTextStyle.h"
 #include "ConvertingProjectData/CustomizeDateFormats.h"
 #include "ConvertingProjectData/ControlHeaderNameDuringHTMLExport.h"
-#include "ConvertingProjectData/AddDefaultFontDuringSavingAsPDF.h"
 #include "Articles/TimescaleSettings.h"
 #include "Articles/SortTasksByColumnInGanttChart.h"
 #include "Articles/SetGanttChartViewStartDate.h"
@@ -292,11 +291,14 @@ void RunExamples::Main()
 	auto files = System::IO::Directory::GetFiles(u"lic", u"aspose*.lic");
 	if (files->get_Length() == 0)
 	{
-		System::Console::WriteLine(u"Please put license file into 'lic' subdirectory.");
-		return;
+		System::Console::WriteLine(u"No license found. If you have one, please put it into 'lic' subdirectory.");
+                System::Console::WriteLine(u"Examples will run in evaluation mode.");
 	}
-	System::Console::WriteLine(u"Using license file: " + files[0]);
-	lic->SetLicense(files[0]);
+        else
+        {
+		System::Console::WriteLine(u"Using license file: " + files[0]);
+		lic->SetLicense(files[0]);
+	}
     
     // Uncomment the one you want to try out
     
@@ -321,11 +323,9 @@ void RunExamples::Main()
     Articles::SortTasksByColumnInGanttChart::Run();
     Articles::TimescaleSettings::Run();
     Articles::CustomizeTextWithTaskBars::Run();
-    
-    
+        
     // C# preprocessor directive: #region Converting Project Data
     
-    ConvertingProjectData::AddDefaultFontDuringSavingAsPDF::Run();
     ConvertingProjectData::ControlHeaderNameDuringHTMLExport::Run();
     ConvertingProjectData::CustomizeDateFormats::Run();
     ConvertingProjectData::CustomizeTextStyle::Run();
@@ -476,7 +476,7 @@ void RunExamples::Main()
     // Creating, Reading and Saving
     // =====================================================
     
-	WorkingWithProjects::CreatingReadingAndSaving::CreateEmptyProjectSaveMPP::Run();
+    WorkingWithProjects::CreatingReadingAndSaving::CreateEmptyProjectSaveMPP::Run();
     WorkingWithProjects::CreatingReadingAndSaving::CreateEmptyProjectSaveXML::Run();
     WorkingWithProjects::CreatingReadingAndSaving::CreateEmptyProjectSaveStream::Run();
     WorkingWithProjects::CreatingReadingAndSaving::IgnoreInvalidCharactersDuringloadingProject::Run();

@@ -123,9 +123,6 @@
     <ClCompile Include="CPP\Articles\TimescaleSettings.cpp">
       <Filter>Articles</Filter>
     </ClCompile>
-    <ClCompile Include="CPP\ConvertingProjectData\AddDefaultFontDuringSavingAsPDF.cpp">
-      <Filter>ConvertingProjectData</Filter>
-    </ClCompile>
     <ClCompile Include="CPP\ConvertingProjectData\AddingCssStylePrefix.cpp">
       <Filter>ConvertingProjectData</Filter>
     </ClCompile>
@@ -876,9 +873,6 @@
     <ClInclude Include="CPP\Articles\TimescaleSettings.h">
       <Filter>Articles</Filter>
     </ClInclude>
-    <ClInclude Include="CPP\ConvertingProjectData\AddDefaultFontDuringSavingAsPDF.h">
-      <Filter>ConvertingProjectData</Filter>
-    </ClInclude>
     <ClInclude Include="CPP\ConvertingProjectData\AddingCssStylePrefix.h">
       <Filter>ConvertingProjectData</Filter>
     </ClInclude>
@@ -1585,5 +1579,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="$(MSBuildThisFileDirectory)misc\natvis\aspose_types.natvis" />
   </ItemGroup>
 </Project>

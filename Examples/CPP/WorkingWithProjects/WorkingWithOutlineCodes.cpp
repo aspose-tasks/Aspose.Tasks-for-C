@@ -50,8 +50,15 @@ void WorkingWithOutlineCodes::Run()
     // The path to the documents directory.
     System::String dataDir = RunExamples::GetDataDir(System::Reflection::MethodBase::GetCurrentMethod(ASPOSE_CURRENT_FUNCTION)->get_DeclaringType().get_FullName());
     
-    //ReadOutlineCodes(dataDir);
-    CheckOutlineCodeIdUniqueness(dataDir);
+    try
+    {
+        // ReadOutlineCodes(dataDir);
+        CheckOutlineCodeIdUniqueness(dataDir);
+    }
+    catch (System::NotSupportedException& ex)
+    {
+        System::Console::WriteLine(ex->get_Message() + u"\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.");
+    }
 }
 
 void WorkingWithOutlineCodes::ReadOutlineCodes(System::String dataDir)

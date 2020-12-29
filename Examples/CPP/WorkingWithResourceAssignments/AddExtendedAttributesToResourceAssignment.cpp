@@ -9,6 +9,7 @@
 #include <system/object.h>
 #include <system/decimal.h>
 #include <saving/Enums/SaveFileFormat.h>
+#include <system/console.h>
 #include <ResourceCollection.h>
 #include <ResourceAssignmentCollection.h>
 #include <ResourceAssignment.h>
@@ -39,6 +40,8 @@ namespace WorkingWithResourceAssignments {
 RTTI_INFO_IMPL_HASH(1605151895u, ::Aspose::Tasks::Examples::CPP::WorkingWithResourceAssignments::AddExtendedAttributesToResourceAssignment, ThisTypeBaseTypesInfo);
 
 void AddExtendedAttributesToResourceAssignment::Run()
+{
+try
 {
     // The path to the documents directory.
     System::String dataDir = RunExamples::GetDataDir(System::Reflection::MethodBase::GetCurrentMethod(ASPOSE_CURRENT_FUNCTION)->get_DeclaringType().get_FullName());
@@ -86,6 +89,11 @@ void AddExtendedAttributesToResourceAssignment::Run()
     
     project->Save(dataDir + u"AddExtendedAttributesToResourceAssignment_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
     //ExEnd: AddExtendedAttributesToResourceAssignment
+}
+catch (System::NotSupportedException& ex)
+{
+    System::Console::WriteLine(ex->get_Message() + u"\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.");
+}
 }
 
 } // namespace WorkingWithResourceAssignments

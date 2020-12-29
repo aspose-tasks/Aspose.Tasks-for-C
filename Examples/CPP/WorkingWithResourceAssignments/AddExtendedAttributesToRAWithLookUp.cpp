@@ -3,6 +3,7 @@
 #include <Value.h>
 #include <TaskCollection.h>
 #include <Task.h>
+#include <system/console.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -40,6 +41,8 @@ namespace WorkingWithResourceAssignments {
 RTTI_INFO_IMPL_HASH(153630347u, ::Aspose::Tasks::Examples::CPP::WorkingWithResourceAssignments::AddExtendedAttributesToRAWithLookUp, ThisTypeBaseTypesInfo);
 
 void AddExtendedAttributesToRAWithLookUp::Run()
+{
+try
 {
     // The path to the documents directory.
     System::String dataDir = RunExamples::GetDataDir(System::Reflection::MethodBase::GetCurrentMethod(ASPOSE_CURRENT_FUNCTION)->get_DeclaringType().get_FullName());
@@ -82,6 +85,11 @@ void AddExtendedAttributesToRAWithLookUp::Run()
     
     project->Save(dataDir + u"AddExtendedAttributesToRAWithLookUp_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
     //ExEnd: AddExtendedAttributesToRAWithLookUp
+}
+catch (System::NotSupportedException& ex)
+{
+    System::Console::WriteLine(ex->get_Message() + u"\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.");
+}
 }
 
 } // namespace WorkingWithResourceAssignments

@@ -12,6 +12,7 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/shared_ptr.h>
 #include <system/reflection/method_base.h>
 #include <system/object.h>
+#include <system/console.h>
 #include <saving/Enums/SaveFileFormat.h>
 #include <Project.h>
 
@@ -37,16 +38,21 @@ namespace Aspose {
 						{
 							// The path to the documents directory.
 							System::String dataDir = RunExamples::GetDataDir(System::Reflection::MethodBase::GetCurrentMethod(ASPOSE_CURRENT_FUNCTION)->get_DeclaringType().get_FullName());
-
-							// ExStart:CreateEmptyProjectSaveMPP
-							// Create empty project
-							System::SharedPtr<Project> project = System::MakeObject<Project>();
-
-							// Save project as MPP 
-							project->Save(dataDir + u"project.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
-							// ExEnd:CreateEmptyProjectSaveMPP
+							try
+                                                        {
+								// ExStart:CreateEmptyProjectSaveMPP
+								// Create empty project
+								System::SharedPtr<Project> project = System::MakeObject<Project>();
+			
+								// Save project as MPP 
+								project->Save(dataDir + u"project.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+								// ExEnd:CreateEmptyProjectSaveMPP
+							}
+							catch (System::NotSupportedException& ex)
+							{
+								System::Console::WriteLine(ex->get_Message() + u"\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.");
+							}
 						}
-
 					} // namespace CreatingReadingAndSaving
 				} // namespace WorkingWithProjects
 			} // namespace CPP
