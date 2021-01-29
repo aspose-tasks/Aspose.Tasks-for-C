@@ -2,18 +2,13 @@
 
 [Aspose.Tasks for C++](https://products.aspose.com/Tasks/cpp) library allows the developers to add Tasks generation & recognition capabilities to their own C++ applciations.
 
-Aspose.Tasks for C++ offers Project management APIs that enable C++ applications to not only read and manipulate Microsoft Project® documents but also write Microsoft Project® documents in both MPP and XML formats - all without using Microsoft Project®.
+Aspose.Tasks for C++ offers Project management APIs that enable C++ applications to not only read and manipulate Microsoft Project&#174; documents, but also write Microsoft Project&#174; documents in both MPP and XML formats - all without using Microsoft Project&#174; itself.
 
 <p align="center">
 <a title="Download complete Aspose.Tasks for C++ source code" href="https://github.com/aspose-Tasks/Aspose.Tasks-for-C/archive/master.zip">
-	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
-  </a>
+<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
+</a>
 </p>
-
-Directory | Description
---------- | -----------
-[Examples](Examples)  | A collection of C++ examples that help you learn the product features
-
 
 ## Project File Processing via C++
 
