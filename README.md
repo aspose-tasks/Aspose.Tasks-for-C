@@ -1,3 +1,4 @@
+![Nuget](https://img.shields.io/nuget/v/Aspose.tasks.Cpp) ![Nuget](https://img.shields.io/nuget/dt/Aspose.tasks.Cpp) ![GitHub](https://img.shields.io/github/license/aspose-tasks/Aspose.tasks-for-C)
 # C++ Microsoft Project File Parsing API
 
 [Aspose.Tasks for C++](https://products.aspose.com/Tasks/cpp) library allows the developers to add Tasks generation & recognition capabilities to their own C++ applciations.
