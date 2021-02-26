@@ -44,7 +44,7 @@ private:
         
     public:
     
-        int32_t Compare(System::SharedPtr<Task> const &x, System::SharedPtr<Task> const &y) ASPOSE_CONST;
+        int32_t Compare(System::SharedPtr<Task> const &x, System::SharedPtr<Task> const &y) ASPOSE_CONST override;
         
     };
     

@@ -283,7 +283,7 @@ RTTI_INFO_IMPL_HASH(1854676261u, ::Aspose::Tasks::Examples::CPP::RunExamples, Th
 
 void RunExamples::Main()
 {
-    System::Console::WriteLine(u"Open RunExamples.cs. \nIn Main() method, uncomment the example that you want to run");
+    System::Console::WriteLine(u"Open RunExamples.cpp. \nIn Main() method, you can comment/uncomment examples.");
     System::Console::WriteLine(u"=====================================================");
     
     System::SharedPtr<License> lic = System::MakeObject<License>();
@@ -707,8 +707,7 @@ void RunExamples::Main()
     WorkingWithVBA::ReadVBAProjectInformation::Run();
     
     // Stop before exiting
-    System::Console::WriteLine(u"\n\nProgram Finished. Press any key to exit..");
-    System::Console::ReadKey();
+    System::Console::WriteLine(u"\n\nProgram Finished.");
 }
 
 System::String RunExamples::GetDataDir(System::String exampleName)

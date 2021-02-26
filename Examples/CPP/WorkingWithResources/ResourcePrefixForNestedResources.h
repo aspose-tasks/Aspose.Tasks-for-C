@@ -37,9 +37,9 @@ public:
 
     static System::String dataDir();
     static void Run();
-    void CssSaving(System::SharedPtr<CssSavingArgs> args);
-    void FontSaving(System::SharedPtr<FontSavingArgs> args);
-    void ImageSaving(System::SharedPtr<ImageSavingArgs> args);
+    void CssSaving(System::SharedPtr<CssSavingArgs> args) override;
+    void FontSaving(System::SharedPtr<FontSavingArgs> args) override;
+    void ImageSaving(System::SharedPtr<ImageSavingArgs> args) override;
     
 private:
 

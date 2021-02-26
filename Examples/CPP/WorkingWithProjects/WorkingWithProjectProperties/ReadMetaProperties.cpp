@@ -50,7 +50,7 @@ namespace Aspose {
                             System::Console::WriteLine(u"Comments: " + project->get_BuiltInProps()->get_Comments());
                             System::Console::WriteLine(u"Company: " + project->get_BuiltInProps()->get_Company());
                             System::Console::WriteLine(u"HyperlinkBase: " + project->get_BuiltInProps()->get_HyperlinkBase());
-                            System::Console::WriteLine(u"IsReadOnly: " + project->get_BuiltInProps()->get_IsReadOnly());
+                            System::Console::WriteLine(System::String(u"IsReadOnly: ") + project->get_BuiltInProps()->get_IsReadOnly());
                             System::Console::WriteLine(u"Keywords: " + project->get_BuiltInProps()->get_Keywords());
                             System::Console::WriteLine(u"Manager: " + project->get_BuiltInProps()->get_Manager());
                             System::Console::WriteLine(u"Subject: " + project->get_BuiltInProps()->get_Subject());

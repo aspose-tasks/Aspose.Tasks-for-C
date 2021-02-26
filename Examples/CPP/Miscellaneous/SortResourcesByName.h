@@ -37,7 +37,7 @@ private:
         
     public:
     
-        int32_t Compare(System::SharedPtr<Resource> const &x, System::SharedPtr<Resource> const &y) ASPOSE_CONST;
+        int32_t Compare(System::SharedPtr<Resource> const &x, System::SharedPtr<Resource> const &y) ASPOSE_CONST override;
         
     };
     

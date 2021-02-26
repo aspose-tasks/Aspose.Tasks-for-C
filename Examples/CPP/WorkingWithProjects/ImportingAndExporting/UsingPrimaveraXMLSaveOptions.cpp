@@ -44,7 +44,7 @@ void UsingPrimaveraXMLSaveOptions::Run()
     // Specify xml save options
     System::SharedPtr<PrimaveraXmlSaveOptions> options = System::MakeObject<PrimaveraXmlSaveOptions>();
     options->set_SaveRootTask(false);
-    project->Save(u"UsingPrimaveraXMLSaveOptions_out.xml", options);
+    project->Save(dataDir + u"UsingPrimaveraXMLSaveOptions_out.xml", options);
     // ExEnd:UsingPrimaveraXMLSaveOptions
 }
 

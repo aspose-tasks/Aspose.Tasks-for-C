@@ -36,18 +36,18 @@ void TimescaleSettings::Run()
     System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"Project2.mpp");
     
     // Save to one page image (Timescale.days by default)
-    project->Save(u"NewProductDevDays.jpeg", System::MakeObject<ImageSaveOptions>(Aspose::Tasks::Saving::SaveFileFormat::JPEG));
+    project->Save(dataDir + u"NewProductDevDays_out.jpeg", System::MakeObject<ImageSaveOptions>(Aspose::Tasks::Saving::SaveFileFormat::JPEG));
     
     
     // Save to one page image (Timescale.ThirdsOfMonths)
     System::SharedPtr<ImageSaveOptions> options = System::MakeObject<ImageSaveOptions>(Aspose::Tasks::Saving::SaveFileFormat::JPEG);
     options->set_Timescale(Aspose::Tasks::Visualization::Timescale::ThirdsOfMonths);
     
-    project->Save(u"NewProductDevThirdsOfMonths.jpeg", options);
+    project->Save(dataDir + u"NewProductDevThirdsOfMonths_out.jpeg", options);
     
     // Save to one page image (Timescale.Months)
     options->set_Timescale(Aspose::Tasks::Visualization::Timescale::Months);
-    project->Save(u"NewProductDevMonths.jpeg", options);
+    project->Save(dataDir + u"NewProductDevMonths_out.jpeg", options);
     // ExEnd:TimescaleSettings
 }
 

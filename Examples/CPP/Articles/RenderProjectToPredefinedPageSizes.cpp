@@ -59,6 +59,8 @@ void RenderProjectToPredefinedPageSizes::Run()
     {
         for (PageSize pageSize : System::DynamicCast<System::Array<Aspose::Tasks::Visualization::PageSize>>(System::Enum<PageSize>::GetValues()))
         {
+            if (pageSize == Aspose::Tasks::Visualization::PageSize::DefinedInView) continue;
+
             System::SharedPtr<PdfSaveOptions> options = System::MakeObject<PdfSaveOptions>();
             options->set_PresentationFormat(format);
             options->set_FitContent(true);
