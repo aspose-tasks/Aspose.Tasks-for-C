@@ -62,5 +62,5 @@ System::SharedPtr<Task> subtask = task->get_Children()->Add(u"Subtask1");
 project->Save(u"output.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
 ```
 
-[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/tasks/cpp) | [Docs](https://docs.aspose.com/tasks/cpp/) | [Demos](https://products.aspose.app/tasks/family) | [API Reference](https://apireference.aspose.com/tasks/cpp) | [Examples](https://github.com/aspose-tasks/Aspose.Tasks-for-C) | [Blog](https://blog.aspose.com/category/tasks/) | [Free Support](https://forum.aspose.com/c/tasks) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/tasks/cpp) | [Docs](https://docs.aspose.com/tasks/cpp/) | [Demos](https://products.aspose.app/tasks/family) | [API Reference](https://apireference.aspose.com/tasks/cpp) | [Examples](https://github.com/aspose-tasks/Aspose.Tasks-for-C) | [Blog](https://blog.aspose.com/category/tasks/) | [Search](https://search.aspose.com/) | [Free Support](https://forum.aspose.com/c/tasks) | [Temporary License](https://purchase.aspose.com/temporary-license)
 
