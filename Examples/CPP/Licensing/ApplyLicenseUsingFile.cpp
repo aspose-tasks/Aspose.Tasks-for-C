@@ -1,6 +1,7 @@
 #include "ApplyLicenseUsingFile.h"
 
 #include <system/shared_ptr.h>
+#include <system/string.h>
 #include <system/object.h>
 #include <license/License.h>
 
