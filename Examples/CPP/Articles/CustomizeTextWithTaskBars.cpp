@@ -91,7 +91,7 @@ void CustomizeTextWithTaskBars::Run()
     options->get_BarStyles()->Add(style);
     options->get_BarStyles()->Add(style2);
     
-    project->Save(dataDir + u"result2.pdf", options);
+    project->Save(dataDir + u"result2_out.pdf", options);
     // ExEnd:CustomizeTextWithTaskBars
 }
 

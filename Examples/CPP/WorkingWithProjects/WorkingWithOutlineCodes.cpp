@@ -148,7 +148,7 @@ void WorkingWithOutlineCodes::CheckOutlineCodeIdUniqueness(System::String dataDi
     textValue->set_Description(u"Text value descr 1");
     textOutline->get_Values()->Add(textValue);
     
-    project->Save(dataDir + u"MultipleOutlineValues.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+    project->Save(dataDir + u"MultipleOutlineValues_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
     // ExEnd:CheckOutlineCodeIdUniqueness
 }
 

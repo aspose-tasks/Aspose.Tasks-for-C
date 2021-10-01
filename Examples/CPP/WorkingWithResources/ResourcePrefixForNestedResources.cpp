@@ -77,7 +77,7 @@ void ResourcePrefixForNestedResources::Run()
             System::SharedPtr<Project> project = System::MakeObject<Project>(fs);
             System::SharedPtr<HtmlSaveOptions> options = GetSaveOptions(1);
             {
-                System::SharedPtr<System::IO::FileStream> stream = System::MakeObject<System::IO::FileStream>(dataDir + u"document.html", System::IO::FileMode::Create);
+                System::SharedPtr<System::IO::FileStream> stream = System::MakeObject<System::IO::FileStream>(dataDir + u"document_out.html", System::IO::FileMode::Create);
                 // Clearing resources under 'using' statement
                 System::Details::DisposeGuard<1> __dispose_guard_0({ stream});
                 // ------------------------------------------
@@ -106,36 +106,36 @@ void ResourcePrefixForNestedResources::Run()
 
 void ResourcePrefixForNestedResources::CssSaving(System::SharedPtr<CssSavingArgs> args)
 {
-    System::SharedPtr<System::IO::FileStream> stream = System::MakeObject<System::IO::FileStream>(dataDir() + u"css/" + args->get_FileName(), System::IO::FileMode::Create);
+    System::SharedPtr<System::IO::FileStream> stream = System::MakeObject<System::IO::FileStream>(dataDir() + u"css_out/" + args->get_FileName(), System::IO::FileMode::Create);
     args->set_Stream(stream);
     args->set_KeepStreamOpen(false);
-    args->set_Uri(dataDir() + u"css/" + args->get_FileName());
+    args->set_Uri(dataDir() + u"css_out/" + args->get_FileName());
 }
 
 void ResourcePrefixForNestedResources::FontSaving(System::SharedPtr<FontSavingArgs> args)
 {
-    System::SharedPtr<System::IO::FileStream> stream = System::MakeObject<System::IO::FileStream>(dataDir() + u"fonts/" + args->get_FileName(), System::IO::FileMode::Create);
+    System::SharedPtr<System::IO::FileStream> stream = System::MakeObject<System::IO::FileStream>(dataDir() + u"fonts_out/" + args->get_FileName(), System::IO::FileMode::Create);
     args->set_Stream(stream);
     args->set_KeepStreamOpen(false);
-    args->set_Uri(dataDir() + u"fonts/" + args->get_FileName());
+    args->set_Uri(dataDir() + u"fonts_out/" + args->get_FileName());
 }
 
 void ResourcePrefixForNestedResources::ImageSaving(System::SharedPtr<ImageSavingArgs> args)
 {
     if (args->get_FileName().EndsWith(u"png"))
     {
-        System::SharedPtr<System::IO::FileStream> stream1 = System::MakeObject<System::IO::FileStream>(dataDir() + u"resources/nestedResources/" + args->get_FileName(), System::IO::FileMode::Create);
+        System::SharedPtr<System::IO::FileStream> stream1 = System::MakeObject<System::IO::FileStream>(dataDir() + u"resources_out/nestedResources/" + args->get_FileName(), System::IO::FileMode::Create);
         args->set_Stream(stream1);
         args->set_KeepStreamOpen(false);
-        args->set_Uri(dataDir() + u"resources/" + args->get_FileName());
+        args->set_Uri(dataDir() + u"resources_out/nestedResources/" + args->get_FileName());
         //args->set_NestedUri(dataDir() + u"nestedResources/" + args->get_FileName());
     }
     else
     {
-        System::SharedPtr<System::IO::FileStream> stream2 = System::MakeObject<System::IO::FileStream>(dataDir() + u"resources/" + args->get_FileName(), System::IO::FileMode::Create);
+        System::SharedPtr<System::IO::FileStream> stream2 = System::MakeObject<System::IO::FileStream>(dataDir() + u"resources_out/" + args->get_FileName(), System::IO::FileMode::Create);
         args->set_Stream(stream2);
         args->set_KeepStreamOpen(false);
-        args->set_Uri(dataDir() + u"resources/" + args->get_FileName());
+        args->set_Uri(dataDir() + u"resources_out/" + args->get_FileName());
     }
 }
 
@@ -151,24 +151,24 @@ System::SharedPtr<Aspose::Tasks::Saving::HtmlSaveOptions> ResourcePrefixForNeste
     saveOptions->get_Pages()->Clear();
     saveOptions->get_Pages()->Add(pageNumber);
     
-    if (!System::IO::Directory::Exists(dataDir() + u"fonts"))
+    if (!System::IO::Directory::Exists(dataDir() + u"fonts_out"))
     {
-        System::IO::Directory::CreateDirectory_(dataDir() + u"fonts");
+        System::IO::Directory::CreateDirectory_(dataDir() + u"fonts_out");
     }
     
-    if (!System::IO::Directory::Exists(dataDir() + u"resources"))
+    if (!System::IO::Directory::Exists(dataDir() + u"resources_out"))
     {
-        System::IO::Directory::CreateDirectory_(dataDir() + u"resources");
+        System::IO::Directory::CreateDirectory_(dataDir() + u"resources_out");
     }
     
-    if (!System::IO::Directory::Exists(dataDir() + u"nestedResources"))
+    if (!System::IO::Directory::Exists(dataDir() + u"resources_out/nestedResources"))
     {
-        System::IO::Directory::CreateDirectory_(dataDir() + u"resources/nestedResources");
+        System::IO::Directory::CreateDirectory_(dataDir() + u"resources_out/nestedResources");
     }
     
-    if (!System::IO::Directory::Exists(dataDir() + u"css"))
+    if (!System::IO::Directory::Exists(dataDir() + u"css_out"))
     {
-        System::IO::Directory::CreateDirectory_(dataDir() + u"css");
+        System::IO::Directory::CreateDirectory_(dataDir() + u"css_out");
     }
     
     return saveOptions;

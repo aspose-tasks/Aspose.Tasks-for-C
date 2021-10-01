@@ -72,9 +72,9 @@ try
     nonMaterialResourceAssignment->Set<RateScaleType>(Asn::RateScale(), Aspose::Tasks::RateScaleType::Week);
     nonMaterialResourceAssignment->Set<int32_t>(Asn::Uid(), 2);
     
-    project->Save(dataDir + u"output.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+    project->Save(dataDir + u"output_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
     
-    auto resavedProject = System::MakeObject<Project>(dataDir + u"output.mpp");
+    auto resavedProject = System::MakeObject<Project>(dataDir + u"output_out.mpp");
     
     auto resavedMaterialResourceAssignment = resavedProject->get_ResourceAssignments()->GetByUid(1);
     System::Console::WriteLine(System::ObjectExt::Box<RateScaleType>(resavedMaterialResourceAssignment->Get<RateScaleType>(Asn::RateScale())));
