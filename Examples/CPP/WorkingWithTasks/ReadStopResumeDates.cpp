@@ -60,9 +60,9 @@ void ReadStopResumeDates::Run()
     
     {
         auto tsk1_enumerator = (collector->get_Tasks())->GetEnumerator();
-        decltype(tsk1_enumerator->get_Current()) tsk1;
-        while (tsk1_enumerator->MoveNext() && (tsk1 = tsk1_enumerator->get_Current(), true))
+        while (tsk1_enumerator->MoveNext())
         {
+            auto&& tsk1 = tsk1_enumerator->get_Current();
             if (tsk1->Get<System::DateTime>(Tsk::Stop()).ToShortDateString() == u"1/1/2000")
             {
                 System::Console::WriteLine(u"Stop: NA");

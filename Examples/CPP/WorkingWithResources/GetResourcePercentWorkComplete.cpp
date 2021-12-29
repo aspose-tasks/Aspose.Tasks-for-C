@@ -42,9 +42,9 @@ void GetResourcePercentWorkComplete::Run()
     
     {
         auto res_enumerator = (project1->get_Resources())->GetEnumerator();
-        decltype(res_enumerator->get_Current()) res;
-        while (res_enumerator->MoveNext() && (res = res_enumerator->get_Current(), true))
+        while (res_enumerator->MoveNext())
         {
+            auto&& res = res_enumerator->get_Current();
             if (res->Get<System::String>(Rsc::Name()) != nullptr)
             {
                 System::Console::WriteLine(res->Get<int32_t>(Rsc::PercentWorkComplete()));

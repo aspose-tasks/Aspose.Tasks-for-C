@@ -55,9 +55,9 @@ void ReadParentChildTasks::Run()
     
     {
         auto tsk1_enumerator = (collector->get_Tasks())->GetEnumerator();
-        decltype(tsk1_enumerator->get_Current()) tsk1;
-        while (tsk1_enumerator->MoveNext() && (tsk1 = tsk1_enumerator->get_Current(), true))
+        while (tsk1_enumerator->MoveNext())
         {
+            auto&& tsk1 = tsk1_enumerator->get_Current();
             System::Console::WriteLine(tsk1->Get(Tsk::Name()));
         }
     }

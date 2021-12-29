@@ -50,9 +50,9 @@ void ReadResourceTimephasedData::Run()
     
     {
         auto td_enumerator = (resource->GetTimephasedData(project1->Get<System::DateTime>(Prj::StartDate()), project1->Get<System::DateTime>(Prj::FinishDate())))->GetEnumerator();
-        decltype(td_enumerator->get_Current()) td;
-        while (td_enumerator->MoveNext() && (td = td_enumerator->get_Current(), true))
+        while (td_enumerator->MoveNext())
         {
+            auto&& td = td_enumerator->get_Current();
             System::Console::Write(System::String(u"Start: ") + td->get_Start().ToShortDateString());
             System::Console::Write(System::String(u" Work: ") + td->get_Value() + System::Environment::get_NewLine());
         }
@@ -63,9 +63,9 @@ void ReadResourceTimephasedData::Run()
     
     {
         auto td_enumerator = (resource->GetTimephasedData(project1->Get<System::DateTime>(Prj::StartDate()), project1->Get<System::DateTime>(Prj::FinishDate()), Aspose::Tasks::TimephasedDataType::ResourceCost))->GetEnumerator();
-        decltype(td_enumerator->get_Current()) td;
-        while (td_enumerator->MoveNext() && (td = td_enumerator->get_Current(), true))
+        while (td_enumerator->MoveNext())
         {
+            auto&& td = td_enumerator->get_Current();
             System::Console::Write(System::String(u"Start: ") + td->get_Start().ToShortDateString());
             System::Console::Write(System::String(u" Cost: ") + td->get_Value() + System::Environment::get_NewLine());
         }

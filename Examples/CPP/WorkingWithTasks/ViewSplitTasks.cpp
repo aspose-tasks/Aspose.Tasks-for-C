@@ -43,9 +43,9 @@ void ViewSplitTasks::Run()
     
     {
         auto splitPart_enumerator = (collection)->GetEnumerator();
-        decltype(splitPart_enumerator->get_Current()) splitPart;
-        while (splitPart_enumerator->MoveNext() && (splitPart = splitPart_enumerator->get_Current(), true))
+        while (splitPart_enumerator->MoveNext())
         {
+            auto&& splitPart = splitPart_enumerator->get_Current();
             System::Console::WriteLine(System::String(u"Index: ") + splitPart->get_Index() + u"\nStart: " + splitPart->get_Start() + u"\nFinish: " + splitPart->get_Finish() + u"\n");
         }
     }

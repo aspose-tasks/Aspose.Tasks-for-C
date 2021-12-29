@@ -39,9 +39,9 @@ void GetTaskLinkType::Run()
     
     {
         auto tsklnk_enumerator = (allinks)->GetEnumerator();
-        decltype(tsklnk_enumerator->get_Current()) tsklnk;
-        while (tsklnk_enumerator->MoveNext() && (tsklnk = tsklnk_enumerator->get_Current(), true))
+        while (tsklnk_enumerator->MoveNext())
         {
+            auto&& tsklnk = tsklnk_enumerator->get_Current();
             System::Console::WriteLine(System::ObjectExt::ToString(tsklnk->get_LinkType()));
         }
     }

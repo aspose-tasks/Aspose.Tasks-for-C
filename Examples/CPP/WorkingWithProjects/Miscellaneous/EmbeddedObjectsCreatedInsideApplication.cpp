@@ -71,9 +71,9 @@ void EmbeddedObjectsCreatedInsideApplication::Run()
         
         {
             auto oleObject_enumerator = (project->get_OleObjects())->GetEnumerator();
-            decltype(oleObject_enumerator->get_Current()) oleObject;
-            while (oleObject_enumerator->MoveNext() && (oleObject = oleObject_enumerator->get_Current(), true))
+            while (oleObject_enumerator->MoveNext())
             {
+                auto&& oleObject = oleObject_enumerator->get_Current();
                 if (!System::String::IsNullOrEmpty(oleObject->get_FileFormat()) && fileFormatExt->ContainsKey(oleObject->get_FileFormat()))
                 {
                     System::String path = dataDir + u"EmbeddedContent_" + fileFormatExt->idx_get(oleObject->get_FileFormat());

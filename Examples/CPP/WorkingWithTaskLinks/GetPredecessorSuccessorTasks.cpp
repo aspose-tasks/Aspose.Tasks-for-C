@@ -40,9 +40,9 @@ void GetPredecessorSuccessorTasks::Run()
     
     {
         auto tsklnk_enumerator = (project1->get_TaskLinks())->GetEnumerator();
-        decltype(tsklnk_enumerator->get_Current()) tsklnk;
-        while (tsklnk_enumerator->MoveNext() && (tsklnk = tsklnk_enumerator->get_Current(), true))
+        while (tsklnk_enumerator->MoveNext())
         {
+            auto&& tsklnk = tsklnk_enumerator->get_Current();
             System::Console::WriteLine(System::String(u"Predecessor ") + tsklnk->get_PredTask()->Get(Tsk::Name()));
             System::Console::WriteLine(System::String(u"Predecessor ") + tsklnk->get_SuccTask()->Get(Tsk::Name()));
         }

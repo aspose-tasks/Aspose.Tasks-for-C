@@ -57,9 +57,9 @@ void ReadTaskWBS::Run()
     
     {
         auto tsk_enumerator = (collector->get_Tasks())->GetEnumerator();
-        decltype(tsk_enumerator->get_Current()) tsk;
-        while (tsk_enumerator->MoveNext() && (tsk = tsk_enumerator->get_Current(), true))
+        while (tsk_enumerator->MoveNext())
         {
+            auto&& tsk = tsk_enumerator->get_Current();
             System::Console::WriteLine(tsk->Get(Tsk::WBS()));
             System::Console::WriteLine(tsk->Get(Tsk::WBSLevel()));
             

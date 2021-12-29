@@ -43,9 +43,9 @@ void GetResourceWorkVariance::Run()
     
     {
         auto ra_enumerator = (project->get_ResourceAssignments())->GetEnumerator();
-        decltype(ra_enumerator->get_Current()) ra;
-        while (ra_enumerator->MoveNext() && (ra = ra_enumerator->get_Current(), true))
+        while (ra_enumerator->MoveNext())
         {
+            auto&& ra = ra_enumerator->get_Current();
             System::SharedPtr<Resource> rsc;
             
             // C# preprocessor directive: #if !__cplusplus

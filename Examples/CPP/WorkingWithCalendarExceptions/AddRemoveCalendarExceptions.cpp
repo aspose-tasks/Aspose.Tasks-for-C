@@ -78,9 +78,9 @@ void AddRemoveCalendarExceptions::Run()
             
             {
                 auto calExc1_enumerator = (cal->get_Exceptions())->GetEnumerator();
-                decltype(calExc1_enumerator->get_Current()) calExc1;
-                while (calExc1_enumerator->MoveNext() && (calExc1 = calExc1_enumerator->get_Current(), true))
+                while (calExc1_enumerator->MoveNext())
                 {
+                    auto&& calExc1 = calExc1_enumerator->get_Current();
                     System::Console::WriteLine(System::String(u"From") + calExc1->get_FromDate().ToShortDateString());
                     System::Console::WriteLine(System::String(u"To") + calExc1->get_ToDate().ToShortDateString());
                 }

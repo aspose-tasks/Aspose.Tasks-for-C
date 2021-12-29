@@ -85,9 +85,9 @@ void ReadWriteTimephasedData::Run()
     
     {
         auto timePhasedValue_enumerator = (td)->GetEnumerator();
-        decltype(timePhasedValue_enumerator->get_Current()) timePhasedValue;
-        while (timePhasedValue_enumerator->MoveNext() && (timePhasedValue = timePhasedValue_enumerator->get_Current(), true))
+        while (timePhasedValue_enumerator->MoveNext())
         {
+            auto&& timePhasedValue = timePhasedValue_enumerator->get_Current();
             System::Console::WriteLine(timePhasedValue->get_Value());
         }
     }

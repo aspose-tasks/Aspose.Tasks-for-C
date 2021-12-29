@@ -43,13 +43,13 @@ void ReadTaskExtendedAttributes::Run()
     
     {
         auto tsk_enumerator = (project1->get_RootTask()->get_Children())->GetEnumerator();
-        decltype(tsk_enumerator->get_Current()) tsk;
-        while (tsk_enumerator->MoveNext() && (tsk = tsk_enumerator->get_Current(), true))
+        while (tsk_enumerator->MoveNext())
         {
+            auto&& tsk = tsk_enumerator->get_Current();
             auto ea_enumerator = (tsk->get_ExtendedAttributes())->GetEnumerator();
-            decltype(ea_enumerator->get_Current()) ea;
-            while (ea_enumerator->MoveNext() && (ea = ea_enumerator->get_Current(), true))
+            while (ea_enumerator->MoveNext())
             {
+                auto&& ea = ea_enumerator->get_Current();
                 System::Console::WriteLine(ea->get_FieldId());
                 System::Console::WriteLine(ea->get_ValueGuid());
                 

@@ -52,9 +52,9 @@ void ReadWorkWeeksInformation::Run()
     
     {
         auto workWeek_enumerator = (collection)->GetEnumerator();
-        decltype(workWeek_enumerator->get_Current()) workWeek;
-        while (workWeek_enumerator->MoveNext() && (workWeek = workWeek_enumerator->get_Current(), true))
+        while (workWeek_enumerator->MoveNext())
         {
+            auto&& workWeek = workWeek_enumerator->get_Current();
             // Display work week name, from and to dates
             System::String Name = workWeek->get_Name();
             System::DateTime fromDate = workWeek->get_FromDate();
@@ -65,9 +65,9 @@ void ReadWorkWeeksInformation::Run()
             
             {
                 auto day_enumerator = (weekDays)->GetEnumerator();
-                decltype(day_enumerator->get_Current()) day;
-                while (day_enumerator->MoveNext() && (day = day_enumerator->get_Current(), true))
+                while (day_enumerator->MoveNext())
                 {
+                    auto&& day = day_enumerator->get_Current();
                     // You can further traverse through working times and display these
                     System::SharedPtr<WorkingTimeCollection> workingTimes = day->get_WorkingTimes();
                 }

@@ -59,9 +59,9 @@ void SortResourcesByName::Run()
     
     {
         auto rsc_enumerator = (resources)->GetEnumerator();
-        decltype(rsc_enumerator->get_Current()) rsc;
-        while (rsc_enumerator->MoveNext() && (rsc = rsc_enumerator->get_Current(), true))
+        while (rsc_enumerator->MoveNext())
         {
+            auto&& rsc = rsc_enumerator->get_Current();
             System::Console::WriteLine(rsc);
         }
     }

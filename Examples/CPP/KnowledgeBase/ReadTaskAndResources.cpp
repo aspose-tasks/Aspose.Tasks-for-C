@@ -50,9 +50,9 @@ void ReadTaskAndResources::Run()
     
     {
         auto task_enumerator = (allTasks)->GetEnumerator();
-        decltype(task_enumerator->get_Current()) task;
-        while (task_enumerator->MoveNext() && (task = task_enumerator->get_Current(), true))
+        while (task_enumerator->MoveNext())
         {
+            auto&& task = task_enumerator->get_Current();
             System::Console::WriteLine(System::String(u"Reading Task ") + task->Get(Tsk::Name()));
             System::Console::WriteLine(System::String(u"\nID: ") + task->Get<int32_t>(Tsk::Id()));
             System::Console::WriteLine(System::String(u"Start: ") + task->Get<System::DateTime>(Tsk::Start()));
@@ -65,9 +65,9 @@ void ReadTaskAndResources::Run()
     
     {
         auto resource_enumerator = (project->get_Resources())->GetEnumerator();
-        decltype(resource_enumerator->get_Current()) resource;
-        while (resource_enumerator->MoveNext() && (resource = resource_enumerator->get_Current(), true))
+        while (resource_enumerator->MoveNext())
         {
+            auto&& resource = resource_enumerator->get_Current();
             System::String resourceType;
             switch (resource->Get<ResourceType>(Rsc::Type()))
             {

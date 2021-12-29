@@ -48,7 +48,7 @@ void GetPageCountOnStartAndEndDates::Run()
     //ExStart: GetPageCountOnStartAndEndDates
     System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"GetNumberOfPages.mpp");
     
-    auto options = [&]{ auto tmp_0 = System::MakeObject<ImageSaveOptions>(Aspose::Tasks::Saving::SaveFileFormat::PNG); tmp_0->set_SaveToSeparateFiles(true); tmp_0->set_PageSize(Aspose::Tasks::Visualization::PageSize::A3); tmp_0->set_Timescale(Aspose::Tasks::Visualization::Timescale::Months); tmp_0->set_StartDate(project->Get<System::DateTime>(Prj::StartDate()) - System::TimeSpan::FromDays(10)); tmp_0->set_EndDate(project->Get<System::DateTime>(Prj::FinishDate()) + System::TimeSpan::FromDays(30)); return tmp_0; }();
+    auto options = [&]{ auto tmp_0 = System::MakeObject<ImageSaveOptions>(Aspose::Tasks::Saving::SaveFileFormat::PNG); tmp_0->set_RenderToSinglePage(false); tmp_0->set_PageSize(Aspose::Tasks::Visualization::PageSize::A3); tmp_0->set_Timescale(Aspose::Tasks::Visualization::Timescale::Months); tmp_0->set_StartDate(project->Get<System::DateTime>(Prj::StartDate()) - System::TimeSpan::FromDays(10)); tmp_0->set_EndDate(project->Get<System::DateTime>(Prj::FinishDate()) + System::TimeSpan::FromDays(30)); return tmp_0; }();
     int32_t pageCount = project->GetPageCount(Aspose::Tasks::Visualization::PageSize::A3, Aspose::Tasks::Visualization::Timescale::Months, project->Get<System::DateTime>(Prj::StartDate()) - System::TimeSpan::FromDays(10), project->Get<System::DateTime>(Prj::FinishDate()) + System::TimeSpan::FromDays(30));
     
     System::Console::WriteLine(pageCount);

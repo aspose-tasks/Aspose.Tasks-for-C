@@ -56,9 +56,9 @@ void ReadTableDataFromProjectFile::Run()
     
     {
         auto tableField_enumerator = (task1->get_TableFields())->GetEnumerator();
-        decltype(tableField_enumerator->get_Current()) tableField;
-        while (tableField_enumerator->MoveNext() && (tableField = tableField_enumerator->get_Current(), true))
+        while (tableField_enumerator->MoveNext())
         {
+            auto&& tableField = tableField_enumerator->get_Current();
             System::Console::WriteLine(System::String(u"Field width: ") + tableField->get_Width());
             System::Console::WriteLine(System::String(u"Field Title: ") + tableField->get_Title());
             System::Console::WriteLine(System::String(u"Field Title Alignment: ") + System::ObjectExt::ToString(tableField->get_AlignTitle()));

@@ -51,9 +51,9 @@ void RenumberTaskWBSCodes::Run()
     
     {
         auto task_enumerator = (tasks)->GetEnumerator();
-        decltype(task_enumerator->get_Current()) task;
-        while (task_enumerator->MoveNext() && (task = task_enumerator->get_Current(), true))
+        while (task_enumerator->MoveNext())
         {
+            auto&& task = task_enumerator->get_Current();
             System::Console::WriteLine(System::String(u"\"") + task->Get(Tsk::WBS()) + u"\"" + u"; ");
         }
     }
@@ -67,9 +67,9 @@ void RenumberTaskWBSCodes::Run()
     
     {
         auto task_enumerator = (tasks)->GetEnumerator();
-        decltype(task_enumerator->get_Current()) task;
-        while (task_enumerator->MoveNext() && (task = task_enumerator->get_Current(), true))
+        while (task_enumerator->MoveNext())
         {
+            auto&& task = task_enumerator->get_Current();
             System::Console::WriteLine(System::String(u"\"") + task->Get(Tsk::WBS()) + u"\"" + u"; ");
         }
     }

@@ -45,9 +45,9 @@ void ReplaceCalendar::Run()
     
     {
         auto c_enumerator = (calColl)->GetEnumerator();
-        decltype(c_enumerator->get_Current()) c;
-        while (c_enumerator->MoveNext() && (c = c_enumerator->get_Current(), true))
+        while (c_enumerator->MoveNext())
         {
+            auto&& c = c_enumerator->get_Current();
             if (c->get_Name() == u"New cal1")
             {
                 calColl->Remove(c);

@@ -36,9 +36,9 @@ void GetCrossProjectTaskLinks::Run()
     
     {
         auto tsklnk_enumerator = (project1->get_TaskLinks())->GetEnumerator();
-        decltype(tsklnk_enumerator->get_Current()) tsklnk;
-        while (tsklnk_enumerator->MoveNext() && (tsklnk = tsklnk_enumerator->get_Current(), true))
+        while (tsklnk_enumerator->MoveNext())
         {
+            auto&& tsklnk = tsklnk_enumerator->get_Current();
             if (tsklnk->get_IsCrossProject())
             {
                 System::Console::WriteLine(tsklnk->get_CrossProjectName());

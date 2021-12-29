@@ -42,7 +42,7 @@ void ReducingGapBetweenTasksListAndFooter::Run()
     System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"CreateProject2.mpp");
     
     //Use ReduceFooterGap property to reduce the gap between list of tasks and Footer
-    auto imageSaveOptions = [&]{ auto tmp_0 = System::MakeObject<ImageSaveOptions>(Aspose::Tasks::Saving::SaveFileFormat::PNG); tmp_0->set_ReduceFooterGap(true); tmp_0->set_SaveToSeparateFiles(true); tmp_0->set_PageSize(Aspose::Tasks::Visualization::PageSize::A0); tmp_0->set_Timescale(Aspose::Tasks::Visualization::Timescale::Days); return tmp_0; }();
+    auto imageSaveOptions = [&]{ auto tmp_0 = System::MakeObject<ImageSaveOptions>(Aspose::Tasks::Saving::SaveFileFormat::PNG); tmp_0->set_ReduceFooterGap(true); tmp_0->set_RenderToSinglePage(false); tmp_0->set_PageSize(Aspose::Tasks::Visualization::PageSize::A0); tmp_0->set_Timescale(Aspose::Tasks::Visualization::Timescale::Days); return tmp_0; }();
     project->Save(dataDir + u"ReducingGapBetweenTasksListAndFooter_out.png", System::StaticCast<Aspose::Tasks::Saving::SaveOptions>(imageSaveOptions));
     
     auto pdfSaveOptions = [&]{ auto tmp_1 = System::MakeObject<PdfSaveOptions>(); tmp_1->set_ReduceFooterGap(true); tmp_1->set_SaveToSeparateFiles(true); tmp_1->set_PageSize(Aspose::Tasks::Visualization::PageSize::A0); tmp_1->set_Timescale(Aspose::Tasks::Visualization::Timescale::Days); return tmp_1; }();

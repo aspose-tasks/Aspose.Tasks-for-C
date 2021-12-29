@@ -52,9 +52,9 @@ void CalculateCriticalPath::Run()
     
     {
         auto task_enumerator = (project->get_CriticalPath())->GetEnumerator();
-        decltype(task_enumerator->get_Current()) task;
-        while (task_enumerator->MoveNext() && (task = task_enumerator->get_Current(), true))
+        while (task_enumerator->MoveNext())
         {
+            auto&& task = task_enumerator->get_Current();
             System::Console::WriteLine(task->Get(Tsk::Name()));
         }
     }

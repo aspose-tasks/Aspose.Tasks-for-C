@@ -69,9 +69,9 @@ void WorkingWithOutlineCodes::ReadOutlineCodes(System::String dataDir)
     
     {
         auto ocd_enumerator = (project->get_OutlineCodes())->GetEnumerator();
-        decltype(ocd_enumerator->get_Current()) ocd;
-        while (ocd_enumerator->MoveNext() && (ocd = ocd_enumerator->get_Current(), true))
+        while (ocd_enumerator->MoveNext())
         {
+            auto&& ocd = ocd_enumerator->get_Current();
             System::Console::WriteLine(System::String(u"Alias = ") + ocd->get_Alias());
             if (ocd->get_AllLevelsRequired())
             {
@@ -100,9 +100,9 @@ void WorkingWithOutlineCodes::ReadOutlineCodes(System::String dataDir)
             
             {
                 auto outlineMask_enumerator = (ocd->get_Masks())->GetEnumerator();
-                decltype(outlineMask_enumerator->get_Current()) outlineMask;
-                while (outlineMask_enumerator->MoveNext() && (outlineMask = outlineMask_enumerator->get_Current(), true))
+                while (outlineMask_enumerator->MoveNext())
                 {
+                    auto&& outlineMask = outlineMask_enumerator->get_Current();
                     System::Console::WriteLine(System::String(u"Level of a mask = ") + outlineMask->get_Level());
                     System::Console::WriteLine(System::String(u"Mask = ") + System::ObjectExt::ToString(outlineMask));
                 }
@@ -112,9 +112,9 @@ void WorkingWithOutlineCodes::ReadOutlineCodes(System::String dataDir)
             
             {
                 auto outlineMask1_enumerator = (ocd->get_Values())->GetEnumerator();
-                decltype(outlineMask1_enumerator->get_Current()) outlineMask1;
-                while (outlineMask1_enumerator->MoveNext() && (outlineMask1 = outlineMask1_enumerator->get_Current(), true))
+                while (outlineMask1_enumerator->MoveNext())
                 {
+                    auto&& outlineMask1 = outlineMask1_enumerator->get_Current();
                     System::Console::WriteLine(System::String(u"Description of outline value = ") + outlineMask1->get_Description());
                     System::Console::WriteLine(System::String(u"Value Id = ") + outlineMask1->get_ValueId());
                     System::Console::WriteLine(System::String(u"Value = ") + outlineMask1->get_Value());

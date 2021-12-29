@@ -47,9 +47,9 @@ void ReadTaskOvertimes::Run()
     
     {
         auto tsk1_enumerator = (project1->get_RootTask()->get_Children())->GetEnumerator();
-        decltype(tsk1_enumerator->get_Current()) tsk1;
-        while (tsk1_enumerator->MoveNext() && (tsk1 = tsk1_enumerator->get_Current(), true))
+        while (tsk1_enumerator->MoveNext())
         {
+            auto&& tsk1 = tsk1_enumerator->get_Current();
             System::Console::WriteLine(tsk1->Get<System::Decimal>(Tsk::OvertimeCost()));
             System::Console::WriteLine(System::ObjectExt::ToString(tsk1->Get<Duration>(Tsk::OvertimeWork())));
             System::Console::WriteLine(tsk1->Get<int32_t>(Tsk::PercentComplete()));

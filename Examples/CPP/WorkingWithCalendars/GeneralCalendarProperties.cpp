@@ -51,9 +51,9 @@ void GeneralCalendarProperties::Run()
     
     {
         auto cal_enumerator = (project->get_Calendars())->GetEnumerator();
-        decltype(cal_enumerator->get_Current()) cal;
-        while (cal_enumerator->MoveNext() && (cal = cal_enumerator->get_Current(), true))
+        while (cal_enumerator->MoveNext())
         {
+            auto&& cal = cal_enumerator->get_Current();
             if (cal->get_Name() != nullptr)
             {
                 System::Console::WriteLine(System::String(u"UID : ") + System::Convert::ToString(cal->get_Uid()) + u" Name: " + cal->get_Name());
@@ -73,9 +73,9 @@ void GeneralCalendarProperties::Run()
                 
                 {
                     auto wd_enumerator = (cal->get_WeekDays())->GetEnumerator();
-                    decltype(wd_enumerator->get_Current()) wd;
-                    while (wd_enumerator->MoveNext() && (wd = wd_enumerator->get_Current(), true))
+                    while (wd_enumerator->MoveNext())
                     {
+                        auto&& wd = wd_enumerator->get_Current();
                         System::TimeSpan ts = wd->GetWorkingTime();
                         System::Console::WriteLine(System::String(u"Day Type: ") + System::ObjectExt::ToString(wd->get_DayType()) + u" Hours: " + System::ObjectExt::ToString(ts));
                     }

@@ -47,9 +47,9 @@ void ReadCriticalPath::Run()
     
     {
         auto task_enumerator = (criticalPath)->GetEnumerator();
-        decltype(task_enumerator->get_Current()) task;
-        while (task_enumerator->MoveNext() && (task = task_enumerator->get_Current(), true))
+        while (task_enumerator->MoveNext())
         {
+            auto&& task = task_enumerator->get_Current();
             System::Console::WriteLine(System::Convert::ToString(task->Get<int32_t>(Tsk::Id())) + u"  " + task->Get(Tsk::Name()));
             System::Console::WriteLine(System::ObjectExt::Box<System::DateTime>(task->Get<System::DateTime>(Tsk::Start())));
             System::Console::WriteLine(System::Convert::ToString(task->Get<System::DateTime>(Tsk::Finish())) + u"\n");

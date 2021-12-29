@@ -45,9 +45,9 @@ void RetrieveCalendarInfo::Run()
     
     {
         auto cal_enumerator = (alCals)->GetEnumerator();
-        decltype(cal_enumerator->get_Current()) cal;
-        while (cal_enumerator->MoveNext() && (cal = cal_enumerator->get_Current(), true))
+        while (cal_enumerator->MoveNext())
         {
+            auto&& cal = cal_enumerator->get_Current();
             if (cal->get_Name() != nullptr)
             {
                 System::Console::WriteLine(System::String(u"Calendar UID : ") + cal->get_Uid());
@@ -57,9 +57,9 @@ void RetrieveCalendarInfo::Run()
                 
                 {
                     auto wd_enumerator = (alDays)->GetEnumerator();
-                    decltype(wd_enumerator->get_Current()) wd;
-                    while (wd_enumerator->MoveNext() && (wd = wd_enumerator->get_Current(), true))
+                    while (wd_enumerator->MoveNext())
                     {
+                        auto&& wd = wd_enumerator->get_Current();
                         System::TimeSpan ts = wd->GetWorkingTime();
                         if (wd->get_DayWorking())
                         {

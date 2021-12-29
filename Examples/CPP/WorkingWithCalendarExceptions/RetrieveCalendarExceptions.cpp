@@ -40,14 +40,14 @@ void RetrieveCalendarExceptions::Run()
     
     {
         auto cal_enumerator = (project1->get_Calendars())->GetEnumerator();
-        decltype(cal_enumerator->get_Current()) cal;
-        while (cal_enumerator->MoveNext() && (cal = cal_enumerator->get_Current(), true))
+        while (cal_enumerator->MoveNext())
         {
+            auto&& cal = cal_enumerator->get_Current();
             // Access calendar exceptions
             auto calExc_enumerator = (cal->get_Exceptions())->GetEnumerator();
-            decltype(calExc_enumerator->get_Current()) calExc;
-            while (calExc_enumerator->MoveNext() && (calExc = calExc_enumerator->get_Current(), true))
+            while (calExc_enumerator->MoveNext())
             {
+                auto&& calExc = calExc_enumerator->get_Current();
                 System::Console::WriteLine(System::String(u"From: ") + calExc->get_FromDate().ToShortDateString());
                 System::Console::WriteLine(System::String(u"To: ") + calExc->get_ToDate().ToShortDateString());
             }

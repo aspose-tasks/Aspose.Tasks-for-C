@@ -63,10 +63,9 @@ void ReadBudgetWorkAndCost::Run()
     
     {
         auto assn_enumerator = (projSummary->get_Assignments())->GetEnumerator();
-        decltype(assn_enumerator->get_Current()) assn;
-        while (assn_enumerator->MoveNext() && (assn = assn_enumerator->get_Current(), true))
+        while (assn_enumerator->MoveNext())
         {
-            
+            auto&& assn = assn_enumerator->get_Current();
             // C# preprocessor directive: #if !__cplusplus
             
             

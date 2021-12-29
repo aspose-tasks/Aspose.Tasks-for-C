@@ -60,9 +60,9 @@ void FindCriticalEffortDrivenTasks::Run()
     
     {
         auto tsk1_enumerator = (collector->get_Tasks())->GetEnumerator();
-        decltype(tsk1_enumerator->get_Current()) tsk1;
-        while (tsk1_enumerator->MoveNext() && (tsk1 = tsk1_enumerator->get_Current(), true))
+        while (tsk1_enumerator->MoveNext())
         {
+            auto&& tsk1 = tsk1_enumerator->get_Current();
             System::String strED = tsk1->Get<NullableBool>(Tsk::IsEffortDriven()).get_Value() ? System::String(u"EffortDriven") : System::String(u"Non-EffortDriven");
             System::String strCrit = tsk1->Get<NullableBool>(Tsk::IsCritical()).get_Value() ? System::String(u"Critical") : System::String(u"Non-Critical");
             System::Console::WriteLine(tsk1->Get(Tsk::Name()) + u" : " + strED);

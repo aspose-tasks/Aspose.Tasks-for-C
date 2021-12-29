@@ -59,9 +59,9 @@ void GenerateResourceAssignmentTimephasedData::Run()
     
     {
         auto td_enumerator = (tdList)->GetEnumerator();
-        decltype(td_enumerator->get_Current()) td;
-        while (td_enumerator->MoveNext() && (td = td_enumerator->get_Current(), true))
+        while (td_enumerator->MoveNext())
         {
+            auto&& td = td_enumerator->get_Current();
             System::Console::WriteLine(td->get_Start().ToShortDateString() + u" " + td->get_Value());
         }
     }
@@ -73,9 +73,9 @@ void GenerateResourceAssignmentTimephasedData::Run()
     
     {
         auto td_enumerator = (tdList)->GetEnumerator();
-        decltype(td_enumerator->get_Current()) td;
-        while (td_enumerator->MoveNext() && (td = td_enumerator->get_Current(), true))
+        while (td_enumerator->MoveNext())
         {
+            auto&& td = td_enumerator->get_Current();
             System::Console::WriteLine(td->get_Start().ToShortDateString() + u" " + td->get_Value());
         }
     }
@@ -87,9 +87,9 @@ void GenerateResourceAssignmentTimephasedData::Run()
     
     {
         auto td_enumerator = (tdList)->GetEnumerator();
-        decltype(td_enumerator->get_Current()) td;
-        while (td_enumerator->MoveNext() && (td = td_enumerator->get_Current(), true))
+        while (td_enumerator->MoveNext())
         {
+            auto&& td = td_enumerator->get_Current();
             System::Console::WriteLine(td->get_Start().ToShortDateString() + u" " + td->get_Value());
         }
     }
@@ -101,9 +101,9 @@ void GenerateResourceAssignmentTimephasedData::Run()
     
     {
         auto td_enumerator = (tdList)->GetEnumerator();
-        decltype(td_enumerator->get_Current()) td;
-        while (td_enumerator->MoveNext() && (td = td_enumerator->get_Current(), true))
+        while (td_enumerator->MoveNext())
         {
+            auto&& td = td_enumerator->get_Current();
             System::Console::WriteLine(td->get_Start().ToShortDateString() + u" " + td->get_Value());
         }
     }
@@ -115,9 +115,9 @@ void GenerateResourceAssignmentTimephasedData::Run()
     
     {
         auto td_enumerator = (tdList)->GetEnumerator();
-        decltype(td_enumerator->get_Current()) td;
-        while (td_enumerator->MoveNext() && (td = td_enumerator->get_Current(), true))
+        while (td_enumerator->MoveNext())
         {
+            auto&& td = td_enumerator->get_Current();
             System::Console::WriteLine(td->get_Start().ToShortDateString() + u" " + td->get_Value());
         }
     }
@@ -129,9 +129,9 @@ void GenerateResourceAssignmentTimephasedData::Run()
     
     {
         auto td_enumerator = (tdList)->GetEnumerator();
-        decltype(td_enumerator->get_Current()) td;
-        while (td_enumerator->MoveNext() && (td = td_enumerator->get_Current(), true))
+        while (td_enumerator->MoveNext())
         {
+            auto&& td = td_enumerator->get_Current();
             System::Console::WriteLine(td->get_Start().ToShortDateString() + u" " + td->get_Value());
         }
     }
@@ -143,9 +143,9 @@ void GenerateResourceAssignmentTimephasedData::Run()
     
     {
         auto td_enumerator = (tdList)->GetEnumerator();
-        decltype(td_enumerator->get_Current()) td;
-        while (td_enumerator->MoveNext() && (td = td_enumerator->get_Current(), true))
+        while (td_enumerator->MoveNext())
         {
+            auto&& td = td_enumerator->get_Current();
             System::Console::WriteLine(td->get_Start().ToShortDateString() + u" " + td->get_Value());
         }
     }
@@ -157,9 +157,9 @@ void GenerateResourceAssignmentTimephasedData::Run()
     
     {
         auto td_enumerator = (tdList)->GetEnumerator();
-        decltype(td_enumerator->get_Current()) td;
-        while (td_enumerator->MoveNext() && (td = td_enumerator->get_Current(), true))
+        while (td_enumerator->MoveNext())
         {
+            auto&& td = td_enumerator->get_Current();
             System::Console::WriteLine(td->get_Start().ToShortDateString() + u" " + td->get_Value());
         }
     }

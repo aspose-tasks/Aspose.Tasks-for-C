@@ -60,9 +60,9 @@ void ReadTaskProperties::Run()
     
     {
         auto tsk_enumerator = (collector->get_Tasks())->GetEnumerator();
-        decltype(tsk_enumerator->get_Current()) tsk;
-        while (tsk_enumerator->MoveNext() && (tsk = tsk_enumerator->get_Current(), true))
+        while (tsk_enumerator->MoveNext())
         {
+            auto&& tsk = tsk_enumerator->get_Current();
             System::Console::WriteLine(u"Task Id: {0}", System::ObjectExt::Box<int32_t>(tsk->Get<int32_t>(Tsk::Id())));
             System::Console::WriteLine(u"Task Uid: {0}", System::ObjectExt::Box<int32_t>(tsk->Get<int32_t>(Tsk::Uid())));
             System::Console::WriteLine(u"Task Name: {0}", System::ObjectExt::Box<System::String>(tsk->Get(Tsk::Name())));

@@ -63,9 +63,9 @@ void LinkTasks::Run()
         
         {
             auto tasklnk_enumerator = (allinks)->GetEnumerator();
-            decltype(tasklnk_enumerator->get_Current()) tasklnk;
-            while (tasklnk_enumerator->MoveNext() && (tasklnk = tasklnk_enumerator->get_Current(), true))
+            while (tasklnk_enumerator->MoveNext())
             {
+                auto&& tasklnk = tasklnk_enumerator->get_Current();
                 System::Console::WriteLine(System::String(u"From ID = ") + tasklnk->get_PredTask()->Get<int32_t>(Tsk::Id()) + u"=>To ID = " + tasklnk->get_SuccTask()->Get<int32_t>(Tsk::Id()));
                 System::Console::WriteLine(u"________________________________________");
             }

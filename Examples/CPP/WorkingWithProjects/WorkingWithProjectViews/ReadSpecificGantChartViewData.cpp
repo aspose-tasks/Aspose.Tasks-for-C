@@ -80,9 +80,9 @@ void ReadSpecificGantChartViewData::Run()
     
     {
         auto barStyle_enumerator = (view->get_BarStyles())->GetEnumerator();
-        decltype(barStyle_enumerator->get_Current()) barStyle;
-        while (barStyle_enumerator->MoveNext() && (barStyle = barStyle_enumerator->get_Current(), true))
+        while (barStyle_enumerator->MoveNext())
         {
+            auto&& barStyle = barStyle_enumerator->get_Current();
             System::Console::WriteLine(System::String(u"Name: ") + barStyle->get_Name());
             System::Console::WriteLine(System::String(u"ShowForCategories: ") + System::ObjectExt::ToString(barStyle->get_ShowForCategories()));
             System::Console::WriteLine(System::String(u"ShowForTaskUid: ") + System::ObjectExt::ToString(barStyle->get_ShowForTaskUid()));

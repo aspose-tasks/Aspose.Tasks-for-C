@@ -81,7 +81,7 @@ void CustomizeTextWithTaskBars::Run()
     System::SharedPtr<BarStyle> style = System::MakeObject<BarStyle>();
     style->set_ItemType(Aspose::Tasks::Visualization::BarItemType::CriticalTask);
     
-    style->set_BarTextConverter(&CustomizeTextWithTaskBars::_anonymous_method_0);
+    style->set_InsideBarTextConverter(&CustomizeTextWithTaskBars::_anonymous_method_0);
     
     System::SharedPtr<BarStyle> style2 = System::MakeObject<BarStyle>();
     style2->set_BarColor(System::Drawing::Color::get_DarkOrchid());

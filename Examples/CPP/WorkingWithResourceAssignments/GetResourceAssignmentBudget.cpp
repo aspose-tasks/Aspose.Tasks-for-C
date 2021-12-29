@@ -44,9 +44,9 @@ void GetResourceAssignmentBudget::Run()
     
     {
         auto ra_enumerator = (project1->get_ResourceAssignments())->GetEnumerator();
-        decltype(ra_enumerator->get_Current()) ra;
-        while (ra_enumerator->MoveNext() && (ra = ra_enumerator->get_Current(), true))
+        while (ra_enumerator->MoveNext())
         {
+            auto&& ra = ra_enumerator->get_Current();
             System::Console::WriteLine(ra->Get<System::Decimal>(Asn::BudgetCost()));
             System::Console::WriteLine(System::ObjectExt::ToString(ra->Get<Duration>(Asn::BudgetWork())));
         }

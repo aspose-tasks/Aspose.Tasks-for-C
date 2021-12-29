@@ -59,9 +59,9 @@ void ReadTaskCalendar::Run()
     
     {
         auto tsk_enumerator = (collector->get_Tasks())->GetEnumerator();
-        decltype(tsk_enumerator->get_Current()) tsk;
-        while (tsk_enumerator->MoveNext() && (tsk = tsk_enumerator->get_Current(), true))
+        while (tsk_enumerator->MoveNext())
         {
+            auto&& tsk = tsk_enumerator->get_Current();
             System::SharedPtr<Calendar> tskCal = tsk->Get<System::SharedPtr<Calendar>>(Tsk::Calendar());
             System::Console::WriteLine(u"Task calendar name: {0}", System::ObjectExt::Box<System::String>(tskCal == nullptr ? u"None" : tskCal->get_Name()));
         }

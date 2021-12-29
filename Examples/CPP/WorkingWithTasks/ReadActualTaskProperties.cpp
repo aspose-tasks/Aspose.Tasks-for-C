@@ -63,9 +63,9 @@ void ReadActualTaskProperties::Run()
     
     {
         auto task_enumerator = (collector->get_Tasks())->GetEnumerator();
-        decltype(task_enumerator->get_Current()) task;
-        while (task_enumerator->MoveNext() && (task = task_enumerator->get_Current(), true))
+        while (task_enumerator->MoveNext())
         {
+            auto&& task = task_enumerator->get_Current();
             System::Console::WriteLine(System::String(u"Task Name : ") + task->Get(Tsk::Name()));
             System::Console::WriteLine(System::String(u"Actual Start: ") + task->Get<System::DateTime>(Tsk::ActualStart()).ToLongDateString());
             System::Console::WriteLine(System::String(u"Actual Finish: ") + task->Get<System::DateTime>(Tsk::ActualFinish()).ToLongDateString());
