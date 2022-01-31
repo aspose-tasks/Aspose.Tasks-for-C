@@ -46,7 +46,7 @@ void ViewSplitTasks::Run()
         while (splitPart_enumerator->MoveNext())
         {
             auto&& splitPart = splitPart_enumerator->get_Current();
-            System::Console::WriteLine(System::String(u"Index: ") + splitPart->get_Index() + u"\nStart: " + splitPart->get_Start() + u"\nFinish: " + splitPart->get_Finish() + u"\n");
+            System::Console::WriteLine(System::String(u"\nStart: ") + splitPart->get_Start() + u"\nFinish: " + splitPart->get_Finish() + u"\n");
         }
     }
     // ExEnd:ViewSplitTasks
