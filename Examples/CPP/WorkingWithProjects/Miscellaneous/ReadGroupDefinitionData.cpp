@@ -21,6 +21,8 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <GroupCriterion.h>
 #include <GroupCollection.h>
 #include <Group.h>
+#include <Visualization/FontDescriptor.h>
+#include <Visualization/FontStyles.h>
 #include <enums/GroupOn.h>
 #include <enums/Field.h>
 #include <enums/BackgroundPattern.h>
@@ -70,7 +72,7 @@ void ReadGroupDefinitionData::Run()
     }
     
     System::Console::WriteLine(u"\n*********** Retreivnig Criterion's Font Information ***********");
-    System::Console::WriteLine(System::String(u"Font Name: ") + criterion->get_Font()->get_Name());
+    System::Console::WriteLine(System::String(u"Font Name: ") + criterion->get_Font()->get_FontFamily());
     System::Console::WriteLine(System::String(u"Font Size: ") + criterion->get_Font()->get_Size());
     System::Console::WriteLine(System::String(u"Font Style: ") + System::ObjectExt::ToString(criterion->get_Font()->get_Style()));
     System::Console::WriteLine(System::String(u"Ascending/Dscending: ") + criterion->get_Ascending());
