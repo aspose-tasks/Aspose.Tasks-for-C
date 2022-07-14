@@ -50,7 +50,7 @@ void MPPFileUpdate::Run()
         task->Set(Tsk::Finish(), System::DateTime(2012, 8, 5));
         
         // Save the project as MPP project file
-        project->Save(dataDir + u"AfterLinking_out.Mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project->Save(dataDir + u"AfterLinking_out.Mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         // ExEnd:MPPFileUpdate   
     }
     catch (System::Exception& ex)

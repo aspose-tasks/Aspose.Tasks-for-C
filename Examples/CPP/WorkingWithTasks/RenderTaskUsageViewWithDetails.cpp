@@ -49,7 +49,7 @@ void RenderTaskUsageViewWithDetails::Run()
     view->set_DisplayDetailsHeaderColumn(false);
     view->set_RepeatDetailsHeaderOnAllRows(false);
     view->set_AlignDetailsData(System::Drawing::StringAlignment::Near);
-    project1->Save(dataDir + u"task usage1_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::PDF);
+    project1->Save(dataDir + u"task usage1_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::Pdf);
     
     // Display details header column
     view->set_DisplayDetailsHeaderColumn(true);
@@ -57,7 +57,7 @@ void RenderTaskUsageViewWithDetails::Run()
     // Repeat details header on all assignments rows
     view->set_RepeatDetailsHeaderOnAllRows(true);
     view->set_AlignDetailsData(System::Drawing::StringAlignment::Far);
-    project1->Save(dataDir + u"task usage2_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::PDF);
+    project1->Save(dataDir + u"task usage2_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::Pdf);
     // ExEnd:RenderTaskUsageViewWithDetails
 }
 

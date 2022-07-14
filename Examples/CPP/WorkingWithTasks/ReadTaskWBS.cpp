@@ -70,7 +70,7 @@ void ReadTaskWBS::Run()
     // ExEnd:ReadTaskWBS
     
     // Save project as PDF
-    project1->Save(dataDir + u"TaskWBS_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::PDF);
+    project1->Save(dataDir + u"TaskWBS_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::Pdf);
 }
 
 } // namespace WorkingWithTasks

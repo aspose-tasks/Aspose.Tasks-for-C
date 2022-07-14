@@ -45,7 +45,7 @@ namespace Aspose {
 								System::SharedPtr<Project> project = System::MakeObject<Project>();
 			
 								// Save project as MPP 
-								project->Save(dataDir + u"project_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+								project->Save(dataDir + u"project_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
 								// ExEnd:CreateEmptyProjectSaveMPP
 							}
 							catch (System::NotSupportedException& ex)

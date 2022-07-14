@@ -55,7 +55,7 @@ void SetGeneralResourceProperties::Run()
     // ExEnd:SetGeneralResourceProperties
     
     // Save project as XML
-    project->Save(dataDir + u"SetGeneralResourceProperties_out.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+    project->Save(dataDir + u"SetGeneralResourceProperties_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);
 }
 
 } // namespace WorkingWithResources

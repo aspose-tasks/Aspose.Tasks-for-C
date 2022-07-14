@@ -53,7 +53,7 @@ void CreateSubProjectTask::Run()
         task->Set<System::String>(Tsk::SubprojectName(), dataDir + u"subProject.mpp");
         
         // Save project
-        project->Save(dataDir + u"SubProjectTask_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project->Save(dataDir + u"SubProjectTask_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         // ExEnd:CreateSubProjectTask
     }
     catch (System::Exception& ex)

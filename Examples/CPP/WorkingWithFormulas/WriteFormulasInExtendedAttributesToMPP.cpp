@@ -73,7 +73,7 @@ void WriteFormulasInExtendedAttributesToMPP::Run()
         task->Set<System::Decimal>(Tsk::Cost(), static_cast<System::Decimal>(100));
         
         // Save project
-        project->Save(dataDir + u"WriteFormulasInExtendedAttributesToMPP_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project->Save(dataDir + u"WriteFormulasInExtendedAttributesToMPP_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         // ExEnd:WriteFormulasInExtendedAttributesToMPP
     }
     catch (System::Exception& ex)

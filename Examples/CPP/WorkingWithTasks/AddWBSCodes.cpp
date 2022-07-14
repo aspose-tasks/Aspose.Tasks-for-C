@@ -59,7 +59,7 @@ void AddWBSCodes::Run()
     System::SharedPtr<Task> child = tsk->get_Children()->Add(u"Task 2");
     
     proj->Recalculate();
-    proj->Save(dataDir + u"AddWBSCodes_out.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+    proj->Save(dataDir + u"AddWBSCodes_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);
     // ExEnd:AddWBSCodes
 }
 

@@ -54,7 +54,7 @@ void WriteFiscalYearProperties::Run()
         // Set fiscal year properties
         project->Set<Month>(Prj::FyStartDate(), Aspose::Tasks::Month::July);
         project->Set<NullableBool>(Prj::FiscalYearStart(), NullableBool::to_NullableBool(true));
-        project->Save(dataDir + u"WriteFiscalYearProperties_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project->Save(dataDir + u"WriteFiscalYearProperties_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         // ExEnd:WriteFiscalYearProperties
     }
     catch (System::Exception& ex)

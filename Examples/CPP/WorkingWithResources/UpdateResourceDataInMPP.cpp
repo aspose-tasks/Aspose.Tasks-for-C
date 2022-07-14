@@ -57,7 +57,7 @@ void UpdateResourceDataInMPP::Run()
         rsc1->Set<System::String>(Rsc::Group(), u"Workgroup1");
         
         // Save the Project
-        project1->Save(dataDir + u"UpdateResourceData_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project1->Save(dataDir + u"UpdateResourceData_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         // ExEnd:UpdateResourceDataInMPP
     }
     catch (System::Exception& ex)

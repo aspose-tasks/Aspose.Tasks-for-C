@@ -56,7 +56,7 @@ void WriteProjectInfo::Run()
         project->Set<int32_t>(Prj::Revision(), 15);
         project->Set<System::String>(Prj::Keywords(), u"MSP Aspose");
         project->Set<System::String>(Prj::Comments(), u"Comments");
-        project->Save(dataDir + u"WriteProjectInfo_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project->Save(dataDir + u"WriteProjectInfo_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
     }
     catch (System::Exception& ex)
     {

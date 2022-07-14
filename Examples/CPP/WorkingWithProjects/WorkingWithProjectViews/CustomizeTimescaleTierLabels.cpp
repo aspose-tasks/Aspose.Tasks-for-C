@@ -70,7 +70,7 @@ void CustomizeTimescaleTierLabels::Run()
     };
     
     view->get_MiddleTimescaleTier()->set_DateTimeConverter(_local_func_0);
-    project->Save(dataDir + u"CustomizeTimescaleTierLabels_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::PDF);
+    project->Save(dataDir + u"CustomizeTimescaleTierLabels_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::Pdf);
     // ExEnd:CustomizeTimescaleTierLabels
 }
 

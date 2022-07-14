@@ -47,7 +47,7 @@ void WriteCurrencyProperties::Run()
     project->Set<CurrencySymbolPositionType>(Prj::CurrencySymbolPosition(), Aspose::Tasks::CurrencySymbolPositionType::After);
     
     // Save the project as XML project file
-    project->Save(dataDir + u"WriteCurrencyProperties_out.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+    project->Save(dataDir + u"WriteCurrencyProperties_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);
     // ExEnd:WriteCurrencyProperties
 }
 

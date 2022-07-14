@@ -39,7 +39,7 @@ void PrintTaskWritingException::Run()
     {
         System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"PrintTaskWritingException.mpp");
         System::Console::Write(u"This example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.");
-        project->Save(dataDir + u"project_out.MPP", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project->Save(dataDir + u"project_out.MPP", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
     }
     catch (TasksWritingException& ex)
     {

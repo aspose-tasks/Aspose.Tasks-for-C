@@ -41,7 +41,7 @@ void SaveProjectAsXLSX::Run()
     System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"CreateProject2.mpp");
     
     // Save the Project as XLSX
-    project->Save(dataDir + u"SaveProjectAsXLSX_out.xlsx", Aspose::Tasks::Saving::SaveFileFormat::XLSX);
+    project->Save(dataDir + u"SaveProjectAsXLSX_out.xlsx", Aspose::Tasks::Saving::SaveFileFormat::Xlsx);
     // ExEnd:SaveProjectAsXLSX           
 }
 

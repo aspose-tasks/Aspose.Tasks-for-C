@@ -48,7 +48,7 @@ void CreateTasks::Run()
         // Add task, sub task and save project
         System::SharedPtr<Task> task = project->get_RootTask()->get_Children()->Add(u"Summary1");
         System::SharedPtr<Task> subtask = task->get_Children()->Add(u"Subtask1");
-        project->Save(dataDir + u"CreateTasks_out.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+        project->Save(dataDir + u"CreateTasks_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);
         // ExEnd:CreateTasks
     }
     catch (System::Exception& ex)

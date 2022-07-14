@@ -62,7 +62,7 @@ void SetTimeScaleCount::Run()
     System::SharedPtr<Task> task2 = project->get_RootTask()->get_Children()->Add(u"Task 2");
     task1->Set<Duration>(Tsk::Duration(), task1->get_ParentProject()->GetDuration(24, Aspose::Tasks::TimeUnitType::Hour));
     task2->Set<Duration>(Tsk::Duration(), task1->get_ParentProject()->GetDuration(40, Aspose::Tasks::TimeUnitType::Hour));
-    project->Save(dataDir + u"SetTimeScaleCount_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::PDF);
+    project->Save(dataDir + u"SetTimeScaleCount_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::Pdf);
     // ExEnd:SetTimeScaleCount
 }
 

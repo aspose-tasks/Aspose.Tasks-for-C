@@ -83,7 +83,7 @@ try
     // This value can be seen in "Task usage" view of MS Project.
     assignment->get_ExtendedAttributes()->Add(taskCostAttr->CreateExtendedAttribute(taskLookupValue1));
     
-    project->Save(dataDir + u"AddExtendedAttributesToRAWithLookUp_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+    project->Save(dataDir + u"AddExtendedAttributesToRAWithLookUp_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
     //ExEnd: AddExtendedAttributesToRAWithLookUp
 }
 catch (System::NotSupportedException& ex)

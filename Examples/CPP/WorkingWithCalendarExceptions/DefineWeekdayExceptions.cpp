@@ -49,7 +49,7 @@ void DefineWeekdayExceptions::Run()
     cal->get_Exceptions()->Add(except);
     
     // Save the Project
-    prj->Save(dataDir + u"Project_DefineWeekDayException_out.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+    prj->Save(dataDir + u"Project_DefineWeekDayException_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);
     // ExEnd:DefineWeekdayExceptions
     
 }

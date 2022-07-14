@@ -70,7 +70,7 @@ void UsingTasksAndResourceFieldsInFormulaCalculations::Run()
         // Set Task Deadline and save project
         System::SharedPtr<Task> task1 = project->get_RootTask()->get_Children()->GetById(1);
         task->Set(Tsk::Deadline(), System::DateTime(2015, 3, 20, 17, 0, 0));
-        project->Save(dataDir + u"project_UsingTasksAndResourceFields_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project->Save(dataDir + u"project_UsingTasksAndResourceFields_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
 		// ExEnd:UsingTasksAndResourceFieldsInFormulaCalculations
     }
     catch (System::Exception& ex)

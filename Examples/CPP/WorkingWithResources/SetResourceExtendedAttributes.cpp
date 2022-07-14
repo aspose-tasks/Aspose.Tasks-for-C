@@ -71,7 +71,7 @@ void SetResourceExtendedAttributes::Run()
         rsc->get_ExtendedAttributes()->Add(number1Resource);
         
         // Save project as MPP
-        project1->Save(dataDir + u"ResourceExtendedAttributes_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project1->Save(dataDir + u"ResourceExtendedAttributes_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         // ExEnd:SetResourceExtendedAttributes
     }
     catch (System::Exception& ex)

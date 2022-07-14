@@ -148,7 +148,7 @@ void WriteMetadataToMPP::Run()
         task2->get_ExtendedAttributes()->Add(taskAttr);
         
         // Save project as MPP
-        project->Save(dataDir + u"WriteMetaData_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project->Save(dataDir + u"WriteMetaData_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         // ExEnd:WriteMetadataToMPP
     }
     catch (System::Exception& ex)

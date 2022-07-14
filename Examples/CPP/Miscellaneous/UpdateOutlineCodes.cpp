@@ -98,7 +98,7 @@ void UpdateOutlineCodes::Run()
         project->get_OutlineCodes()->Add(code2);
         
         // Save project as MPP
-        project->Save(dataDir + u"Updated_project_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project->Save(dataDir + u"Updated_project_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         // ExEnd:UpdateOutlineCodes
     }
     catch (System::Exception& ex)

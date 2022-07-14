@@ -87,7 +87,7 @@ try
         assignment->get_ExtendedAttributes()->Add(value);
     }
     
-    project->Save(dataDir + u"AddExtendedAttributesToResourceAssignment_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+    project->Save(dataDir + u"AddExtendedAttributesToResourceAssignment_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
     //ExEnd: AddExtendedAttributesToResourceAssignment
 }
 catch (System::NotSupportedException& ex)

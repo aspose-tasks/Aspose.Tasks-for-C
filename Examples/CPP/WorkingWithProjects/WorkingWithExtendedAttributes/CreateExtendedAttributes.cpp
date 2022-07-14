@@ -71,7 +71,7 @@ void CreateExtendedAttributes::Run()
         System::SharedPtr<Task> tsk = project1->get_RootTask()->get_Children()->Add(u"Task 1");
         tsk->get_ExtendedAttributes()->Add(text1TaskAttribute);
         
-        project1->Save(dataDir + u"CreateExtendedAttributes_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project1->Save(dataDir + u"CreateExtendedAttributes_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         // ExEnd:CreateExtendedAttributes
     }
     catch (System::Exception& ex)

@@ -78,7 +78,7 @@ void UpdateTaskData::Run()
         }
         
         // Save the Project
-        project->Save(dataDir + u"project_UpdateTaskData_updated_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project->Save(dataDir + u"project_UpdateTaskData_updated_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         // ExEnd:UpdateTaskData
     }
     catch (System::Exception& ex)

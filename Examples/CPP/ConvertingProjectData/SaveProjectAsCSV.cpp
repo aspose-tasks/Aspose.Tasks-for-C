@@ -39,7 +39,7 @@ void SaveProjectAsCSV::Run()
     
     // ExStart:SaveProjectAsCSV
     System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"CreateProject1.mpp");
-    project->Save(dataDir + u"SaveProjectAsCSV_out.csv", Aspose::Tasks::Saving::SaveFileFormat::CSV);
+    project->Save(dataDir + u"SaveProjectAsCSV_out.csv", Aspose::Tasks::Saving::SaveFileFormat::Csv);
     // ExEnd:SaveProjectAsCSV
 }
 

@@ -47,7 +47,7 @@ void SetGanttChartViewStartDate::Run()
         // ExStart:SetGanttChartViewStartDate
         System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"Project2.mpp");
         project->Set(Prj::TimescaleStart(), System::DateTime(2012, 4, 30));
-        project->Save(dataDir + u"SetGanttChartViewStartDate_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project->Save(dataDir + u"SetGanttChartViewStartDate_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         // ExEnd:SetGanttChartViewStartDate
     }
     catch (System::NotSupportedException& ex)

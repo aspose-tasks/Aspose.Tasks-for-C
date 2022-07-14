@@ -53,7 +53,7 @@ void CreateResourceAssignments::Run()
     
     // Save project as PDF
     System::String dataDir = RunExamples::GetDataDir(System::Reflection::MethodBase::GetCurrentMethod(ASPOSE_CURRENT_FUNCTION)->get_DeclaringType().get_FullName());
-    project1->Save(dataDir + u"CreateResourceAssignments_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::PDF);
+    project1->Save(dataDir + u"CreateResourceAssignments_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::Pdf);
 }
 
 } // namespace WorkingWithResourceAssignments

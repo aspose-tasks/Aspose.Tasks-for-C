@@ -42,7 +42,7 @@ void ExportProjectDataToPrimaveraMPXFormat::Run()
     System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"Project1.mpp");
     
     // Save project in desired format
-    project->Save(dataDir + u"ExportProjectDataToPrimaveraMPXFormat_out.xml", Aspose::Tasks::Saving::SaveFileFormat::MPX);
+    project->Save(dataDir + u"ExportProjectDataToPrimaveraMPXFormat_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Mpx);
     // ExEnd:ExportProjectDataToPrimaveraMPXFormat
 }
 

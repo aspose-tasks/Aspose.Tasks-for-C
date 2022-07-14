@@ -72,7 +72,7 @@ void LinkTasks::Run()
         }
         
         // Save the project
-        project->Save(dataDir + u"LinkTasks_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project->Save(dataDir + u"LinkTasks_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         // ExEnd:LinkTasks
     }
     catch (System::NotSupportedException& ex)

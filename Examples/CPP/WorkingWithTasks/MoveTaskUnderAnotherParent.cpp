@@ -58,7 +58,7 @@ void MoveTaskUnderAnotherParent::Run()
         t3->get_Children()->Add(t6);
         
         // Saving File To Disk
-        project->Save(dataDir + u"MoveTaskUnderAnotherParent_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project->Save(dataDir + u"MoveTaskUnderAnotherParent_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         // ExEnd:MoveTaskUnderAnotherParent
     }
     catch (System::Exception& exception)

@@ -77,7 +77,7 @@ void CreateSplitTasks::Run()
     
     // Save the Project
     System::String dataDir = RunExamples::GetDataDir(System::Reflection::MethodBase::GetCurrentMethod(ASPOSE_CURRENT_FUNCTION)->get_DeclaringType().get_FullName());
-    splitTaskProject->Save(dataDir + u"CreateSplitTasks_out.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+    splitTaskProject->Save(dataDir + u"CreateSplitTasks_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);
     // ExEnd:CreateSplitTasks
 }
 

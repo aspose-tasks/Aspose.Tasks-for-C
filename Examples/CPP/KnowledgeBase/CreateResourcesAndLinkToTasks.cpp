@@ -75,7 +75,7 @@ void CreateResourcesAndLinkToTasks::Run()
             System::SharedPtr<ResourceAssignment> newResourceAssignment = project1->get_ResourceAssignments()->Add(System::StaticCast<Aspose::Tasks::Task>(collector->get_Tasks()->idx_get(i)), newResource);
         }
         
-        project1->Save(dataDir + u"CreateResourcesAndLinkToTasks_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project1->Save(dataDir + u"CreateResourcesAndLinkToTasks_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         // ExEnd:CreateResourcesAndLinkToTasks
     }
     catch (System::NotSupportedException& ex)

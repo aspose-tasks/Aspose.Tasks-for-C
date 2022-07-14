@@ -47,7 +47,7 @@ void MakeAStandardCalendar::Run()
     
     // Save the Project
     System::String dataDir = Examples::CPP::RunExamples::GetDataDir(System::Reflection::MethodBase::GetCurrentMethod(ASPOSE_CURRENT_FUNCTION)->get_DeclaringType().get_FullName());
-    project->Save(dataDir + u"Project_MakeStandardCalendar_out.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+    project->Save(dataDir + u"Project_MakeStandardCalendar_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);
     // ExEnd:MakeAStandardCalendar
 }
 

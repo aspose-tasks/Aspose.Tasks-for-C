@@ -34,7 +34,7 @@ void SaveProjectAsPDF::Run()
     System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"CreateProject2.mpp");
     
     // Save the Project as PDF
-    project->Save(dataDir + u"SaveProjectAsPDF_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::PDF);
+    project->Save(dataDir + u"SaveProjectAsPDF_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::Pdf);
     // ExEnd:SaveProjectAsPDF
 }
 

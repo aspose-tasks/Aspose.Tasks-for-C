@@ -54,7 +54,7 @@ void ReplaceCalendarWithNewCalendar::Run()
         
         // Add new calendar
         System::SharedPtr<Calendar> newCalendar = calColl->Add(u"TestCalendar");
-        project->Save(dataDir + u"ReplaceCalendar_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project->Save(dataDir + u"ReplaceCalendar_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         // ExEnd:ReplaceCalendarWithNewCalendar
     }
     catch (System::Exception& ex)

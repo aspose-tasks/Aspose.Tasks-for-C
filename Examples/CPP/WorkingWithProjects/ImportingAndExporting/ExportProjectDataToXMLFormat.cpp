@@ -42,7 +42,7 @@ void ExportProjectDataToXMLFormat::Run()
     System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"Project1.mpp");
     
     // Save project in desired format
-    project->Save(dataDir + u"ExportProjectDataToXMLFormat_out.xml", Aspose::Tasks::Saving::SaveFileFormat::PrimaveraP6XML);
+    project->Save(dataDir + u"ExportProjectDataToXMLFormat_out.xml", Aspose::Tasks::Saving::SaveFileFormat::PrimaveraP6Xml);
     // ExEnd:ExportProjectDataToXMLFormat
 }
 

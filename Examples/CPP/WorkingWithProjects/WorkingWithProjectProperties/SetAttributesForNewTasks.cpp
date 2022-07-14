@@ -47,7 +47,7 @@ void SetAttributesForNewTasks::Run()
     // Create a project instance Set new task property and Save the project as XML project file
     System::SharedPtr<Project> project = System::MakeObject<Project>();
     project->Set<TaskStartDateType>(Prj::NewTaskStartDate(), Aspose::Tasks::TaskStartDateType::CurrentDate);
-    project->Save(dataDir + u"SetAttributesForNewTasks_out.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+    project->Save(dataDir + u"SetAttributesForNewTasks_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);
     
     // Display Status.
     System::Console::WriteLine(u"New Task created with start date successfully.");

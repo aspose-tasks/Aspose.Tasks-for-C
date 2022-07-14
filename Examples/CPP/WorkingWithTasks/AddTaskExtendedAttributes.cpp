@@ -79,7 +79,7 @@ void AddTaskExtendedAttributes::Run()
         //Add the Extended Attribute to task
         task->get_ExtendedAttributes()->Add(taskExtendedAttributeText1);
         
-        project->Save(dataDir + u"PlainTextExtendedAttribute_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project->Save(dataDir + u"PlainTextExtendedAttribute_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         
         // C# preprocessor directive: #endregion
         
@@ -109,7 +109,7 @@ void AddTaskExtendedAttributes::Run()
         //Add the Extended Attribute to task
         task2->get_ExtendedAttributes()->Add(taskExtendedAttributeText2);
         
-        project1->Save(dataDir + u"TextExtendedAttributeWithLookup_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project1->Save(dataDir + u"TextExtendedAttributeWithLookup_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         
         // C# preprocessor directive: #endregion
         
@@ -141,7 +141,7 @@ void AddTaskExtendedAttributes::Run()
         //Add the Extended Attribute to task
         task3->get_ExtendedAttributes()->Add(taskExtendedAttributeDuration2);
         
-        project2->Save(dataDir + u"DurationExtendedAttributeWithLookup_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project2->Save(dataDir + u"DurationExtendedAttributeWithLookup_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         
         
         // C# preprocessor directive: #endregion
@@ -175,7 +175,7 @@ void AddTaskExtendedAttributes::Run()
         task4->get_ExtendedAttributes()->Add(taskExtendedAttributeFinish2);
         
         // Save the Project               
-        project3->Save(dataDir + u"FinishExtendedAttributeWithLookup_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project3->Save(dataDir + u"FinishExtendedAttributeWithLookup_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         
         // C# preprocessor directive: #endregion
         

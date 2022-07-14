@@ -99,13 +99,13 @@ void UpdateProjectAndRescheduleUncompletedWork::Run()
     task10->Set<NullableBool>(Tsk::IsManual(), NullableBool::to_NullableBool(true));
     
     // Save project before and after updating work as completed 
-    project->Save(dataDir + u"RescheduleUncompletedWork_not updated_out.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+    project->Save(dataDir + u"RescheduleUncompletedWork_not updated_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);
     project->UpdateProjectWorkAsComplete(System::DateTime(2014, 1, 28, 17, 0, 0), false);
-    project->Save(dataDir + u"RescheduleUncompletedWork_updated_out.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+    project->Save(dataDir + u"RescheduleUncompletedWork_updated_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);
     
     // Save project after rescheduling uncompleted work
     project->RescheduleUncompletedWorkToStartAfter(System::DateTime(2014, 2, 7, 8, 0, 0));
-    project->Save(dataDir + u"RescheduleUncompletedWork_rescheduled_out.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+    project->Save(dataDir + u"RescheduleUncompletedWork_rescheduled_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);
     // ExEnd:UpdateProjectAndRescheduleUncompletedWork
 }
 

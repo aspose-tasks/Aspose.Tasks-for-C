@@ -59,7 +59,7 @@ void CreateEmptyProjectSaveStream::Run()
         try
         {
             // Write the stream into XML format
-            newProject->Save(projectStream, Aspose::Tasks::Saving::SaveFileFormat::XML);
+            newProject->Save(projectStream, Aspose::Tasks::Saving::SaveFileFormat::Xml);
         }
         catch(...)
         {

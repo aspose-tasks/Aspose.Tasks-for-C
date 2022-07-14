@@ -45,7 +45,7 @@ void WriteWeekdayProperties::Run()
     project->Set<int32_t>(Prj::DaysPerMonth(), 24);
     project->Set<int32_t>(Prj::MinutesPerDay(), 540);
     project->Set<int32_t>(Prj::MinutesPerWeek(), 3240);
-    project->Save(dataDir + u"WriteWeekdayProperties_out.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+    project->Save(dataDir + u"WriteWeekdayProperties_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);
     // ExEnd:WriteWeekdayProperties            
 }
 

@@ -46,7 +46,7 @@ void CreateResources::Run()
     System::SharedPtr<Resource> rsc1 = project->get_Resources()->Add(u"Rsc");
     
     // Save project as XML
-    project->Save(dataDir + u"CreateResources_out.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+    project->Save(dataDir + u"CreateResources_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);
     // ExEnd:CreateResources
 }
 

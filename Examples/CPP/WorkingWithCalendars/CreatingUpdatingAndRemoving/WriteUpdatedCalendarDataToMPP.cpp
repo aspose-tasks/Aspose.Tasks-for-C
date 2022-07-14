@@ -93,7 +93,7 @@ void WriteUpdatedCalendarDataToMPP::Run()
         project->Set<System::SharedPtr<Calendar>>(Prj::Calendar(), cal);
         
         // Save project
-        project->Save(dataDir + resultFile, Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project->Save(dataDir + resultFile, Aspose::Tasks::Saving::SaveFileFormat::Mpp);
     }
     catch (System::Exception& ex)
     {

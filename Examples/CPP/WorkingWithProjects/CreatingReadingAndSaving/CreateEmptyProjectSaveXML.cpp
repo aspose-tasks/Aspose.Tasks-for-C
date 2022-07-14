@@ -43,7 +43,7 @@ void CreateEmptyProjectSaveXML::Run()
     System::SharedPtr<Project> project = System::MakeObject<Project>();
     
     // Save project as xml 
-    project->Save(dataDir + u"EmptyProjectSaveXML_out.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+    project->Save(dataDir + u"EmptyProjectSaveXML_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);
     // ExEnd:CreateEmptyProjectSaveXML
 }
 

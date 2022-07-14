@@ -42,7 +42,7 @@ void RenderProjectDataToFormat24bppRgb::Run()
     
     // ExStart:RenderProjectDataToFormat24bppRgb
     System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"TestProject1.mpp");
-    System::SharedPtr<ImageSaveOptions> options = System::MakeObject<ImageSaveOptions>(Aspose::Tasks::Saving::SaveFileFormat::TIFF);
+    System::SharedPtr<ImageSaveOptions> options = System::MakeObject<ImageSaveOptions>(Aspose::Tasks::Saving::SaveFileFormat::Tiff);
     options->set_HorizontalResolution(72.0f);
     options->set_VerticalResolution(72.0f);
     options->set_PixelFormat(System::Drawing::Imaging::PixelFormat::Format24bppRgb);

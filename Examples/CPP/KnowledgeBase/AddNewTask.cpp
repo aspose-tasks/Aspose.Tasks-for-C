@@ -54,7 +54,7 @@ void AddNewTask::Run()
     task->Set<TimeUnitType>(Tsk::DurationFormat(), Aspose::Tasks::TimeUnitType::Day);
     
     // Save the Project as XML
-    project->Save(dataDir + u"AddNewTask_out.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+    project->Save(dataDir + u"AddNewTask_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);
     // ExEnd:AddNewTask        
 }
 

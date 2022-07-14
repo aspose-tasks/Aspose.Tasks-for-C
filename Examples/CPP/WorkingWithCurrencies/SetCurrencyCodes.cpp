@@ -44,7 +44,7 @@ void SetCurrencyCodes::Run()
     
     // Save project as XML
     System::String dataDir = RunExamples::GetDataDir(System::Reflection::MethodBase::GetCurrentMethod(ASPOSE_CURRENT_FUNCTION)->get_DeclaringType().get_FullName());
-    project1->Save(dataDir + u"project_CurrencyCodes_out.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+    project1->Save(dataDir + u"project_CurrencyCodes_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);
 }
 
 } // namespace WorkingWithCurrencies

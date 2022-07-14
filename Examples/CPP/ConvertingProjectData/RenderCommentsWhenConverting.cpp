@@ -33,7 +33,7 @@ void RenderCommentsWhenConverting::Run()
     // ExStart:RenderCommentsWhenConverting
     System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"Input.mpp");
     project->get_DefaultView()->get_PageInfo()->get_PageViewSettings()->set_PrintNotes(true);
-    project->Save(dataDir + u"ProjectWithComments_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::PDF);
+    project->Save(dataDir + u"ProjectWithComments_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::Pdf);
     // ExEnd:RenderCommentsWhenConverting
 }
 

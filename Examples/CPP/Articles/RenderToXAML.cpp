@@ -39,7 +39,7 @@ void RenderToXAML::Run()
     // ExStart:RenderToXAML
     System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"Project2.mpp");
     System::String resultFile = u"RenderToXAML_out.xaml";
-    project->Save(dataDir + resultFile, Aspose::Tasks::Saving::SaveFileFormat::XAML);
+    project->Save(dataDir + resultFile, Aspose::Tasks::Saving::SaveFileFormat::Xaml);
     // ExEnd:RenderToXAML
 }
 

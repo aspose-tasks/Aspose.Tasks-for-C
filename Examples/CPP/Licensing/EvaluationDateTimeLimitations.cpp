@@ -53,7 +53,7 @@ void EvaluationDateTimeLimitations::Run()
     task2->Set(Tsk::ActualStart(), System::DateTime::Parse(u"10-Apr-2010"));
     
     // Save the Project as XML
-    project1->Save(u"EvalProject_out.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+    project1->Save(u"EvalProject_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);
     // ExEnd:DateTimeLimitations
 }
 

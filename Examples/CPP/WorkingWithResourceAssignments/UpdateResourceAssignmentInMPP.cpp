@@ -60,7 +60,7 @@ void UpdateResourceAssignmentInMPP::Run()
         assn->Set<System::String>(Asn::Notes(), u"Newly added assignment");
         
         // Save project as MPP
-        project1->Save(dataDir + u"UpdateResourceAssignment_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project1->Save(dataDir + u"UpdateResourceAssignment_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         // ExEnd:UpdateResourceAssignmentInMPP
     }
     catch (System::Exception& ex)

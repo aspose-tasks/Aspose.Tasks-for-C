@@ -51,7 +51,7 @@ void PrintProjectPagesToSeparateFiles::Run()
     
     // ExStart:PrintProjectPagesToSeparateFiles
     System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"CreateProject2.mpp");
-    System::SharedPtr<ImageSaveOptions> saveOptions = System::MakeObject<ImageSaveOptions>(Aspose::Tasks::Saving::SaveFileFormat::PNG);
+    System::SharedPtr<ImageSaveOptions> saveOptions = System::MakeObject<ImageSaveOptions>(Aspose::Tasks::Saving::SaveFileFormat::Png);
     saveOptions->set_StartDate(project->Get<System::DateTime>(Prj::StartDate()).AddDays(-3));
     saveOptions->set_EndDate(project->Get<System::DateTime>(Prj::FinishDate()));
     

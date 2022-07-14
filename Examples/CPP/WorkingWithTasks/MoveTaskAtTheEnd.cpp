@@ -51,7 +51,7 @@ void MoveTaskAtTheEnd::Run()
         task->MoveToSibling(-1);
         
         // Saving File To Disk
-        project->Save(dataDir + u"MoveTaskAtTheEnd_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::MPP);
+        project->Save(dataDir + u"MoveTaskAtTheEnd_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);
         // ExEnd:MoveTaskAtTheEnd
     }
     catch (System::Exception& exception)

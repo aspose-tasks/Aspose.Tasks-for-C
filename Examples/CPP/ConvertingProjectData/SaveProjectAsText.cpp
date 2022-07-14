@@ -41,7 +41,7 @@ void SaveProjectAsText::Run()
     System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"CreateProject2.mpp");
     
     // Save the Project as text
-    project->Save(dataDir + u"SaveProjectAsText_out.txt", Aspose::Tasks::Saving::SaveFileFormat::TXT);
+    project->Save(dataDir + u"SaveProjectAsText_out.txt", Aspose::Tasks::Saving::SaveFileFormat::Txt);
     // ExEnd:SaveProjectAsText        
 }
 

@@ -48,7 +48,7 @@ void HandleExceptionOccurences::Run()
     
     // Add exception to calendar and save the Project
     // cal->get_Exceptions()->Add(except);
-    project1->Save(dataDir + u"Project_HandleExceptionOccurences_out.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+    project1->Save(dataDir + u"Project_HandleExceptionOccurences_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);
 }
 
 } // namespace WorkingWithCalendarExceptions

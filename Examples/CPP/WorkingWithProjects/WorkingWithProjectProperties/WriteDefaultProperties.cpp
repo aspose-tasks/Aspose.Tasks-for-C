@@ -59,7 +59,7 @@ void WriteDefaultProperties::Run()
     project->Set<CostAccrualType>(Prj::DefaultFixedCostAccrual(), Aspose::Tasks::CostAccrualType::Prorated);
     
     // Save the project to XML format
-    project->Save(dataDir + u"WriteDefaultProperties_out.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+    project->Save(dataDir + u"WriteDefaultProperties_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);
     // ExEnd:WriteDefaultProperties
 }
 

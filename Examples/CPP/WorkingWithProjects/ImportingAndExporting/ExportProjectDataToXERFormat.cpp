@@ -42,7 +42,7 @@ void ExportProjectDataToXERFormat::Run()
     System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"Project1.mpp");
     
     // Save project in desired format
-    project->Save(dataDir + u"ExportProjectDataToXERFormat_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::PrimaveraXER);
+    project->Save(dataDir + u"ExportProjectDataToXERFormat_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::PrimaveraXer);
     // ExEnd:ExportProjectDataToXERFormat
 }
 

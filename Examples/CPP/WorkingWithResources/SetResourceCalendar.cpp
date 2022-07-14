@@ -54,7 +54,7 @@ void SetResourceCalendar::Run()
     // ExEnd:SetResourceCalendar
     
     // Save project as XML
-    project->Save(dataDir + u"SetResourceCalendar_out.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+    project->Save(dataDir + u"SetResourceCalendar_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);
 }
 
 } // namespace WorkingWithResources

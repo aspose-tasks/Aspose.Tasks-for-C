@@ -41,7 +41,7 @@ void SaveProjectAsSVG::Run()
     System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"CreateProject1.mpp");
     
     // Save the Project as SVG
-    project->Save(dataDir + u"SaveProjectAsSVG_out.SVG", Aspose::Tasks::Saving::SaveFileFormat::SVG);
+    project->Save(dataDir + u"SaveProjectAsSVG_out.SVG", Aspose::Tasks::Saving::SaveFileFormat::Svg);
     // ExEnd:SaveProjectAsSVG
 }
 

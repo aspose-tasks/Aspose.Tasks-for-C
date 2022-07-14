@@ -47,11 +47,11 @@ void CustomizeDateFormats::Run()
     
     // By default project.DateFormat == DateFormat.Date_ddd_mm_dd_yy (Mon 09/22/14) customize DateFormat (September 22, 2014)
     project->Set<DateFormat>(Prj::DateFormat(), Aspose::Tasks::DateFormat::DateMmmmDdYyyy);
-    project->Save(dataDir + u"CustomizeDateFormats1_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::PDF);
+    project->Save(dataDir + u"CustomizeDateFormats1_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::Pdf);
     
     // Export to date format 19/07/2016
     project->Set<DateFormat>(Prj::DateFormat(), Aspose::Tasks::DateFormat::DateDdMmYyyy);
-    project->Save(dataDir + u"CustomizeDateFormats2_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::PDF);
+    project->Save(dataDir + u"CustomizeDateFormats2_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::Pdf);
     // ExEnd:CustomizeDateFormats
 }
 

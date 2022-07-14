@@ -70,7 +70,7 @@ void WriteTaskDuration::Run()
     
     // Save project as PDF
     System::String dataDir = RunExamples::GetDataDir(System::Reflection::MethodBase::GetCurrentMethod(ASPOSE_CURRENT_FUNCTION)->get_DeclaringType().get_FullName());
-    project->Save(dataDir + u"WriteTaskDuration_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::PDF);
+    project->Save(dataDir + u"WriteTaskDuration_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::Pdf);
 }
 
 } // namespace WorkingWithTasks
