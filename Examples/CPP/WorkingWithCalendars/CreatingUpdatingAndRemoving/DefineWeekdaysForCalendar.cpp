@@ -63,12 +63,8 @@ void DefineWeekdaysForCalendar::Run()
     System::SharedPtr<WeekDay> myWeekDay = System::MakeObject<WeekDay>(Aspose::Tasks::DayType::Friday);
     
     // Sets working time. Only time part of DateTime is important
-    System::SharedPtr<WorkingTime> wt1 = System::MakeObject<WorkingTime>();
-    wt1->set_FromTime(System::DateTime(1, 1, 1, 9, 0, 0, 0));
-    wt1->set_ToTime(System::DateTime(1, 1, 1, 12, 0, 0, 0));
-    System::SharedPtr<WorkingTime> wt2 = System::MakeObject<WorkingTime>();
-    wt2->set_FromTime(System::DateTime(1, 1, 1, 13, 0, 0, 0));
-    wt2->set_ToTime(System::DateTime(1, 1, 1, 16, 0, 0, 0));
+    System::SharedPtr<WorkingTime> wt1 = System::MakeObject<WorkingTime>(System::DateTime(1, 1, 1, 9, 0, 0, 0), System::DateTime(1, 1, 1, 12, 0, 0, 0));
+    System::SharedPtr<WorkingTime> wt2 = System::MakeObject<WorkingTime>(System::DateTime(1, 1, 1, 13, 0, 0, 0), System::DateTime(1, 1, 1, 16, 0, 0, 0));
     myWeekDay->get_WorkingTimes()->Add(wt1);
     myWeekDay->get_WorkingTimes()->Add(wt2);
     myWeekDay->set_DayWorking(true);

@@ -10,6 +10,7 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <visualization/View/Styles/TextStyle.h>
 #include <visualization/Enums/TextItemType.h>
 #include <visualization/Enums/PresentationFormat.h>
+#include <visualization/FontStyles.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -51,10 +52,8 @@ void CustomizeTextStyle::Run()
     System::SharedPtr<SaveOptions> options = System::MakeObject<PdfSaveOptions>();
     options->set_PresentationFormat(Aspose::Tasks::Visualization::PresentationFormat::ResourceSheet);
     
-    System::SharedPtr<TextStyle> style = System::MakeObject<TextStyle>();
+    System::SharedPtr<TextStyle> style = System::MakeObject<TextStyle>(FontStyles::Italic | FontStyles::Bold);
     style->set_Color(System::Drawing::Color::get_OrangeRed());
-    style->set_FontStyle(System::Drawing::FontStyle::Bold);
-    System::setter_or_wrap(style.GetPointer(), &TextStyle::get_FontStyle, &TextStyle::set_FontStyle, System::Drawing::FontStyle::Italic);
     style->set_ItemType(Aspose::Tasks::Visualization::TextItemType::OverallocatedResources);
     
     options->set_TextStyles(System::MakeObject<System::Collections::Generic::List<System::SharedPtr<TextStyle>>>());

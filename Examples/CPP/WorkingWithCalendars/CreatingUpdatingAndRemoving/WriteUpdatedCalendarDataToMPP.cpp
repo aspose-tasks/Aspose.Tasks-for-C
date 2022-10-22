@@ -67,17 +67,11 @@ void WriteUpdatedCalendarDataToMPP::Run()
         exc->set_ToDate(System::DateTime::get_Now().AddDays(2));
         exc->set_DayWorking(true);
         
-        System::SharedPtr<WorkingTime> wt1 = System::MakeObject<WorkingTime>();
-        wt1->set_FromTime(System::DateTime(10, 1, 1, 9, 0, 0));
-        wt1->set_ToTime(System::DateTime(10, 1, 1, 13, 0, 0));
+        System::SharedPtr<WorkingTime> wt1 = System::MakeObject<WorkingTime>(System::DateTime(10, 1, 1, 9, 0, 0), System::DateTime(10, 1, 1, 13, 0, 0));
         
-        System::SharedPtr<WorkingTime> wt2 = System::MakeObject<WorkingTime>();
-        wt2->set_FromTime(System::DateTime(10, 1, 1, 14, 0, 0));
-        wt2->set_ToTime(System::DateTime(10, 1, 1, 19, 0, 0));
+        System::SharedPtr<WorkingTime> wt2 = System::MakeObject<WorkingTime>(System::DateTime(10, 1, 1, 14, 0, 0), System::DateTime(10, 1, 1, 19, 0, 0));
         
-        System::SharedPtr<WorkingTime> wt3 = System::MakeObject<WorkingTime>();
-        wt3->set_FromTime(System::DateTime(10, 1, 1, 20, 0, 0));
-        wt3->set_ToTime(System::DateTime(10, 1, 1, 21, 0, 0));
+        System::SharedPtr<WorkingTime> wt3 = System::MakeObject<WorkingTime>(System::DateTime(10, 1, 1, 20, 0, 0), System::DateTime(10, 1, 1, 21, 0, 0));
         
         exc->get_WorkingTimes()->Add(wt1);
         exc->get_WorkingTimes()->Add(wt2);

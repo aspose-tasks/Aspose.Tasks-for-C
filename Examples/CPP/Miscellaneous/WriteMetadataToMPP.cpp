@@ -81,9 +81,7 @@ void WriteMetadataToMPP::Run()
         System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"Project1.mpp");
         
         // Add working times to project calendar
-        System::SharedPtr<WorkingTime> wt = System::MakeObject<WorkingTime>();
-        wt->set_FromTime(System::DateTime(2010, 1, 1, 19, 0, 0));
-        wt->set_ToTime(System::DateTime(2010, 1, 1, 20, 0, 0));
+        System::SharedPtr<WorkingTime> wt = System::MakeObject<WorkingTime>(System::DateTime(2010, 1, 1, 19, 0, 0), System::DateTime(2010, 1, 1, 20, 0, 0));
         System::SharedPtr<WeekDay> day = project->Get<System::SharedPtr<Calendar>>(Prj::Calendar())->get_WeekDays()->ToList()->idx_get(1);
         day->get_WorkingTimes()->Add(wt);
         

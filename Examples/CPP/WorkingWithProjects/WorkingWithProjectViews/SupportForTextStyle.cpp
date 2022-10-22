@@ -1,6 +1,7 @@
 #include "SupportForTextStyle.h"
 
 #include <visualization/View/Styles/TableTextStyle.h>
+#include <visualization/FontStyles.h>
 #include <ViewCollection.h>
 #include <View.h>
 #include <system/type_info.h>
@@ -48,7 +49,7 @@ void SupportForTextStyle::Run()
         ganttChartView->get_TableTextStyles()->Clear();
         ganttChartView->get_TableTextStyles()->Add([&]{ auto tmp_0 = System::MakeObject<TableTextStyle>(1); tmp_0->set_Color(System::Drawing::Color::get_Red()); tmp_0->set_Field(Aspose::Tasks::Field::TaskName); return tmp_0; }());
         ganttChartView->get_TableTextStyles()->Add([&]{ auto tmp_1 = System::MakeObject<TableTextStyle>(1); tmp_1->set_Color(System::Drawing::Color::get_Gray()); tmp_1->set_Field(Aspose::Tasks::Field::TaskDurationText); return tmp_1; }());
-        ganttChartView->get_TableTextStyles()->Add([&]{ auto tmp_2 = System::MakeObject<TableTextStyle>(2); tmp_2->set_Color(System::Drawing::Color::get_Blue()); tmp_2->set_FontStyle(System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic | System::Drawing::FontStyle::Underline); return tmp_2; }());
+        ganttChartView->get_TableTextStyles()->Add([&]{ auto tmp_2 = System::MakeObject<TableTextStyle>(2, FontStyles::Bold | FontStyles::Italic | FontStyles::Underline); tmp_2->set_Color(System::Drawing::Color::get_Blue()); return tmp_2; }());
     }
     // ExEnd:SupportForTextStyle
 }
