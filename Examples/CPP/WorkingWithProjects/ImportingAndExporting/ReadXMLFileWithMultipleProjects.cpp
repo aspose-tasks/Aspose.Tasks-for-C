@@ -13,7 +13,7 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/reflection/method_base.h>
 #include <system/object.h>
 #include <Project.h>
-#include <io/xml/Primavera/PrimaveraXmlReadingOptions.h>
+#include <io/xml/Primavera/PrimaveraReadOptions.h>
 #include <cstdint>
 
 #include "RunExamples.h"
@@ -38,7 +38,7 @@ void ReadXMLFileWithMultipleProjects::Run()
     System::String dataDir = RunExamples::GetDataDir(System::Reflection::MethodBase::GetCurrentMethod(ASPOSE_CURRENT_FUNCTION)->get_DeclaringType().get_FullName());
     
     // ExStart:ReadXMLFileWithMultipleProjects
-    System::SharedPtr<PrimaveraXmlReadingOptions> options = System::MakeObject<PrimaveraXmlReadingOptions>();
+    System::SharedPtr<PrimaveraReadOptions> options = System::MakeObject<PrimaveraReadOptions>();
     options->set_ProjectUid(4557);
     // Returns project with special Uid
     System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"Project.xml", options);
