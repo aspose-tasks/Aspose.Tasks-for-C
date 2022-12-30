@@ -682,8 +682,8 @@
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="packages\CodePorting.Translator.Cs2Cpp.Framework.22.10.0\build\native\CodePorting.Translator.Cs2Cpp.Framework.targets" Condition="Exists('packages\CodePorting.Translator.Cs2Cpp.Framework.22.10.0\build\native\CodePorting.Translator.Cs2Cpp.Framework.targets')" />
-    <Import Project="packages\Aspose.Tasks.Cpp.22.10.0\build\native\aspose.tasks.cpp.targets" Condition="Exists('packages\Aspose.Tasks.Cpp.22.10.0\build\native\aspose.tasks.cpp.targets')" />
+    <Import Project="packages\CodePorting.Translator.Cs2Cpp.Framework.22.12.0\build\native\CodePorting.Translator.Cs2Cpp.Framework.targets" Condition="Exists('packages\CodePorting.Translator.Cs2Cpp.Framework.22.12.0\build\native\CodePorting.Translator.Cs2Cpp.Framework.targets')" />
+    <Import Project="packages\Aspose.Tasks.Cpp.22.12.0\build\native\aspose.tasks.cpp.targets" Condition="Exists('packages\Aspose.Tasks.Cpp.22.12.0\build\native\aspose.tasks.cpp.targets')" />
     <Import Project="..\CodePorting.Translator.Cs2Cpp.Framework\CodePorting.Translator.Cs2Cpp.Framework.targets" Condition="Exists('..\CodePorting.Translator.Cs2Cpp.Framework\CodePorting.Translator.Cs2Cpp.Framework.targets')" />
     <Import Project="..\Aspose.Tasks.Cpp\aspose.tasks.cpp.targets" Condition="Exists('..\Aspose.Tasks.Cpp\aspose.tasks.cpp.targets')" />
   </ImportGroup>
