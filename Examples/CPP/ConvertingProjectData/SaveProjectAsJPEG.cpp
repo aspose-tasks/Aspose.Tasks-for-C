@@ -46,7 +46,7 @@ void SaveProjectAsJPEG::Run()
     // The allowed value range is 0..100.
     auto options = [&]{ auto tmp_0 = System::MakeObject<ImageSaveOptions>(Aspose::Tasks::Saving::SaveFileFormat::Jpeg); tmp_0->set_JpegQuality(50); return tmp_0; }();
     
-    project->Save(dataDir + u"image_out.jpeg", System::StaticCast<Aspose::Tasks::Saving::SaveOptions>(options));
+    project->Save(dataDir + u"image_out.jpeg", System::ExplicitCast<Aspose::Tasks::Saving::SaveOptions>(options));
     //ExEnd: SaveProjectAsJPEG
 }
 

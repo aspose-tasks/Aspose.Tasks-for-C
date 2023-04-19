@@ -43,7 +43,7 @@ void SupportForTextStyle::Run()
     System::String dataDir = RunExamples::GetDataDir(System::Reflection::MethodBase::GetCurrentMethod(ASPOSE_CURRENT_FUNCTION)->get_DeclaringType().get_FullName());
     System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"Project5.mpp");
     // Create a new project task
-    auto ganttChartView = System::DynamicCast_noexcept<Aspose::Tasks::GanttChartView>(project->get_Views()->ToList()->idx_get(0));
+    auto ganttChartView = System::ExplicitCast<Aspose::Tasks::GanttChartView>(project->get_Views()->ToList()->idx_get(0));
     if (ganttChartView != nullptr)
     {
         ganttChartView->get_TableTextStyles()->Clear();

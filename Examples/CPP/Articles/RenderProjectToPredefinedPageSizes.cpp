@@ -57,7 +57,7 @@ void RenderProjectToPredefinedPageSizes::Run()
     // Render the project to all Pre-Defined page sizes
     
     {
-        for (PageSize pageSize : System::DynamicCast<System::Array<Aspose::Tasks::Visualization::PageSize>>(System::Enum<PageSize>::GetValues()))
+        for (PageSize pageSize : System::ExplicitCast<System::Array<Aspose::Tasks::Visualization::PageSize>>(System::Enum<PageSize>::GetValues()))
         {
             if (pageSize == Aspose::Tasks::Visualization::PageSize::DefinedInView) continue;
 
@@ -66,7 +66,7 @@ void RenderProjectToPredefinedPageSizes::Run()
             options->set_FitContent(true);
             options->set_PageSize(pageSize);
             System::String resultFile = System::String(u"result_PredefinedPageSizes_") + System::ObjectExt::ToString(format) + u"_" + System::ObjectExt::ToString(pageSize) + u"_out.pdf";
-            project1->Save(dataDir + resultFile, System::StaticCast<Aspose::Tasks::Saving::SaveOptions>(options));
+            project1->Save(dataDir + resultFile, System::ExplicitCast<Aspose::Tasks::Saving::SaveOptions>(options));
         }
         
     }

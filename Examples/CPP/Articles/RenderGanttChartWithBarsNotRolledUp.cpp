@@ -54,7 +54,7 @@ void RenderGanttChartWithBarsNotRolledUp::Run()
     System::String file = System::IO::Path::Combine(dataDir, fileName);
     System::String resultFile = System::IO::Path::Combine(dataDir, u"RenderGanttChartWithBarsNotRolledUp_out.pdf");
     System::SharedPtr<Project> project = System::MakeObject<Project>(file);
-    project->Save(resultFile, System::StaticCast<Aspose::Tasks::Saving::SaveOptions>(options));
+    project->Save(resultFile, System::ExplicitCast<Aspose::Tasks::Saving::SaveOptions>(options));
     // ExEnd:RenderGanttChartWithBarsNotRolledUp
 }
 

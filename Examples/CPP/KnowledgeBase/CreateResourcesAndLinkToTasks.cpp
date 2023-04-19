@@ -72,7 +72,7 @@ void CreateResourcesAndLinkToTasks::Run()
             newResource->Set<ResourceType>(Rsc::Type(), Aspose::Tasks::ResourceType::Work);
             
             // Define assignment
-            System::SharedPtr<ResourceAssignment> newResourceAssignment = project1->get_ResourceAssignments()->Add(System::StaticCast<Aspose::Tasks::Task>(collector->get_Tasks()->idx_get(i)), newResource);
+            System::SharedPtr<ResourceAssignment> newResourceAssignment = project1->get_ResourceAssignments()->Add(System::ExplicitCast<Aspose::Tasks::Task>(collector->get_Tasks()->idx_get(i)), newResource);
         }
         
         project1->Save(dataDir + u"CreateResourcesAndLinkToTasks_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);

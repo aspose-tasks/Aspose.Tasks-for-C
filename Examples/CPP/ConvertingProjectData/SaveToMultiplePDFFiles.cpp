@@ -47,7 +47,7 @@ void SaveToMultiplePDFFiles::Run()
     saveOptions->set_Pages(System::MakeObject<System::Collections::Generic::List<int32_t>>());
     saveOptions->get_Pages()->Add(1);
     saveOptions->get_Pages()->Add(4);
-    project->Save(dataDir + u"SaveToMultiplePDFFiles_out.pdf", System::StaticCast<Aspose::Tasks::Saving::SaveOptions>(saveOptions));
+    project->Save(dataDir + u"SaveToMultiplePDFFiles_out.pdf", System::ExplicitCast<Aspose::Tasks::Saving::SaveOptions>(saveOptions));
     // ExEnd:SaveToMultiplePDFFiles
 }
 

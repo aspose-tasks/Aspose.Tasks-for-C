@@ -55,7 +55,7 @@ void CustomizeTimescaleTierLabels::Run()
     // Add task links
     project->get_TaskLinks()->Add(project->get_RootTask()->get_Children()->Add(u"Task 1"), project->get_RootTask()->get_Children()->Add(u"Task 2"));
     
-    System::SharedPtr<GanttChartView> view = System::DynamicCast<Aspose::Tasks::GanttChartView>(project->get_DefaultView());
+    System::SharedPtr<GanttChartView> view = System::ExplicitCast<Aspose::Tasks::GanttChartView>(project->get_DefaultView());
     
     // This code is added for better visualization
     view->get_MiddleTimescaleTier()->set_Unit(Aspose::Tasks::Visualization::TimescaleUnit::Months);

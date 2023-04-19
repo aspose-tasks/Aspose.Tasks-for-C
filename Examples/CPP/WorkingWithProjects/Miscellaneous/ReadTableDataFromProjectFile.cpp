@@ -21,7 +21,7 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/collections/list.h>
 #include <system/collections/ienumerator.h>
 #include <Project.h>
-#include <drawing/string_alignment.h>
+#include <Visualization/View/HorizontalStringAlignment.h>
 #include <cstdint>
 
 #include "RunExamples.h"

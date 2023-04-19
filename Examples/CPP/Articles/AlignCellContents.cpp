@@ -23,7 +23,7 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <saving/SaveOptions.h>
 #include <saving/Pdf/PdfSaveOptions.h>
 #include <Project.h>
-#include <drawing/string_alignment.h>
+#include <Visualization/View/HorizontalStringAlignment.h>
 
 #include "RunExamples.h"
 
@@ -53,24 +53,24 @@ void AlignCellContents::Run()
     options->set_Timescale(Aspose::Tasks::Visualization::Timescale::Months);
     options->set_View(ProjectView::GetDefaultGanttChartView());
     
-    System::SharedPtr<GanttChartColumn> column1 = System::DynamicCast_noexcept<Aspose::Tasks::Visualization::GanttChartColumn>(options->get_View()->get_Columns()->idx_get(2));
-    column1->set_StringAlignment(System::Drawing::StringAlignment::Center);
-    column1 = System::DynamicCast_noexcept<Aspose::Tasks::Visualization::GanttChartColumn>(options->get_View()->get_Columns()->idx_get(3));
-    column1->set_StringAlignment(System::Drawing::StringAlignment::Far);
-    column1 = System::DynamicCast_noexcept<Aspose::Tasks::Visualization::GanttChartColumn>(options->get_View()->get_Columns()->idx_get(4));
-    column1->set_StringAlignment(System::Drawing::StringAlignment::Far);
+    System::SharedPtr<GanttChartColumn> column1 = System::ExplicitCast<Aspose::Tasks::Visualization::GanttChartColumn>(options->get_View()->get_Columns()->idx_get(2));
+    column1->set_StringAlignment(HorizontalStringAlignment::Center);
+    column1 = System::ExplicitCast<Aspose::Tasks::Visualization::GanttChartColumn>(options->get_View()->get_Columns()->idx_get(3));
+    column1->set_StringAlignment(HorizontalStringAlignment::Far);
+    column1 = System::ExplicitCast<Aspose::Tasks::Visualization::GanttChartColumn>(options->get_View()->get_Columns()->idx_get(4));
+    column1->set_StringAlignment(HorizontalStringAlignment::Far);
     
     project->Save(dataDir + u"AlignCellContents_GanttChart_out.pdf", options);
     
     options->set_PresentationFormat(Aspose::Tasks::Visualization::PresentationFormat::ResourceSheet);
     options->set_View(ProjectView::GetDefaultResourceSheetView());
     
-    System::SharedPtr<ResourceViewColumn> column2 = System::DynamicCast_noexcept<Aspose::Tasks::Visualization::ResourceViewColumn>(options->get_View()->get_Columns()->idx_get(2));
-    column2->set_StringAlignment(System::Drawing::StringAlignment::Center);
-    column2 = System::DynamicCast_noexcept<Aspose::Tasks::Visualization::ResourceViewColumn>(options->get_View()->get_Columns()->idx_get(3));
-    column2->set_StringAlignment(System::Drawing::StringAlignment::Far);
-    column2 = System::DynamicCast_noexcept<Aspose::Tasks::Visualization::ResourceViewColumn>(options->get_View()->get_Columns()->idx_get(4));
-    column2->set_StringAlignment(System::Drawing::StringAlignment::Far);
+    System::SharedPtr<ResourceViewColumn> column2 = System::ExplicitCast<Aspose::Tasks::Visualization::ResourceViewColumn>(options->get_View()->get_Columns()->idx_get(2));
+    column2->set_StringAlignment(HorizontalStringAlignment::Center);
+    column2 = System::ExplicitCast<Aspose::Tasks::Visualization::ResourceViewColumn>(options->get_View()->get_Columns()->idx_get(3));
+    column2->set_StringAlignment(HorizontalStringAlignment::Far);
+    column2 = System::ExplicitCast<Aspose::Tasks::Visualization::ResourceViewColumn>(options->get_View()->get_Columns()->idx_get(4));
+    column2->set_StringAlignment(HorizontalStringAlignment::Far);
     
     project->Save(dataDir + u"AlignCellContents_ResourceSheet_out.pdf", options);
     // ExEnd:AlignCellContents

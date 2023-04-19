@@ -57,7 +57,7 @@ void RenderGanttChartWithBarsRolledUp::Run()
     System::SharedPtr<Project> project = System::MakeObject<Project>(file);
     //for (int i = 14; i <= 23; i++)
     //    project.GetTaskById(i).HideBar = false;
-    project->Save(resultFile, System::StaticCast<Aspose::Tasks::Saving::SaveOptions>(options));
+    project->Save(resultFile, System::ExplicitCast<Aspose::Tasks::Saving::SaveOptions>(options));
     // ExEnd:RenderGanttChartWithBarsRolledUp
 }
 

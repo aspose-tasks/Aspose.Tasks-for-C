@@ -17,7 +17,7 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/exceptions.h>
 #include <saving/Enums/SaveFileFormat.h>
 #include <Project.h>
-#include <drawing/string_alignment.h>
+#include <Visualization/View/HorizontalStringAlignment.h>
 
 #include "RunExamples.h"
 
@@ -43,12 +43,12 @@ void RenderTaskUsageViewWithDetails::Run()
     System::SharedPtr<Project> project1 = System::MakeObject<Project>(dataDir + u"TaskUsageViewWithDetails.mpp");
     
     // Get Default view
-    System::SharedPtr<UsageView> view = System::DynamicCast_noexcept<Aspose::Tasks::TaskUsageView>(project1->get_DefaultView());
+    System::SharedPtr<UsageView> view = System::ExplicitCast<Aspose::Tasks::TaskUsageView>(project1->get_DefaultView());
     
     // Details header column will not be displayed
     view->set_DisplayDetailsHeaderColumn(false);
     view->set_RepeatDetailsHeaderOnAllRows(false);
-    view->set_AlignDetailsData(System::Drawing::StringAlignment::Near);
+    view->set_AlignDetailsData(Visualization::HorizontalStringAlignment::Near);
     project1->Save(dataDir + u"task usage1_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::Pdf);
     
     // Display details header column
@@ -56,7 +56,7 @@ void RenderTaskUsageViewWithDetails::Run()
     
     // Repeat details header on all assignments rows
     view->set_RepeatDetailsHeaderOnAllRows(true);
-    view->set_AlignDetailsData(System::Drawing::StringAlignment::Far);
+    view->set_AlignDetailsData(Visualization::HorizontalStringAlignment::Far);
     project1->Save(dataDir + u"task usage2_out.pdf", Aspose::Tasks::Saving::SaveFileFormat::Pdf);
     // ExEnd:RenderTaskUsageViewWithDetails
 }

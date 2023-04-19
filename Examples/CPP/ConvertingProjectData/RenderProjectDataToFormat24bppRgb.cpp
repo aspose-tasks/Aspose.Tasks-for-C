@@ -46,7 +46,7 @@ void RenderProjectDataToFormat24bppRgb::Run()
     options->set_HorizontalResolution(72.0f);
     options->set_VerticalResolution(72.0f);
     options->set_PixelFormat(System::Drawing::Imaging::PixelFormat::Format24bppRgb);
-    project->Save(dataDir + u"RenderProjectDataToFormat24bppRgb_out.tif", System::StaticCast<Aspose::Tasks::Saving::SaveOptions>(options));
+    project->Save(dataDir + u"RenderProjectDataToFormat24bppRgb_out.tif", System::ExplicitCast<Aspose::Tasks::Saving::SaveOptions>(options));
     // ExEnd:RenderProjectDataToFormat24bppRgb
 }
 

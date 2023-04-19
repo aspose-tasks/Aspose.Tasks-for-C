@@ -37,7 +37,7 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <GanttChartView.h>
 #include <enums/GanttBarSize.h>
 #include <enums/Field.h>
-#include <drawing/string_alignment.h>
+#include <Visualization/View/HorizontalStringAlignment.h>
 #include <drawing/color.h>
 #include <cstdint>
 
@@ -67,7 +67,7 @@ void ReadSpecificGantChartViewData::Run()
     // ExStart:ReadSpecificGantChartViewData   
     System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"ReadSpecificGantChartViewData.mpp");
     
-    System::SharedPtr<GanttChartView> view = System::DynamicCast_noexcept<Aspose::Tasks::GanttChartView>(project->get_Views()->ToList()->idx_get(0));
+    System::SharedPtr<GanttChartView> view = System::ExplicitCast<Aspose::Tasks::GanttChartView>(project->get_Views()->ToList()->idx_get(0));
     System::Console::WriteLine(System::String(u"Is Bar Rounding: ") + view->get_BarRounding());
     System::Console::WriteLine(System::String(u"Show Bar Splits? : ") + view->get_ShowBarSplits());
     System::Console::WriteLine(System::String(u"Show Drawings? : ") + view->get_ShowDrawings());
@@ -133,20 +133,20 @@ void ReadSpecificGantChartViewData::Run()
     System::Console::WriteLine(System::String(u"BottomTimescaleTier.Count:") + view->get_BottomTimescaleTier()->get_Count());
     System::Console::WriteLine(System::String(u"BottomTimescaleTier.Unit:") + System::ObjectExt::ToString(Aspose::Tasks::Visualization::TimescaleUnit::Days), System::ObjectExt::Box<System::String>(System::ObjectExt::ToString(view->get_BottomTimescaleTier()->get_Unit())));
     System::Console::WriteLine(System::String(u"BottomTimescaleTier.UsesFiscalYear: ") + view->get_BottomTimescaleTier()->get_UsesFiscalYear());
-    System::Console::WriteLine(System::String(u"BottomTimescaleTier.Alignment: ") + System::ObjectExt::ToString(System::Drawing::StringAlignment::Center), System::ObjectExt::Box<System::String>(System::ObjectExt::ToString(view->get_BottomTimescaleTier()->get_Alignment())));
+    System::Console::WriteLine(System::String(u"BottomTimescaleTier.Alignment: ") + System::ObjectExt::ToString(HorizontalStringAlignment::Center), System::ObjectExt::Box<System::String>(System::ObjectExt::ToString(view->get_BottomTimescaleTier()->get_Alignment())));
     System::Console::WriteLine(System::String(u"BottomTimescaleTier.ShowTicks: ") + System::Convert::ToString(view->get_BottomTimescaleTier()->get_ShowTicks()));
     System::Console::WriteLine(System::String(u"BottomTimescaleTier.Label:") + System::ObjectExt::ToString(Aspose::Tasks::Visualization::DateLabel::DayDi), System::ObjectExt::Box<DateLabel>(view->get_BottomTimescaleTier()->get_Label()));
     System::Console::WriteLine(u"\n************************ MIDDLE TIMESCALE IFORMATION ******************");
     System::Console::WriteLine(System::String(u"MiddleTimescaleTier.Count:") + view->get_MiddleTimescaleTier()->get_Count());
     System::Console::WriteLine(System::String(u"MiddleTimescaleTier.Unit:") + System::ObjectExt::ToString(Aspose::Tasks::Visualization::TimescaleUnit::Days), System::ObjectExt::Box<System::String>(System::ObjectExt::ToString(view->get_MiddleTimescaleTier()->get_Unit())));
     System::Console::WriteLine(System::String(u"MiddleTimescaleTier.UsesFiscalYear: ") + view->get_MiddleTimescaleTier()->get_UsesFiscalYear());
-    System::Console::WriteLine(System::String(u"MiddleTimescaleTier.Alignment: ") + System::ObjectExt::ToString(System::Drawing::StringAlignment::Center), System::ObjectExt::Box<System::String>(System::ObjectExt::ToString(view->get_MiddleTimescaleTier()->get_Alignment())));
+    System::Console::WriteLine(System::String(u"MiddleTimescaleTier.Alignment: ") + System::ObjectExt::ToString(HorizontalStringAlignment::Center), System::ObjectExt::Box<System::String>(System::ObjectExt::ToString(view->get_MiddleTimescaleTier()->get_Alignment())));
     System::Console::WriteLine(System::String(u"MiddleTimescaleTier.ShowTicks: ") + System::Convert::ToString(view->get_MiddleTimescaleTier()->get_ShowTicks()));
     System::Console::WriteLine(System::String(u"MiddleTimescaleTier.Label:") + System::ObjectExt::ToString(Aspose::Tasks::Visualization::DateLabel::DayDi), System::ObjectExt::Box<DateLabel>(view->get_MiddleTimescaleTier()->get_Label()));
     System::Console::WriteLine(u"\n************************ TOP TIMESCALE IFORMATION ******************");
     System::Console::WriteLine(System::String(u"TopTimescaleTier.Unit:") + System::ObjectExt::ToString(Aspose::Tasks::Visualization::TimescaleUnit::Days), System::ObjectExt::Box<System::String>(System::ObjectExt::ToString(view->get_TopTimescaleTier()->get_Unit())));
     System::Console::WriteLine(System::String(u"TopTimescaleTier.UsesFiscalYear: ") + view->get_TopTimescaleTier()->get_UsesFiscalYear());
-    System::Console::WriteLine(System::String(u"TopTimescaleTier.Alignment: ") + System::ObjectExt::ToString(System::Drawing::StringAlignment::Center), System::ObjectExt::Box<System::String>(System::ObjectExt::ToString(view->get_TopTimescaleTier()->get_Alignment())));
+    System::Console::WriteLine(System::String(u"TopTimescaleTier.Alignment: ") + System::ObjectExt::ToString(HorizontalStringAlignment::Center), System::ObjectExt::Box<System::String>(System::ObjectExt::ToString(view->get_TopTimescaleTier()->get_Alignment())));
     System::Console::WriteLine(System::String(u"TopTimescaleTier.ShowTicks: ") + System::Convert::ToString(view->get_TopTimescaleTier()->get_ShowTicks()));
     System::Console::WriteLine(u"TopTimescaleTier.Label: ", System::ObjectExt::Box<System::String>(System::ObjectExt::ToString(view->get_TopTimescaleTier()->get_Label())));
     // ExEnd:ReadSpecificGantChartViewData

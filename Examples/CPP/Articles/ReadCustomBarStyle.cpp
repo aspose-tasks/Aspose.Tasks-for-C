@@ -52,7 +52,7 @@ void ReadCustomBarStyle::Run()
     // ExStart:ReadCustomBarStyle
     System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"CustomBarStyle.mpp");
     
-    System::SharedPtr<GanttChartView> view = System::DynamicCast_noexcept<Aspose::Tasks::GanttChartView>(project->get_DefaultView());
+    System::SharedPtr<GanttChartView> view = System::ExplicitCast<Aspose::Tasks::GanttChartView>(project->get_DefaultView());
     System::Console::WriteLine(u"Custom bar styles count: {0}", System::ObjectExt::Box<int32_t>(view->get_CustomBarStyles()->get_Count()));
     
     System::SharedPtr<GanttBarStyle> style1 = view->get_CustomBarStyles()->idx_get(0);

@@ -60,7 +60,7 @@ void ImplementCustomBarStyleWriting::ImplementCustomBarSytle()
         System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"Blank2010.mpp");
         project->get_RootTask()->get_Children()->Add(u"Task");
         
-        System::SharedPtr<GanttChartView> view = System::DynamicCast_noexcept<Aspose::Tasks::GanttChartView>(project->get_DefaultView());
+        System::SharedPtr<GanttChartView> view = System::ExplicitCast<Aspose::Tasks::GanttChartView>(project->get_DefaultView());
         System::SharedPtr<GanttBarStyle> custom = GetCustomBarStyle();
         
         // Add the custom bar style to the custom bar collection of the project view

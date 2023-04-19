@@ -29,7 +29,7 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <ExtendedAttribute.h>
 #include <enums/Field.h>
 #include <enums/ExtendedAttributeTask.h>
-#include <drawing/string_alignment.h>
+#include <Visualization/View/HorizontalStringAlignment.h>
 #include <cstdint>
 
 #include "RunExamples.h"
@@ -74,8 +74,8 @@ void ConfigureTheGantChartViewShowSelectedColumnFields::Run()
         attrField->set_Field(Aspose::Tasks::Field::TaskText1);
         attrField->set_Width(20);
         attrField->set_Title(u"Custom attribute");
-        attrField->set_AlignTitle(System::Drawing::StringAlignment::Center);
-        attrField->set_AlignData(System::Drawing::StringAlignment::Center);
+        attrField->set_AlignTitle(Visualization::HorizontalStringAlignment::Center);
+        attrField->set_AlignData(Visualization::HorizontalStringAlignment::Center);
         System::SharedPtr<Table> table = project->get_Tables()->ToList()->idx_get(0);
         table->get_TableFields()->Insert(3, attrField);
         
