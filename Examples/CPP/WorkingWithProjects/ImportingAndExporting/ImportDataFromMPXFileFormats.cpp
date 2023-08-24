@@ -14,9 +14,9 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/object_ext.h>
 #include <system/object.h>
 #include <system/console.h>
-#include <ProjectFileInfo.h>
-#include <Project.h>
-#include <enums/FileFormat.h>
+#include <aspose.tasks.cpp/ProjectFileInfo.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/enums/FileFormat.h>
 
 #include "RunExamples.h"
 

@@ -16,13 +16,13 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/console.h>
 #include <system/collections/list.h>
 #include <system/array.h>
-#include <Project.h>
-#include <FilterCriteria.h>
-#include <FilterCollection.h>
-#include <Filter.h>
-#include <enums/FilterOperation.h>
-#include <enums/FilterComparisonType.h>
-#include <enums/Field.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/FilterCriteria.h>
+#include <aspose.tasks.cpp/FilterCollection.h>
+#include <aspose.tasks.cpp/Filter.h>
+#include <aspose.tasks.cpp/enums/FilterOperation.h>
+#include <aspose.tasks.cpp/enums/FilterComparisonType.h>
+#include <aspose.tasks.cpp/enums/Field.h>
 #include <cstdint>
 
 #include "RunExamples.h"

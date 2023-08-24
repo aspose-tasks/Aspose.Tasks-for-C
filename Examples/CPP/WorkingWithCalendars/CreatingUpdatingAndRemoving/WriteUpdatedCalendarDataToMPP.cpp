@@ -7,8 +7,8 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "WriteUpdatedCalendarDataToMPP.h"
 
-#include <WorkingTimeCollection.h>
-#include <WorkingTime.h>
+#include <aspose.tasks.cpp/WorkingTimeCollection.h>
+#include <aspose.tasks.cpp/WorkingTime.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -17,15 +17,15 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/exceptions.h>
 #include <system/date_time.h>
 #include <system/console.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <Project.h>
-#include <Prj.h>
-#include <Key.h>
-#include <enums/PrjKey.h>
-#include <CalendarExceptionCollection.h>
-#include <CalendarException.h>
-#include <CalendarCollection.h>
-#include <Calendar.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Prj.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/PrjKey.h>
+#include <aspose.tasks.cpp/CalendarExceptionCollection.h>
+#include <aspose.tasks.cpp/CalendarException.h>
+#include <aspose.tasks.cpp/CalendarCollection.h>
+#include <aspose.tasks.cpp/Calendar.h>
 
 #include "RunExamples.h"
 

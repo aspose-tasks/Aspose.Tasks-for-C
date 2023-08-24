@@ -1,7 +1,7 @@
 #include "ViewSplitTasks.h"
 
-#include <TaskCollection.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -9,9 +9,9 @@
 #include <system/date_time.h>
 #include <system/console.h>
 #include <system/collections/ienumerator.h>
-#include <SplitPartCollection.h>
-#include <SplitPart.h>
-#include <Project.h>
+#include <aspose.tasks.cpp/SplitPartCollection.h>
+#include <aspose.tasks.cpp/SplitPart.h>
+#include <aspose.tasks.cpp/Project.h>
 #include <cstdint>
 
 #include "RunExamples.h"

@@ -10,9 +10,9 @@
 #include <system/details/dispose_guard.h>
 #include <system/collections/list.h>
 #include <system/array.h>
-#include <Project.h>
-#include <OleObjectCollection.h>
-#include <OleObject.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/OleObjectCollection.h>
+#include <aspose.tasks.cpp/OleObject.h>
 #include <cstdint>
 
 #include "RunExamples.h"

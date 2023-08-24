@@ -1,7 +1,7 @@
 #include "GetCrossProjectTaskLinks.h"
 
-#include <TaskLinkCollection.h>
-#include <TaskLink.h>
+#include <aspose.tasks.cpp/TaskLinkCollection.h>
+#include <aspose.tasks.cpp/TaskLink.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -9,7 +9,7 @@
 #include <system/object.h>
 #include <system/console.h>
 #include <system/collections/ienumerator.h>
-#include <Project.h>
+#include <aspose.tasks.cpp/Project.h>
 
 #include "RunExamples.h"
 

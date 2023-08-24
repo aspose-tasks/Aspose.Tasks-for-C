@@ -7,8 +7,8 @@
 #include <system/object.h>
 #include <system/exceptions.h>
 #include <system/console.h>
-#include <Project.h>
-#include <exceptions/TasksReadingException.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/exceptions/TasksReadingException.h>
 
 #include "RunExamples.h"
 

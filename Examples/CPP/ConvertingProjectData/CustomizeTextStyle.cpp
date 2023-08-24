@@ -7,10 +7,10 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "../ConvertingProjectData/CustomizeTextStyle.h"
 
-#include <visualization/View/Styles/TextStyle.h>
-#include <visualization/Enums/TextItemType.h>
-#include <visualization/Enums/PresentationFormat.h>
-#include <visualization/FontStyles.h>
+#include <aspose.tasks.cpp/visualization/View/Styles/TextStyle.h>
+#include <aspose.tasks.cpp/visualization/Enums/TextItemType.h>
+#include <aspose.tasks.cpp/visualization/Enums/PresentationFormat.h>
+#include <aspose.tasks.cpp/visualization/FontStyles.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -19,9 +19,9 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/object.h>
 #include <system/enum_helpers.h>
 #include <system/collections/list.h>
-#include <saving/SaveOptions.h>
-#include <saving/Pdf/PdfSaveOptions.h>
-#include <Project.h>
+#include <aspose.tasks.cpp/saving/SaveOptions.h>
+#include <aspose.tasks.cpp/saving/Pdf/PdfSaveOptions.h>
+#include <aspose.tasks.cpp/Project.h>
 #include <drawing/font_style.h>
 #include <drawing/color.h>
 

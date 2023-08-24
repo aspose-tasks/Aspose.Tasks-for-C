@@ -13,11 +13,11 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/reflection/method_base.h>
 #include <system/object.h>
 #include <system/exceptions.h>
-#include <saving/SaveOptions.h>
-#include <saving/Image/ImageSaveOptions.h>
-#include <saving/Image/Enums/TiffCompression.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <Project.h>
+#include <aspose.tasks.cpp/saving/SaveOptions.h>
+#include <aspose.tasks.cpp/saving/Image/ImageSaveOptions.h>
+#include <aspose.tasks.cpp/saving/Image/Enums/TiffCompression.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/Project.h>
 
 #include "RunExamples.h"
 

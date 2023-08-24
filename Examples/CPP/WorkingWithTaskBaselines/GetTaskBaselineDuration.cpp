@@ -1,10 +1,10 @@
 #include "GetTaskBaselineDuration.h"
 
-#include <Tsk.h>
-#include <TaskCollection.h>
-#include <TaskBaselineCollection.h>
-#include <TaskBaseline.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/Tsk.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
+#include <aspose.tasks.cpp/TaskBaselineCollection.h>
+#include <aspose.tasks.cpp/TaskBaseline.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
 #include <system/object_ext.h>
@@ -12,11 +12,11 @@
 #include <system/date_time.h>
 #include <system/console.h>
 #include <system/collections/list.h>
-#include <Project.h>
-#include <Key.h>
-#include <enums/TaskKey.h>
-#include <enums/BaselineType.h>
-#include <Duration.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/TaskKey.h>
+#include <aspose.tasks.cpp/enums/BaselineType.h>
+#include <aspose.tasks.cpp/Duration.h>
 
 namespace Aspose {
 

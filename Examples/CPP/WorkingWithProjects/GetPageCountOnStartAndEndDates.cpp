@@ -7,8 +7,8 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "GetPageCountOnStartAndEndDates.h"
 
-#include <visualization/View/PageSize.h>
-#include <visualization/Enums/Timescale.h>
+#include <aspose.tasks.cpp/visualization/View/PageSize.h>
+#include <aspose.tasks.cpp/visualization/Enums/Timescale.h>
 #include <system/type_info.h>
 #include <system/timespan.h>
 #include <system/string.h>
@@ -17,12 +17,12 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/object.h>
 #include <system/date_time.h>
 #include <system/console.h>
-#include <saving/Image/ImageSaveOptions.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <Project.h>
-#include <Prj.h>
-#include <Key.h>
-#include <enums/PrjKey.h>
+#include <aspose.tasks.cpp/saving/Image/ImageSaveOptions.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Prj.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/PrjKey.h>
 #include <cstdint>
 
 #include "RunExamples.h"

@@ -1,15 +1,15 @@
 #include "ConvertingProjectData/RenderCommentsWhenConverting.h"
 
-#include <visualization/PageViewSettings.h>
-#include <visualization/PageInfo.h>
-#include <View.h>
+#include <aspose.tasks.cpp/visualization/PageViewSettings.h>
+#include <aspose.tasks.cpp/visualization/PageInfo.h>
+#include <aspose.tasks.cpp/View.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
 #include <system/reflection/method_base.h>
 #include <system/object.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <Project.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/Project.h>
 
 #include "RunExamples.h"
 

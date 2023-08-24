@@ -7,14 +7,14 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "WorkingWithVBA/ReadVBAProjectInformation.h"
 
-#include <vba/VbaProject.h>
+#include <aspose.tasks.cpp/vba/VbaProject.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
 #include <system/reflection/method_base.h>
 #include <system/object.h>
 #include <system/console.h>
-#include <Project.h>
+#include <aspose.tasks.cpp/Project.h>
 #include <cstdint>
 
 #include "RunExamples.h"

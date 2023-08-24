@@ -1,7 +1,7 @@
 #include "WorkingWithCalendars/RetrieveCalendarInfo.h"
 
-#include <WeekDayCollection.h>
-#include <WeekDay.h>
+#include <aspose.tasks.cpp/WeekDayCollection.h>
+#include <aspose.tasks.cpp/WeekDay.h>
 #include <system/type_info.h>
 #include <system/timespan.h>
 #include <system/string.h>
@@ -11,11 +11,11 @@
 #include <system/object.h>
 #include <system/console.h>
 #include <system/collections/ienumerator.h>
-#include <Project.h>
-#include <enums/DayType.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/enums/DayType.h>
 #include <cstdint>
-#include <CalendarCollection.h>
-#include <Calendar.h>
+#include <aspose.tasks.cpp/CalendarCollection.h>
+#include <aspose.tasks.cpp/Calendar.h>
 
 #include "RunExamples.h"
 

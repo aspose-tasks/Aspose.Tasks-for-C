@@ -7,9 +7,9 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "CreateResourcesAndLinkToTasks.h"
 
-#include <util/TaskUtils.h>
-#include <util/ChildTasksCollector.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/util/TaskUtils.h>
+#include <aspose.tasks.cpp/util/ChildTasksCollector.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -18,16 +18,16 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/exceptions.h>
 #include <system/console.h>
 #include <system/collections/list.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <Rsc.h>
-#include <ResourceCollection.h>
-#include <ResourceAssignmentCollection.h>
-#include <ResourceAssignment.h>
-#include <Resource.h>
-#include <Project.h>
-#include <Key.h>
-#include <enums/RscKey.h>
-#include <enums/ResourceType.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/Rsc.h>
+#include <aspose.tasks.cpp/ResourceCollection.h>
+#include <aspose.tasks.cpp/ResourceAssignmentCollection.h>
+#include <aspose.tasks.cpp/ResourceAssignment.h>
+#include <aspose.tasks.cpp/Resource.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/RscKey.h>
+#include <aspose.tasks.cpp/enums/ResourceType.h>
 #include <cstdint>
 
 #include "RunExamples.h"

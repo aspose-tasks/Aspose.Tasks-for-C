@@ -15,16 +15,16 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/exceptions.h>
 #include <system/decimal.h>
 #include <system/console.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <ResourceCollection.h>
-#include <Resource.h>
-#include <Project.h>
-#include <ExtendedAttributeDefinitionCollection.h>
-#include <ExtendedAttributeDefinition.h>
-#include <ExtendedAttributeCollection.h>
-#include <ExtendedAttribute.h>
-#include <enums/ExtendedAttributeTask.h>
-#include <enums/ExtendedAttributeResource.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/ResourceCollection.h>
+#include <aspose.tasks.cpp/Resource.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/ExtendedAttributeDefinitionCollection.h>
+#include <aspose.tasks.cpp/ExtendedAttributeDefinition.h>
+#include <aspose.tasks.cpp/ExtendedAttributeCollection.h>
+#include <aspose.tasks.cpp/ExtendedAttribute.h>
+#include <aspose.tasks.cpp/enums/ExtendedAttributeTask.h>
+#include <aspose.tasks.cpp/enums/ExtendedAttributeResource.h>
 #include <cstdint>
 
 #include "RunExamples.h"

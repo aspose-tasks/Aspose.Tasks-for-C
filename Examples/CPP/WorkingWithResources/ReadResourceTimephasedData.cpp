@@ -1,7 +1,7 @@
 #include "ReadResourceTimephasedData.h"
 
-#include <TimephasedDataCollection.h>
-#include <TimephasedData.h>
+#include <aspose.tasks.cpp/TimephasedDataCollection.h>
+#include <aspose.tasks.cpp/TimephasedData.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -11,13 +11,13 @@
 #include <system/date_time.h>
 #include <system/console.h>
 #include <system/collections/ienumerator.h>
-#include <ResourceCollection.h>
-#include <Resource.h>
-#include <Project.h>
-#include <Prj.h>
-#include <Key.h>
-#include <enums/TimephasedDataType.h>
-#include <enums/PrjKey.h>
+#include <aspose.tasks.cpp/ResourceCollection.h>
+#include <aspose.tasks.cpp/Resource.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Prj.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/TimephasedDataType.h>
+#include <aspose.tasks.cpp/enums/PrjKey.h>
 
 #include "RunExamples.h"
 

@@ -7,12 +7,12 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "WorkingWithProjects/WorkingWithProjectViews/ConfigureTheGantChartViewShowSelectedColumnFields.h"
 
-#include <TaskCollection.h>
-#include <Task.h>
-#include <TableFieldCollection.h>
-#include <TableField.h>
-#include <TableCollection.h>
-#include <Table.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
+#include <aspose.tasks.cpp/Task.h>
+#include <aspose.tasks.cpp/TableFieldCollection.h>
+#include <aspose.tasks.cpp/TableField.h>
+#include <aspose.tasks.cpp/TableCollection.h>
+#include <aspose.tasks.cpp/Table.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -21,15 +21,15 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/exceptions.h>
 #include <system/console.h>
 #include <system/collections/list.h>
-#include <saving/MPPSaveOptions.h>
-#include <Project.h>
-#include <ExtendedAttributeDefinitionCollection.h>
-#include <ExtendedAttributeDefinition.h>
-#include <ExtendedAttributeCollection.h>
-#include <ExtendedAttribute.h>
-#include <enums/Field.h>
-#include <enums/ExtendedAttributeTask.h>
-#include <Visualization/View/HorizontalStringAlignment.h>
+#include <aspose.tasks.cpp/saving/MPPSaveOptions.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/ExtendedAttributeDefinitionCollection.h>
+#include <aspose.tasks.cpp/ExtendedAttributeDefinition.h>
+#include <aspose.tasks.cpp/ExtendedAttributeCollection.h>
+#include <aspose.tasks.cpp/ExtendedAttribute.h>
+#include <aspose.tasks.cpp/enums/Field.h>
+#include <aspose.tasks.cpp/enums/ExtendedAttributeTask.h>
+#include <aspose.tasks.cpp/Visualization/View/HorizontalStringAlignment.h>
 #include <cstdint>
 
 #include "RunExamples.h"

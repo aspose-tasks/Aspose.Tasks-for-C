@@ -13,9 +13,9 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/reflection/method_base.h>
 #include <system/object.h>
 #include <system/console.h>
-#include <Project.h>
-#include <ExtendedAttributeDefinitionCollection.h>
-#include <ExtendedAttributeDefinition.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/ExtendedAttributeDefinitionCollection.h>
+#include <aspose.tasks.cpp/ExtendedAttributeDefinition.h>
 
 #include "RunExamples.h"
 

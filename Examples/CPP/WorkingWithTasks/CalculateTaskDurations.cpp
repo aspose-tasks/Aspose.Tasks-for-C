@@ -1,19 +1,19 @@
 #include "CalculateTaskDurations.h"
 
-#include <Tsk.h>
-#include <TaskCollection.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/Tsk.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
 #include <system/reflection/method_base.h>
 #include <system/object_ext.h>
 #include <system/console.h>
-#include <Project.h>
-#include <Key.h>
-#include <enums/TimeUnitType.h>
-#include <enums/TaskKey.h>
-#include <Duration.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/TimeUnitType.h>
+#include <aspose.tasks.cpp/enums/TaskKey.h>
+#include <aspose.tasks.cpp/Duration.h>
 
 #include "RunExamples.h"
 

@@ -7,10 +7,10 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "ReadActualTaskProperties.h"
 
-#include <util/TaskUtils.h>
-#include <util/ChildTasksCollector.h>
-#include <Tsk.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/util/TaskUtils.h>
+#include <aspose.tasks.cpp/util/ChildTasksCollector.h>
+#include <aspose.tasks.cpp/Tsk.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/type_info.h>
 #include <system/timespan.h>
 #include <system/string.h>
@@ -22,10 +22,10 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/console.h>
 #include <system/collections/list.h>
 #include <system/collections/ienumerator.h>
-#include <Project.h>
-#include <Key.h>
-#include <enums/TaskKey.h>
-#include <Duration.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/TaskKey.h>
+#include <aspose.tasks.cpp/Duration.h>
 #include <cstdint>
 
 #include "RunExamples.h"

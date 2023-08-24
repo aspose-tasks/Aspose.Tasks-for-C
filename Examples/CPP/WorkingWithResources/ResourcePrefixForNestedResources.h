@@ -2,9 +2,9 @@
 
 #include <system/string.h>
 #include <system/shared_ptr.h>
-#include <saving/Html/IImageSavingCallback.h>
-#include <saving/Html/IFontSavingCallback.h>
-#include <saving/Html/ICssSavingCallback.h>
+#include <aspose.tasks.cpp/saving/Html/IImageSavingCallback.h>
+#include <aspose.tasks.cpp/saving/Html/IFontSavingCallback.h>
+#include <aspose.tasks.cpp/saving/Html/ICssSavingCallback.h>
 #include <cstdint>
 
 namespace Aspose { namespace Tasks { class CssSavingArgs; } }

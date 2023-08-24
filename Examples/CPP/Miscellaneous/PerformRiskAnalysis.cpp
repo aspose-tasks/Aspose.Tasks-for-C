@@ -7,8 +7,8 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "PerformRiskAnalysis.h"
 
-#include <TaskCollection.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -17,18 +17,18 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/object.h>
 #include <system/date_time.h>
 #include <system/console.h>
-#include <RiskAnalysis/RiskPatternCollection.h>
-#include <RiskAnalysis/RiskPattern.h>
-#include <RiskAnalysis/RiskItemType.h>
-#include <RiskAnalysis/RiskItemStatisticsCollection.h>
-#include <RiskAnalysis/RiskItemStatistics.h>
-#include <RiskAnalysis/RiskAnalyzer.h>
-#include <RiskAnalysis/RiskAnalysisSettings.h>
-#include <RiskAnalysis/RiskAnalysisResult.h>
-#include <RiskAnalysis/ProbabilityDistributionType.h>
-#include <RiskAnalysis/ConfidenceLevel.h>
-#include <Project.h>
-#include <Duration.h>
+#include <aspose.tasks.cpp/RiskAnalysis/RiskPatternCollection.h>
+#include <aspose.tasks.cpp/RiskAnalysis/RiskPattern.h>
+#include <aspose.tasks.cpp/RiskAnalysis/RiskItemType.h>
+#include <aspose.tasks.cpp/RiskAnalysis/RiskItemStatisticsCollection.h>
+#include <aspose.tasks.cpp/RiskAnalysis/RiskItemStatistics.h>
+#include <aspose.tasks.cpp/RiskAnalysis/RiskAnalyzer.h>
+#include <aspose.tasks.cpp/RiskAnalysis/RiskAnalysisSettings.h>
+#include <aspose.tasks.cpp/RiskAnalysis/RiskAnalysisResult.h>
+#include <aspose.tasks.cpp/RiskAnalysis/ProbabilityDistributionType.h>
+#include <aspose.tasks.cpp/RiskAnalysis/ConfidenceLevel.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Duration.h>
 #include <cstdint>
 
 #include "RunExamples.h"

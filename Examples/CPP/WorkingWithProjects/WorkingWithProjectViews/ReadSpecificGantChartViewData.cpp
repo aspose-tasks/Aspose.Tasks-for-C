@@ -7,20 +7,20 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "WorkingWithProjects/WorkingWithProjectViews/ReadSpecificGantChartViewData.h"
 
-#include <visualization/View/TimescaleTier.h>
-#include <visualization/View/Styles/GanttBarStyle.h>
-#include <visualization/View/RecurringInterval.h>
-#include <visualization/View/ProgressLines.h>
-#include <visualization/View/Gridlines.h>
-#include <visualization/Enums/TimescaleUnit.h>
-#include <visualization/Enums/LinePattern.h>
-#include <visualization/Enums/Interval.h>
-#include <visualization/Enums/GridlineType.h>
-#include <visualization/Enums/GanttBarMiddleShape.h>
-#include <visualization/Enums/GanttBarEndShape.h>
-#include <visualization/Enums/DateLabel.h>
-#include <ViewCollection.h>
-#include <View.h>
+#include <aspose.tasks.cpp/visualization/View/TimescaleTier.h>
+#include <aspose.tasks.cpp/visualization/View/Styles/GanttBarStyle.h>
+#include <aspose.tasks.cpp/visualization/View/RecurringInterval.h>
+#include <aspose.tasks.cpp/visualization/View/ProgressLines.h>
+#include <aspose.tasks.cpp/visualization/View/Gridlines.h>
+#include <aspose.tasks.cpp/visualization/Enums/TimescaleUnit.h>
+#include <aspose.tasks.cpp/visualization/Enums/LinePattern.h>
+#include <aspose.tasks.cpp/visualization/Enums/Interval.h>
+#include <aspose.tasks.cpp/visualization/Enums/GridlineType.h>
+#include <aspose.tasks.cpp/visualization/Enums/GanttBarMiddleShape.h>
+#include <aspose.tasks.cpp/visualization/Enums/GanttBarEndShape.h>
+#include <aspose.tasks.cpp/visualization/Enums/DateLabel.h>
+#include <aspose.tasks.cpp/ViewCollection.h>
+#include <aspose.tasks.cpp/View.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -33,11 +33,11 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/console.h>
 #include <system/collections/list.h>
 #include <system/collections/ienumerator.h>
-#include <Project.h>
-#include <GanttChartView.h>
-#include <enums/GanttBarSize.h>
-#include <enums/Field.h>
-#include <Visualization/View/HorizontalStringAlignment.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/GanttChartView.h>
+#include <aspose.tasks.cpp/enums/GanttBarSize.h>
+#include <aspose.tasks.cpp/enums/Field.h>
+#include <aspose.tasks.cpp/Visualization/View/HorizontalStringAlignment.h>
 #include <drawing/color.h>
 #include <cstdint>
 

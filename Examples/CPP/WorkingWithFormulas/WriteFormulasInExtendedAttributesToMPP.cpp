@@ -7,9 +7,9 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "WorkingWithFormulas/WriteFormulasInExtendedAttributesToMPP.h"
 
-#include <Tsk.h>
-#include <TaskCollection.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/Tsk.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -18,18 +18,18 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/exceptions.h>
 #include <system/decimal.h>
 #include <system/console.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <Project.h>
-#include <Prj.h>
-#include <NullableBool.h>
-#include <license/License.h>
-#include <Key.h>
-#include <ExtendedAttributeDefinitionCollection.h>
-#include <ExtendedAttributeDefinition.h>
-#include <enums/TaskKey.h>
-#include <enums/PrjKey.h>
-#include <enums/ExtendedAttributeTask.h>
-#include <enums/CustomFieldType.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Prj.h>
+#include <aspose.tasks.cpp/NullableBool.h>
+#include <aspose.tasks.cpp/license/License.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/ExtendedAttributeDefinitionCollection.h>
+#include <aspose.tasks.cpp/ExtendedAttributeDefinition.h>
+#include <aspose.tasks.cpp/enums/TaskKey.h>
+#include <aspose.tasks.cpp/enums/PrjKey.h>
+#include <aspose.tasks.cpp/enums/ExtendedAttributeTask.h>
+#include <aspose.tasks.cpp/enums/CustomFieldType.h>
 
 #include "RunExamples.h"
 

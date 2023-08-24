@@ -7,16 +7,16 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "ReadHeaderFooterInfo.h"
 
-#include <visualization/View/PrinterPaperSize.h>
-#include <visualization/PageViewSettings.h>
-#include <visualization/PageSettings.h>
-#include <visualization/PageMargins.h>
-#include <visualization/PageLegend.h>
-#include <visualization/PageInfo.h>
-#include <visualization/HeaderFooterInfo.h>
-#include <visualization/Enums/Legend.h>
-#include <visualization/Enums/Border.h>
-#include <View.h>
+#include <aspose.tasks.cpp/visualization/View/PrinterPaperSize.h>
+#include <aspose.tasks.cpp/visualization/PageViewSettings.h>
+#include <aspose.tasks.cpp/visualization/PageSettings.h>
+#include <aspose.tasks.cpp/visualization/PageMargins.h>
+#include <aspose.tasks.cpp/visualization/PageLegend.h>
+#include <aspose.tasks.cpp/visualization/PageInfo.h>
+#include <aspose.tasks.cpp/visualization/HeaderFooterInfo.h>
+#include <aspose.tasks.cpp/visualization/Enums/Legend.h>
+#include <aspose.tasks.cpp/visualization/Enums/Border.h>
+#include <aspose.tasks.cpp/View.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -25,7 +25,7 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/object_ext.h>
 #include <system/object.h>
 #include <system/console.h>
-#include <Project.h>
+#include <aspose.tasks.cpp/Project.h>
 #include <cstdint>
 
 #include "RunExamples.h"

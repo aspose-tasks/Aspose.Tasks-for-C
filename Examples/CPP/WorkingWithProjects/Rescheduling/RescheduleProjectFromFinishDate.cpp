@@ -7,18 +7,18 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "WorkingWithProjects/Rescheduling/RescheduleProjectFromFinishDate.h"
 
-#include <TaskCollection.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
 #include <system/reflection/method_base.h>
 #include <system/object.h>
 #include <system/date_time.h>
-#include <Project.h>
-#include <Prj.h>
-#include <NullableBool.h>
-#include <Key.h>
-#include <enums/PrjKey.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Prj.h>
+#include <aspose.tasks.cpp/NullableBool.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/PrjKey.h>
 
 #include "RunExamples.h"
 

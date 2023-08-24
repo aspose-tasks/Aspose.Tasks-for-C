@@ -14,9 +14,9 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/object.h>
 #include <system/exceptions.h>
 #include <system/collections/list.h>
-#include <saving/SaveOptions.h>
-#include <saving/Pdf/PdfSaveOptions.h>
-#include <Project.h>
+#include <aspose.tasks.cpp/saving/SaveOptions.h>
+#include <aspose.tasks.cpp/saving/Pdf/PdfSaveOptions.h>
+#include <aspose.tasks.cpp/Project.h>
 #include <cstdint>
 
 #include "RunExamples.h"

@@ -1,18 +1,18 @@
 #include "AddWBSCodes.h"
 
-#include <WbsCodeMaskCollection.h>
-#include <WBSCodeMask.h>
-#include <WBSCodeDefinition.h>
-#include <TaskCollection.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/WbsCodeMaskCollection.h>
+#include <aspose.tasks.cpp/WBSCodeMask.h>
+#include <aspose.tasks.cpp/WBSCodeDefinition.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
 #include <system/reflection/method_base.h>
 #include <system/object.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <Project.h>
-#include <enums/WBSSequence.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/enums/WBSSequence.h>
 #include <cstdint>
 
 #include "RunExamples.h"

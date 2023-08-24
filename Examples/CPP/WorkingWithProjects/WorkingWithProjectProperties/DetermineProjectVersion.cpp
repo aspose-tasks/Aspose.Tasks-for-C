@@ -8,10 +8,10 @@
 #include <system/date_time.h>
 #include <system/convert.h>
 #include <system/console.h>
-#include <Project.h>
-#include <Prj.h>
-#include <Key.h>
-#include <enums/PrjKey.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Prj.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/PrjKey.h>
 #include <cstdint>
 
 #include "RunExamples.h"

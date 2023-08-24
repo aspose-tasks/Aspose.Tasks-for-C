@@ -8,12 +8,12 @@
 #include <system/decimal.h>
 #include <system/console.h>
 #include <system/collections/ienumerator.h>
-#include <ResourceAssignmentCollection.h>
-#include <ResourceAssignment.h>
-#include <Project.h>
-#include <Key.h>
-#include <enums/AsnKey.h>
-#include <Asn.h>
+#include <aspose.tasks.cpp/ResourceAssignmentCollection.h>
+#include <aspose.tasks.cpp/ResourceAssignment.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/AsnKey.h>
+#include <aspose.tasks.cpp/Asn.h>
 
 #include "RunExamples.h"
 

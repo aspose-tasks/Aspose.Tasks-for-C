@@ -7,15 +7,15 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "ConvertingProjectData/UsingSvgOptions.h"
 
-#include <visualization/Enums/Timescale.h>
+#include <aspose.tasks.cpp/visualization/Enums/Timescale.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
 #include <system/reflection/method_base.h>
 #include <system/object.h>
-#include <saving/Svg/SvgOptions.h>
-#include <saving/SaveOptions.h>
-#include <Project.h>
+#include <aspose.tasks.cpp/saving/Svg/SvgOptions.h>
+#include <aspose.tasks.cpp/saving/SaveOptions.h>
+#include <aspose.tasks.cpp/Project.h>
 
 #include "RunExamples.h"
 

@@ -7,8 +7,8 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "ReadWriteRateScaleForResourceAssignment.h"
 
-#include <TaskCollection.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -16,20 +16,20 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/object_ext.h>
 #include <system/object.h>
 #include <system/console.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <Rsc.h>
-#include <ResourceCollection.h>
-#include <ResourceAssignmentCollection.h>
-#include <ResourceAssignment.h>
-#include <Resource.h>
-#include <Project.h>
-#include <Key.h>
-#include <enums/RscKey.h>
-#include <enums/ResourceType.h>
-#include <enums/RateScaleType.h>
-#include <enums/AsnKey.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/Rsc.h>
+#include <aspose.tasks.cpp/ResourceCollection.h>
+#include <aspose.tasks.cpp/ResourceAssignmentCollection.h>
+#include <aspose.tasks.cpp/ResourceAssignment.h>
+#include <aspose.tasks.cpp/Resource.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/RscKey.h>
+#include <aspose.tasks.cpp/enums/ResourceType.h>
+#include <aspose.tasks.cpp/enums/RateScaleType.h>
+#include <aspose.tasks.cpp/enums/AsnKey.h>
 #include <cstdint>
-#include <Asn.h>
+#include <aspose.tasks.cpp/Asn.h>
 
 #include "RunExamples.h"
 

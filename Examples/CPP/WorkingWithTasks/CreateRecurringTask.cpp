@@ -1,7 +1,7 @@
 #include "CreateRecurringTask.h"
 
-#include <TaskCollection.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -11,17 +11,17 @@
 #include <system/enum_helpers.h>
 #include <system/date_time.h>
 #include <system/console.h>
-#include <recurring/weeks/WeeklyRepetitionBase.h>
-#include <recurring/weeks/WeeklyRepetition.h>
-#include <recurring/weeks/WeeklyRecurrencePattern.h>
-#include <recurring/RecurringTaskParameters.h>
-#include <recurring/RecurrenceRangeBase.h>
-#include <recurring/RecurrencePatternBase.h>
-#include <recurring/EndByRecurrenceRange.h>
-#include <Project.h>
-#include <enums/WeekdayType.h>
-#include <enums/TimeUnitType.h>
-#include <Duration.h>
+#include <aspose.tasks.cpp/recurring/weeks/WeeklyRepetitionBase.h>
+#include <aspose.tasks.cpp/recurring/weeks/WeeklyRepetition.h>
+#include <aspose.tasks.cpp/recurring/weeks/WeeklyRecurrencePattern.h>
+#include <aspose.tasks.cpp/recurring/RecurringTaskParameters.h>
+#include <aspose.tasks.cpp/recurring/RecurrenceRangeBase.h>
+#include <aspose.tasks.cpp/recurring/RecurrencePatternBase.h>
+#include <aspose.tasks.cpp/recurring/EndByRecurrenceRange.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/enums/WeekdayType.h>
+#include <aspose.tasks.cpp/enums/TimeUnitType.h>
+#include <aspose.tasks.cpp/Duration.h>
 #include <cstdint>
 
 #include "RunExamples.h"

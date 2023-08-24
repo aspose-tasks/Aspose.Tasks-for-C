@@ -1,18 +1,18 @@
 #include "CalculateTextFunctions.h"
 
-#include <TaskCollection.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
 #include <system/object.h>
 #include <system/console.h>
-#include <Project.h>
-#include <ExtendedAttributeDefinitionCollection.h>
-#include <ExtendedAttributeDefinition.h>
-#include <ExtendedAttributeCollection.h>
-#include <ExtendedAttribute.h>
-#include <enums/ExtendedAttributeTask.h>
-#include <enums/CustomFieldType.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/ExtendedAttributeDefinitionCollection.h>
+#include <aspose.tasks.cpp/ExtendedAttributeDefinition.h>
+#include <aspose.tasks.cpp/ExtendedAttributeCollection.h>
+#include <aspose.tasks.cpp/ExtendedAttribute.h>
+#include <aspose.tasks.cpp/enums/ExtendedAttributeTask.h>
+#include <aspose.tasks.cpp/enums/CustomFieldType.h>
 
 namespace Aspose {
 

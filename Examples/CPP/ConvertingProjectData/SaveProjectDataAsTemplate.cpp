@@ -14,10 +14,10 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/object.h>
 #include <system/exceptions.h>
 #include <system/console.h>
-#include <saving/SaveTemplateOptions.h>
-#include <ProjectFileInfo.h>
-#include <Project.h>
-#include <enums/FileFormat.h>
+#include <aspose.tasks.cpp/saving/SaveTemplateOptions.h>
+#include <aspose.tasks.cpp/ProjectFileInfo.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/enums/FileFormat.h>
 
 #include "RunExamples.h"
 

@@ -7,9 +7,9 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "WorkingWithFormulas/UsingTasksAndResourceFieldsInFormulaCalculations.h"
 
-#include <Tsk.h>
-#include <TaskCollection.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/Tsk.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -18,22 +18,22 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/exceptions.h>
 #include <system/date_time.h>
 #include <system/console.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <ResourceCollection.h>
-#include <ResourceAssignmentCollection.h>
-#include <ResourceAssignment.h>
-#include <Resource.h>
-#include <Project.h>
-#include <Prj.h>
-#include <Key.h>
-#include <ExtendedAttributeDefinitionCollection.h>
-#include <ExtendedAttributeDefinition.h>
-#include <ExtendedAttributeCollection.h>
-#include <ExtendedAttribute.h>
-#include <enums/TaskKey.h>
-#include <enums/PrjKey.h>
-#include <enums/ExtendedAttributeTask.h>
-#include <enums/CustomFieldType.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/ResourceCollection.h>
+#include <aspose.tasks.cpp/ResourceAssignmentCollection.h>
+#include <aspose.tasks.cpp/ResourceAssignment.h>
+#include <aspose.tasks.cpp/Resource.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Prj.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/ExtendedAttributeDefinitionCollection.h>
+#include <aspose.tasks.cpp/ExtendedAttributeDefinition.h>
+#include <aspose.tasks.cpp/ExtendedAttributeCollection.h>
+#include <aspose.tasks.cpp/ExtendedAttribute.h>
+#include <aspose.tasks.cpp/enums/TaskKey.h>
+#include <aspose.tasks.cpp/enums/PrjKey.h>
+#include <aspose.tasks.cpp/enums/ExtendedAttributeTask.h>
+#include <aspose.tasks.cpp/enums/CustomFieldType.h>
 
 #include "RunExamples.h"
 

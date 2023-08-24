@@ -7,9 +7,9 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "ConvertingProjectData/PrintProjectPagesToSeparateFiles.h"
 
-#include <visualization/View/Gridline.h>
-#include <visualization/Enums/LinePattern.h>
-#include <visualization/Enums/GridlineType.h>
+#include <aspose.tasks.cpp/visualization/View/Gridline.h>
+#include <aspose.tasks.cpp/visualization/Enums/LinePattern.h>
+#include <aspose.tasks.cpp/visualization/Enums/GridlineType.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -18,13 +18,13 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/exceptions.h>
 #include <system/date_time.h>
 #include <system/collections/list.h>
-#include <saving/SaveOptions.h>
-#include <saving/Image/ImageSaveOptions.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <Project.h>
-#include <Prj.h>
-#include <Key.h>
-#include <enums/PrjKey.h>
+#include <aspose.tasks.cpp/saving/SaveOptions.h>
+#include <aspose.tasks.cpp/saving/Image/ImageSaveOptions.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Prj.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/PrjKey.h>
 #include <drawing/color.h>
 
 #include "RunExamples.h"

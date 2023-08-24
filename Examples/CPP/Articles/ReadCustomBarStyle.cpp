@@ -7,12 +7,12 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "ReadCustomBarStyle.h"
 
-#include <visualization/View/Styles/GanttBarStyle.h>
-#include <visualization/Enums/GanttBarType.h>
-#include <visualization/Enums/GanttBarMiddleShape.h>
-#include <visualization/Enums/GanttBarFillPattern.h>
-#include <visualization/Enums/GanttBarEndShape.h>
-#include <View.h>
+#include <aspose.tasks.cpp/visualization/View/Styles/GanttBarStyle.h>
+#include <aspose.tasks.cpp/visualization/Enums/GanttBarType.h>
+#include <aspose.tasks.cpp/visualization/Enums/GanttBarMiddleShape.h>
+#include <aspose.tasks.cpp/visualization/Enums/GanttBarFillPattern.h>
+#include <aspose.tasks.cpp/visualization/Enums/GanttBarEndShape.h>
+#include <aspose.tasks.cpp/View.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -22,9 +22,9 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/exceptions.h>
 #include <system/console.h>
 #include <system/collections/list.h>
-#include <Project.h>
-#include <GanttChartView.h>
-#include <enums/Field.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/GanttChartView.h>
+#include <aspose.tasks.cpp/enums/Field.h>
 #include <drawing/color.h>
 #include <cstdint>
 

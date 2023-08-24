@@ -7,9 +7,9 @@
 #include <system/object.h>
 #include <system/exceptions.h>
 #include <system/console.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <Project.h>
-#include <exceptions/TasksWritingException.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/exceptions/TasksWritingException.h>
 
 #include "RunExamples.h"
 

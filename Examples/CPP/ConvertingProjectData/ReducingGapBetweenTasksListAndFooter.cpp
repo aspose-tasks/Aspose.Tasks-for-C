@@ -1,19 +1,19 @@
 #include "ReducingGapBetweenTasksListAndFooter.h"
 
-#include <visualization/View/PageSize.h>
-#include <visualization/Enums/Timescale.h>
+#include <aspose.tasks.cpp/visualization/View/PageSize.h>
+#include <aspose.tasks.cpp/visualization/Enums/Timescale.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
 #include <system/reflection/method_base.h>
 #include <system/object.h>
 #include <system/exceptions.h>
-#include <saving/SaveOptions.h>
-#include <saving/Pdf/PdfSaveOptions.h>
-#include <saving/Image/ImageSaveOptions.h>
-#include <saving/Html/HtmlSaveOptions.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <Project.h>
+#include <aspose.tasks.cpp/saving/SaveOptions.h>
+#include <aspose.tasks.cpp/saving/Pdf/PdfSaveOptions.h>
+#include <aspose.tasks.cpp/saving/Image/ImageSaveOptions.h>
+#include <aspose.tasks.cpp/saving/Html/HtmlSaveOptions.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/Project.h>
 
 #include "RunExamples.h"
 

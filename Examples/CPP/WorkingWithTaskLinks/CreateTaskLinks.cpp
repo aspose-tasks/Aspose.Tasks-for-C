@@ -1,12 +1,12 @@
 #include "CreateTaskLinks.h"
 
-#include <TaskLinkCollection.h>
-#include <TaskLink.h>
-#include <TaskCollection.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/TaskLinkCollection.h>
+#include <aspose.tasks.cpp/TaskLink.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/shared_ptr.h>
 #include <system/object.h>
-#include <Project.h>
+#include <aspose.tasks.cpp/Project.h>
 
 namespace Aspose {
 

@@ -6,12 +6,12 @@
 #include <system/reflection/method_base.h>
 #include <system/object.h>
 #include <system/collections/ienumerator.h>
-#include <Project.h>
-#include <Prj.h>
-#include <Key.h>
-#include <enums/PrjKey.h>
-#include <CalendarCollection.h>
-#include <Calendar.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Prj.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/PrjKey.h>
+#include <aspose.tasks.cpp/CalendarCollection.h>
+#include <aspose.tasks.cpp/Calendar.h>
 
 #include "RunExamples.h"
 

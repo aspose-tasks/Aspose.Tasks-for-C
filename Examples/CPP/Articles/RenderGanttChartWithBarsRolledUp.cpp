@@ -7,8 +7,8 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "RenderGanttChartWithBarsRolledUp.h"
 
-#include <visualization/View/PageSize.h>
-#include <visualization/Enums/PresentationFormat.h>
+#include <aspose.tasks.cpp/visualization/View/PageSize.h>
+#include <aspose.tasks.cpp/visualization/Enums/PresentationFormat.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -16,9 +16,9 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/object.h>
 #include <system/io/path.h>
 #include <system/exceptions.h>
-#include <saving/SaveOptions.h>
-#include <saving/Pdf/PdfSaveOptions.h>
-#include <Project.h>
+#include <aspose.tasks.cpp/saving/SaveOptions.h>
+#include <aspose.tasks.cpp/saving/Pdf/PdfSaveOptions.h>
+#include <aspose.tasks.cpp/Project.h>
 
 #include "RunExamples.h"
 

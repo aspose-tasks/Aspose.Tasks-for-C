@@ -10,8 +10,8 @@
 #include <system/io/file_access.h>
 #include <system/enum_helpers.h>
 #include <system/details/dispose_guard.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <Project.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/Project.h>
 
 #include "RunExamples.h"
 

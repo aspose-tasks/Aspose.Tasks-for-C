@@ -7,8 +7,8 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "RenumberTaskWBSCodes.h"
 
-#include <Tsk.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/Tsk.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -18,9 +18,9 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/collections/list.h>
 #include <system/collections/ienumerator.h>
 #include <system/collections/ienumerable.h>
-#include <Project.h>
-#include <Key.h>
-#include <enums/TaskKey.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/TaskKey.h>
 #include <cstdint>
 
 #include "RunExamples.h"

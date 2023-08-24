@@ -12,10 +12,10 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/shared_ptr.h>
 #include <system/reflection/method_base.h>
 #include <system/object.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <Project.h>
-#include <CalendarCollection.h>
-#include <Calendar.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/CalendarCollection.h>
+#include <aspose.tasks.cpp/Calendar.h>
 
 #include "RunExamples.h"
 

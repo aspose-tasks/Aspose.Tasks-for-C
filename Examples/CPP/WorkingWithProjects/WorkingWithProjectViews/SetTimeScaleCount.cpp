@@ -1,22 +1,22 @@
 #include "WorkingWithProjects/WorkingWithProjectViews/SetTimeScaleCount.h"
 
-#include <visualization/View/TimescaleTier.h>
-#include <ViewCollection.h>
-#include <Tsk.h>
-#include <TaskCollection.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/visualization/View/TimescaleTier.h>
+#include <aspose.tasks.cpp/ViewCollection.h>
+#include <aspose.tasks.cpp/Tsk.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
 #include <system/reflection/method_base.h>
 #include <system/object.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <Project.h>
-#include <Key.h>
-#include <GanttChartView.h>
-#include <enums/TimeUnitType.h>
-#include <enums/TaskKey.h>
-#include <Duration.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/GanttChartView.h>
+#include <aspose.tasks.cpp/enums/TimeUnitType.h>
+#include <aspose.tasks.cpp/enums/TaskKey.h>
+#include <aspose.tasks.cpp/Duration.h>
 #include <cstdint>
 
 #include "RunExamples.h"

@@ -1,9 +1,9 @@
 #include "SupportForTextStyle.h"
 
-#include <visualization/View/Styles/TableTextStyle.h>
-#include <visualization/FontStyles.h>
-#include <ViewCollection.h>
-#include <View.h>
+#include <aspose.tasks.cpp/visualization/View/Styles/TableTextStyle.h>
+#include <aspose.tasks.cpp/visualization/FontStyles.h>
+#include <aspose.tasks.cpp/ViewCollection.h>
+#include <aspose.tasks.cpp/View.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -12,9 +12,9 @@
 #include <system/exceptions.h>
 #include <system/enum_helpers.h>
 #include <system/collections/list.h>
-#include <Project.h>
-#include <GanttChartView.h>
-#include <enums/Field.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/GanttChartView.h>
+#include <aspose.tasks.cpp/enums/Field.h>
 #include <drawing/font_style.h>
 #include <drawing/color.h>
 

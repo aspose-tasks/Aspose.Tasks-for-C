@@ -7,11 +7,11 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "ReadWorkWeeksInformation.h"
 
-#include <WorkWeekCollection.h>
-#include <WorkWeek.h>
-#include <WorkingTimeCollection.h>
-#include <WeekDayCollection.h>
-#include <WeekDay.h>
+#include <aspose.tasks.cpp/WorkWeekCollection.h>
+#include <aspose.tasks.cpp/WorkWeek.h>
+#include <aspose.tasks.cpp/WorkingTimeCollection.h>
+#include <aspose.tasks.cpp/WeekDayCollection.h>
+#include <aspose.tasks.cpp/WeekDay.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -19,9 +19,9 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/object.h>
 #include <system/date_time.h>
 #include <system/collections/ienumerator.h>
-#include <Project.h>
-#include <CalendarCollection.h>
-#include <Calendar.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/CalendarCollection.h>
+#include <aspose.tasks.cpp/Calendar.h>
 
 #include "RunExamples.h"
 

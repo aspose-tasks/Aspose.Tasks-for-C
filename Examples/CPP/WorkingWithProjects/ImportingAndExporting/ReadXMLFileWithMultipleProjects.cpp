@@ -12,8 +12,8 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/shared_ptr.h>
 #include <system/reflection/method_base.h>
 #include <system/object.h>
-#include <Project.h>
-#include <io/PrimaveraXml/PrimaveraReadOptions.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/io/PrimaveraXml/PrimaveraReadOptions.h>
 #include <cstdint>
 
 #include "RunExamples.h"

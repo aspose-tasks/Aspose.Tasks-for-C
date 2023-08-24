@@ -21,9 +21,9 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/collections/idictionary.h>
 #include <system/collections/dictionary.h>
 #include <system/array.h>
-#include <Project.h>
-#include <OleObjectCollection.h>
-#include <OleObject.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/OleObjectCollection.h>
+#include <aspose.tasks.cpp/OleObject.h>
 #include <cstdint>
 
 #include "RunExamples.h"

@@ -7,12 +7,12 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "WorkingWithProjects/AddImageToPageHeaderFooter.h"
 
-#include <visualization/PageLegend.h>
-#include <visualization/PageInfo.h>
-#include <visualization/HeaderFooterInfo.h>
-#include <View.h>
-#include <TaskCollection.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/visualization/PageLegend.h>
+#include <aspose.tasks.cpp/visualization/PageInfo.h>
+#include <aspose.tasks.cpp/visualization/HeaderFooterInfo.h>
+#include <aspose.tasks.cpp/View.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -21,8 +21,8 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/exceptions.h>
 #include <system/details/dispose_guard.h>
 #include <system/console.h>
-#include <saving/MPPSaveOptions.h>
-#include <Project.h>
+#include <aspose.tasks.cpp/saving/MPPSaveOptions.h>
+#include <aspose.tasks.cpp/Project.h>
 #include <drawing/image.h>
 
 #include "RunExamples.h"

@@ -15,10 +15,10 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/object.h>
 #include <system/console.h>
 #include <system/collections/list.h>
-#include <Project.h>
-#include <FilterCollection.h>
-#include <Filter.h>
-#include <enums/ItemType.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/FilterCollection.h>
+#include <aspose.tasks.cpp/Filter.h>
+#include <aspose.tasks.cpp/enums/ItemType.h>
 #include <cstdint>
 
 #include "RunExamples.h"

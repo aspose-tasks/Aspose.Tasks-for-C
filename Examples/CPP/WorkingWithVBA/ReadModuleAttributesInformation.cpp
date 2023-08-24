@@ -7,12 +7,12 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "WorkingWithVBA/ReadModuleAttributesInformation.h"
 
-#include <vba/VbaProject.h>
-#include <vba/VbaModuleCollection.h>
-#include <vba/VbaModuleAttributeCollection.h>
-#include <vba/VbaModuleAttribute.h>
-#include <vba/VbaModule.h>
-#include <vba/IVbaModule.h>
+#include <aspose.tasks.cpp/vba/VbaProject.h>
+#include <aspose.tasks.cpp/vba/VbaModuleCollection.h>
+#include <aspose.tasks.cpp/vba/VbaModuleAttributeCollection.h>
+#include <aspose.tasks.cpp/vba/VbaModuleAttribute.h>
+#include <aspose.tasks.cpp/vba/VbaModule.h>
+#include <aspose.tasks.cpp/vba/IVbaModule.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -20,7 +20,7 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/object.h>
 #include <system/console.h>
 #include <system/collections/list.h>
-#include <Project.h>
+#include <aspose.tasks.cpp/Project.h>
 #include <cstdint>
 
 #include "RunExamples.h"

@@ -8,16 +8,16 @@
 #include <system/object.h>
 #include <system/date_time.h>
 #include <system/console.h>
-#include <Project.h>
-#include <Prj.h>
-#include <NullableBool.h>
-#include <Key.h>
-#include <enums/PrjKey.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Prj.h>
+#include <aspose.tasks.cpp/NullableBool.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/PrjKey.h>
 #include <cstdint>
-#include <PropertyCollections/BuiltInProjectPropertyCollection.h>
-#include <PropertyCollections/BuiltInProjectProperty.h>
-#include <PropertyCollections/CustomProjectPropertyCollection.h>
-#include <PropertyCollections/CustomProjectProperty.h>
+#include <aspose.tasks.cpp/PropertyCollections/BuiltInProjectPropertyCollection.h>
+#include <aspose.tasks.cpp/PropertyCollections/BuiltInProjectProperty.h>
+#include <aspose.tasks.cpp/PropertyCollections/CustomProjectPropertyCollection.h>
+#include <aspose.tasks.cpp/PropertyCollections/CustomProjectProperty.h>
 
 #include "RunExamples.h"
 

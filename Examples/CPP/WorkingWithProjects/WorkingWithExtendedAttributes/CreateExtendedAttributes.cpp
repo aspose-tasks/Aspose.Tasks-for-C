@@ -7,8 +7,8 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "CreateExtendedAttributes.h"
 
-#include <TaskCollection.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -16,13 +16,13 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/object.h>
 #include <system/exceptions.h>
 #include <system/console.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <Project.h>
-#include <ExtendedAttributeDefinitionCollection.h>
-#include <ExtendedAttributeDefinition.h>
-#include <ExtendedAttributeCollection.h>
-#include <ExtendedAttribute.h>
-#include <enums/ExtendedAttributeTask.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/ExtendedAttributeDefinitionCollection.h>
+#include <aspose.tasks.cpp/ExtendedAttributeDefinition.h>
+#include <aspose.tasks.cpp/ExtendedAttributeCollection.h>
+#include <aspose.tasks.cpp/ExtendedAttribute.h>
+#include <aspose.tasks.cpp/enums/ExtendedAttributeTask.h>
 #include <cstdint>
 
 #include "RunExamples.h"

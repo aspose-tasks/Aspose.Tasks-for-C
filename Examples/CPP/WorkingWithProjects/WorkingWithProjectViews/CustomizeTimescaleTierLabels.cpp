@@ -1,13 +1,13 @@
 #include "WorkingWithProjects/WorkingWithProjectViews/CustomizeTimescaleTierLabels.h"
 
-#include <visualization/View/TimescaleTier.h>
-#include <visualization/View/DateTimeConverter.h>
-#include <visualization/Enums/TimescaleUnit.h>
-#include <View.h>
-#include <TaskLinkCollection.h>
-#include <TaskLink.h>
-#include <TaskCollection.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/visualization/View/TimescaleTier.h>
+#include <aspose.tasks.cpp/visualization/View/DateTimeConverter.h>
+#include <aspose.tasks.cpp/visualization/Enums/TimescaleUnit.h>
+#include <aspose.tasks.cpp/View.h>
+#include <aspose.tasks.cpp/TaskLinkCollection.h>
+#include <aspose.tasks.cpp/TaskLink.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -16,13 +16,13 @@
 #include <system/exceptions.h>
 #include <system/date_time.h>
 #include <system/array.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <Project.h>
-#include <Prj.h>
-#include <Key.h>
-#include <GanttChartView.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Prj.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/GanttChartView.h>
 #include <functional>
-#include <enums/PrjKey.h>
+#include <aspose.tasks.cpp/enums/PrjKey.h>
 #include <cstdint>
 
 #include "RunExamples.h"

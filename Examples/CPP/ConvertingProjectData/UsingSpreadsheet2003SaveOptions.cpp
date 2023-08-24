@@ -7,29 +7,29 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "UsingSpreadsheet2003SaveOptions.h"
 
-#include <visualization/View/ViewColumn.h>
-#include <visualization/View/ResourceViewColumn.h>
-#include <visualization/View/ProjectView.h>
-#include <visualization/View/GanttChartColumn.h>
-#include <visualization/View/AssignmentViewColumn.h>
-#include <Tsk.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/visualization/View/ViewColumn.h>
+#include <aspose.tasks.cpp/visualization/View/ResourceViewColumn.h>
+#include <aspose.tasks.cpp/visualization/View/ProjectView.h>
+#include <aspose.tasks.cpp/visualization/View/GanttChartColumn.h>
+#include <aspose.tasks.cpp/visualization/View/AssignmentViewColumn.h>
+#include <aspose.tasks.cpp/Tsk.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
 #include <system/reflection/method_base.h>
 #include <system/object.h>
 #include <system/collections/list.h>
-#include <saving/Excel/SpreadSheet2003/Spreadsheet2003SaveOptions.h>
-#include <Rsc.h>
-#include <ResourceAssignment.h>
-#include <Resource.h>
-#include <Project.h>
-#include <Key.h>
-#include <enums/TaskKey.h>
-#include <enums/RscKey.h>
-#include <enums/AsnKey.h>
-#include <Asn.h>
+#include <aspose.tasks.cpp/saving/Excel/SpreadSheet2003/Spreadsheet2003SaveOptions.h>
+#include <aspose.tasks.cpp/Rsc.h>
+#include <aspose.tasks.cpp/ResourceAssignment.h>
+#include <aspose.tasks.cpp/Resource.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/TaskKey.h>
+#include <aspose.tasks.cpp/enums/RscKey.h>
+#include <aspose.tasks.cpp/enums/AsnKey.h>
+#include <aspose.tasks.cpp/Asn.h>
 
 #include "RunExamples.h"
 

@@ -8,12 +8,12 @@
 #include <system/console.h>
 #include <system/collections/list.h>
 #include <system/collections/ienumerator.h>
-#include <Rsc.h>
-#include <ResourceCollection.h>
-#include <Resource.h>
-#include <Project.h>
-#include <Key.h>
-#include <enums/RscKey.h>
+#include <aspose.tasks.cpp/Rsc.h>
+#include <aspose.tasks.cpp/ResourceCollection.h>
+#include <aspose.tasks.cpp/Resource.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/RscKey.h>
 #include <cstdint>
 
 #include "RunExamples.h"

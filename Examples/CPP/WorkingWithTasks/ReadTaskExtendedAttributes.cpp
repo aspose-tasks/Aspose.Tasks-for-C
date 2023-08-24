@@ -1,7 +1,7 @@
 #include "ReadTaskExtendedAttributes.h"
 
-#include <TaskCollection.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -11,12 +11,12 @@
 #include <system/date_time.h>
 #include <system/console.h>
 #include <system/collections/ienumerator.h>
-#include <Project.h>
-#include <ExtendedAttributeDefinition.h>
-#include <ExtendedAttributeCollection.h>
-#include <ExtendedAttribute.h>
-#include <enums/CustomFieldType.h>
-#include <Duration.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/ExtendedAttributeDefinition.h>
+#include <aspose.tasks.cpp/ExtendedAttributeCollection.h>
+#include <aspose.tasks.cpp/ExtendedAttribute.h>
+#include <aspose.tasks.cpp/enums/CustomFieldType.h>
+#include <aspose.tasks.cpp/Duration.h>
 
 #include "RunExamples.h"
 

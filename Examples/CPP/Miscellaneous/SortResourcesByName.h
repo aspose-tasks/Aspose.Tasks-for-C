@@ -3,7 +3,7 @@
 #include <system/shared_ptr.h>
 #include <system/object.h>
 #include <system/collections/icomparer.h>
-#include <Resource.h>
+#include <aspose.tasks.cpp/Resource.h>
 #include <cstdint>
 
 

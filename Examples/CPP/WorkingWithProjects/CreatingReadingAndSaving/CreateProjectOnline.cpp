@@ -8,10 +8,10 @@
 #include <system/object.h>
 #include <system/collections/list.h>
 #include <system/enumerator_adapter.h>
-#include <Project.h>
-#include <IO/Pwa/ProjectServerCredentials.h>
-#include <IO/Pwa/ProjectServerManager.h>
-#include <IO/Pwa/ProjectInfo.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/IO/Pwa/ProjectServerCredentials.h>
+#include <aspose.tasks.cpp/IO/Pwa/ProjectServerManager.h>
+#include <aspose.tasks.cpp/IO/Pwa/ProjectInfo.h>
 
 #include "RunExamples.h"
 

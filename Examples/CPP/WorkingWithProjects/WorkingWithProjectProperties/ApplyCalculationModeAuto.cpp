@@ -1,22 +1,22 @@
 #include "ApplyCalculationModeAuto.h"
 
-#include <Tsk.h>
-#include <TaskLinkCollection.h>
-#include <TaskLink.h>
-#include <TaskCollection.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/Tsk.h>
+#include <aspose.tasks.cpp/TaskLinkCollection.h>
+#include <aspose.tasks.cpp/TaskLink.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/shared_ptr.h>
 #include <system/object_ext.h>
 #include <system/object.h>
 #include <system/date_time.h>
 #include <system/console.h>
-#include <Project.h>
-#include <Prj.h>
-#include <Key.h>
-#include <enums/TaskLinkType.h>
-#include <enums/TaskKey.h>
-#include <enums/PrjKey.h>
-#include <enums/CalculationMode.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Prj.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/TaskLinkType.h>
+#include <aspose.tasks.cpp/enums/TaskKey.h>
+#include <aspose.tasks.cpp/enums/PrjKey.h>
+#include <aspose.tasks.cpp/enums/CalculationMode.h>
 
 namespace Aspose {
 

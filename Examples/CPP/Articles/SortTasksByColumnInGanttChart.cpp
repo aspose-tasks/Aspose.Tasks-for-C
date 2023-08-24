@@ -7,9 +7,9 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "SortTasksByColumnInGanttChart.h"
 
-#include <visualization/Enums/Timescale.h>
-#include <Tsk.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/visualization/Enums/Timescale.h>
+#include <aspose.tasks.cpp/Tsk.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/type_info.h>
 #include <system/timespan.h>
 #include <system/string.h>
@@ -17,12 +17,12 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/reflection/method_base.h>
 #include <system/object.h>
 #include <system/collections/icomparer.h>
-#include <saving/SaveOptions.h>
-#include <saving/Pdf/PdfSaveOptions.h>
-#include <Project.h>
-#include <Key.h>
-#include <enums/TaskKey.h>
-#include <Duration.h>
+#include <aspose.tasks.cpp/saving/SaveOptions.h>
+#include <aspose.tasks.cpp/saving/Pdf/PdfSaveOptions.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/TaskKey.h>
+#include <aspose.tasks.cpp/Duration.h>
 #include <cstdint>
 
 #include "RunExamples.h"

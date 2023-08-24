@@ -7,16 +7,16 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "WriteTaskCalendar.h"
 
-#include <Tsk.h>
-#include <TaskCollection.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/Tsk.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/shared_ptr.h>
 #include <system/object.h>
-#include <Project.h>
-#include <Key.h>
-#include <enums/TaskKey.h>
-#include <CalendarCollection.h>
-#include <Calendar.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/TaskKey.h>
+#include <aspose.tasks.cpp/CalendarCollection.h>
+#include <aspose.tasks.cpp/Calendar.h>
 
 namespace Aspose {
 

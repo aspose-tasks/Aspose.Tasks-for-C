@@ -13,8 +13,8 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/reflection/method_base.h>
 #include <system/object.h>
 #include <system/console.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <Project.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/Project.h>
 
 #include "RunExamples.h"
 

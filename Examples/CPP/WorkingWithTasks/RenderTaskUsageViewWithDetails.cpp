@@ -7,17 +7,17 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "RenderTaskUsageViewWithDetails.h"
 
-#include <View.h>
-#include <UsageView.h>
-#include <TaskUsageView.h>
+#include <aspose.tasks.cpp/View.h>
+#include <aspose.tasks.cpp/UsageView.h>
+#include <aspose.tasks.cpp/TaskUsageView.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
 #include <system/reflection/method_base.h>
 #include <system/exceptions.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <Project.h>
-#include <Visualization/View/HorizontalStringAlignment.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Visualization/View/HorizontalStringAlignment.h>
 
 #include "RunExamples.h"
 

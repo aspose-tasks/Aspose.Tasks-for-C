@@ -7,10 +7,10 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "WorkingWithProjects/Miscellaneous/ReadTableDataFromProjectFile.h"
 
-#include <TableFieldCollection.h>
-#include <TableField.h>
-#include <TableCollection.h>
-#include <Table.h>
+#include <aspose.tasks.cpp/TableFieldCollection.h>
+#include <aspose.tasks.cpp/TableField.h>
+#include <aspose.tasks.cpp/TableCollection.h>
+#include <aspose.tasks.cpp/Table.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -20,8 +20,8 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/console.h>
 #include <system/collections/list.h>
 #include <system/collections/ienumerator.h>
-#include <Project.h>
-#include <Visualization/View/HorizontalStringAlignment.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Visualization/View/HorizontalStringAlignment.h>
 #include <cstdint>
 
 #include "RunExamples.h"

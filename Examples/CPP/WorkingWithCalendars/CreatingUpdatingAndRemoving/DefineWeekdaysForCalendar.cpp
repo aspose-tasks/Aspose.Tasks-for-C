@@ -7,21 +7,21 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "DefineWeekdaysForCalendar.h"
 
-#include <WorkingTimeCollection.h>
-#include <WorkingTime.h>
-#include <WeekDayCollection.h>
-#include <WeekDay.h>
+#include <aspose.tasks.cpp/WorkingTimeCollection.h>
+#include <aspose.tasks.cpp/WorkingTime.h>
+#include <aspose.tasks.cpp/WeekDayCollection.h>
+#include <aspose.tasks.cpp/WeekDay.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
 #include <system/reflection/method_base.h>
 #include <system/object.h>
 #include <system/date_time.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <Project.h>
-#include <enums/DayType.h>
-#include <CalendarCollection.h>
-#include <Calendar.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/enums/DayType.h>
+#include <aspose.tasks.cpp/CalendarCollection.h>
+#include <aspose.tasks.cpp/Calendar.h>
 
 #include "RunExamples.h"
 

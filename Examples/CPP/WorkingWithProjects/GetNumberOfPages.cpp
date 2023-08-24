@@ -7,13 +7,13 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "WorkingWithProjects/GetNumberOfPages.h"
 
-#include <visualization/Enums/Timescale.h>
+#include <aspose.tasks.cpp/visualization/Enums/Timescale.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
 #include <system/reflection/method_base.h>
 #include <system/object.h>
-#include <Project.h>
+#include <aspose.tasks.cpp/Project.h>
 #include <cstdint>
 
 #include "RunExamples.h"

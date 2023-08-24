@@ -1,9 +1,9 @@
 #include "GetPredecessorSuccessorTasks.h"
 
-#include <Tsk.h>
-#include <TaskLinkCollection.h>
-#include <TaskLink.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/Tsk.h>
+#include <aspose.tasks.cpp/TaskLinkCollection.h>
+#include <aspose.tasks.cpp/TaskLink.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -11,9 +11,9 @@
 #include <system/object.h>
 #include <system/console.h>
 #include <system/collections/ienumerator.h>
-#include <Project.h>
-#include <Key.h>
-#include <enums/TaskKey.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Key.h>
+#include <aspose.tasks.cpp/enums/TaskKey.h>
 
 #include "RunExamples.h"
 

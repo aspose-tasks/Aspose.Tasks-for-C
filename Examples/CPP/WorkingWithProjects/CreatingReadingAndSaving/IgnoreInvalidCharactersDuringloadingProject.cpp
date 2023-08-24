@@ -23,10 +23,10 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/diagnostics/debug.h>
 #include <system/details/dispose_guard.h>
 #include <system/array.h>
-#include <Project.h>
-#include <io/xml/ParseErrorCallback.h>
-#include <io/xml/ParseErrorArgs.h>
-#include <Duration.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/io/xml/ParseErrorCallback.h>
+#include <aspose.tasks.cpp/io/xml/ParseErrorArgs.h>
+#include <aspose.tasks.cpp/Duration.h>
 #include <cstdint>
 
 #include "RunExamples.h"

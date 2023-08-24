@@ -7,9 +7,9 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "WorkingWithVBA/ReadReferencesInformation.h"
 
-#include <vba/VbaReferenceCollection.h>
-#include <vba/VbaReference.h>
-#include <vba/VbaProject.h>
+#include <aspose.tasks.cpp/vba/VbaReferenceCollection.h>
+#include <aspose.tasks.cpp/vba/VbaReference.h>
+#include <aspose.tasks.cpp/vba/VbaProject.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -18,7 +18,7 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/object.h>
 #include <system/console.h>
 #include <system/collections/list.h>
-#include <Project.h>
+#include <aspose.tasks.cpp/Project.h>
 #include <cstdint>
 
 #include "RunExamples.h"

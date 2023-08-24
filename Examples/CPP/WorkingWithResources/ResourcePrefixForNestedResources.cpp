@@ -1,7 +1,7 @@
 #include "WorkingWithResources/ResourcePrefixForNestedResources.h"
 
-#include <visualization/View/PageSize.h>
-#include <visualization/Enums/Timescale.h>
+#include <aspose.tasks.cpp/visualization/View/PageSize.h>
+#include <aspose.tasks.cpp/visualization/Enums/Timescale.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -14,17 +14,17 @@
 #include <system/enum_helpers.h>
 #include <system/details/dispose_guard.h>
 #include <system/collections/list.h>
-#include <saving/Html/ImageSavingArgs.h>
-#include <saving/Html/IImageSavingCallback.h>
-#include <saving/Html/IFontSavingCallback.h>
-#include <saving/Html/ICssSavingCallback.h>
-#include <saving/Html/HtmlSaveOptions.h>
-#include <saving/Html/FontSavingArgs.h>
-#include <saving/Html/CssSavingArgs.h>
-#include <Project.h>
+#include <aspose.tasks.cpp/saving/Html/ImageSavingArgs.h>
+#include <aspose.tasks.cpp/saving/Html/IImageSavingCallback.h>
+#include <aspose.tasks.cpp/saving/Html/IFontSavingCallback.h>
+#include <aspose.tasks.cpp/saving/Html/ICssSavingCallback.h>
+#include <aspose.tasks.cpp/saving/Html/HtmlSaveOptions.h>
+#include <aspose.tasks.cpp/saving/Html/FontSavingArgs.h>
+#include <aspose.tasks.cpp/saving/Html/CssSavingArgs.h>
+#include <aspose.tasks.cpp/Project.h>
 #include <mutex>
-#include <enums/ResourceExportType.h>
-#include <enums/FontFaceType.h>
+#include <aspose.tasks.cpp/enums/ResourceExportType.h>
+#include <aspose.tasks.cpp/enums/FontFaceType.h>
 #include <cstdint>
 
 #include "RunExamples.h"

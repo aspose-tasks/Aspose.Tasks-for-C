@@ -7,19 +7,19 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "CreateResourceAssignments.h"
 
-#include <TaskCollection.h>
-#include <Task.h>
+#include <aspose.tasks.cpp/TaskCollection.h>
+#include <aspose.tasks.cpp/Task.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
 #include <system/reflection/method_base.h>
 #include <system/object.h>
-#include <saving/Enums/SaveFileFormat.h>
-#include <ResourceCollection.h>
-#include <ResourceAssignmentCollection.h>
-#include <ResourceAssignment.h>
-#include <Resource.h>
-#include <Project.h>
+#include <aspose.tasks.cpp/saving/Enums/SaveFileFormat.h>
+#include <aspose.tasks.cpp/ResourceCollection.h>
+#include <aspose.tasks.cpp/ResourceAssignmentCollection.h>
+#include <aspose.tasks.cpp/ResourceAssignment.h>
+#include <aspose.tasks.cpp/Resource.h>
+#include <aspose.tasks.cpp/Project.h>
 
 #include "RunExamples.h"
 

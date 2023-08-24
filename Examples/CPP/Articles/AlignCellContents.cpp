@@ -7,12 +7,12 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 */
 #include "AlignCellContents.h"
 
-#include <visualization/View/ViewColumn.h>
-#include <visualization/View/ResourceViewColumn.h>
-#include <visualization/View/ProjectView.h>
-#include <visualization/View/GanttChartColumn.h>
-#include <visualization/Enums/Timescale.h>
-#include <visualization/Enums/PresentationFormat.h>
+#include <aspose.tasks.cpp/visualization/View/ViewColumn.h>
+#include <aspose.tasks.cpp/visualization/View/ResourceViewColumn.h>
+#include <aspose.tasks.cpp/visualization/View/ProjectView.h>
+#include <aspose.tasks.cpp/visualization/View/GanttChartColumn.h>
+#include <aspose.tasks.cpp/visualization/Enums/Timescale.h>
+#include <aspose.tasks.cpp/visualization/Enums/PresentationFormat.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -20,10 +20,10 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <system/object.h>
 #include <system/exceptions.h>
 #include <system/collections/list.h>
-#include <saving/SaveOptions.h>
-#include <saving/Pdf/PdfSaveOptions.h>
-#include <Project.h>
-#include <Visualization/View/HorizontalStringAlignment.h>
+#include <aspose.tasks.cpp/saving/SaveOptions.h>
+#include <aspose.tasks.cpp/saving/Pdf/PdfSaveOptions.h>
+#include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Visualization/View/HorizontalStringAlignment.h>
 
 #include "RunExamples.h"
 
