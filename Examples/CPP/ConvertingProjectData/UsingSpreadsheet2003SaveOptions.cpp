@@ -50,17 +50,17 @@ RTTI_INFO_IMPL_HASH(2783516275u, ::Aspose::Tasks::Examples::CPP::ConvertingProje
 
 System::String UsingSpreadsheet2003SaveOptions::_anonymous_method_0(System::SharedPtr<Task> task)
 {
-    return task->Get(Tsk::WBS());
+    return task->get_WBS();
 }
 
 System::String UsingSpreadsheet2003SaveOptions::_anonymous_method_1(System::SharedPtr<Resource> resource)
 {
-    return resource->Get<System::String>(Rsc::CostCenter());
+    return resource->get_CostCenter();
 }
 
 System::String UsingSpreadsheet2003SaveOptions::_anonymous_method_2(System::SharedPtr<ResourceAssignment> assignment)
 {
-    return assignment->Get<System::String>(Asn::Notes());
+    return assignment->get_NotesText();
 }
 
 void UsingSpreadsheet2003SaveOptions::Run()

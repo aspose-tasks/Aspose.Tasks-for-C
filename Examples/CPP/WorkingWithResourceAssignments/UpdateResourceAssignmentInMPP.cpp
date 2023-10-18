@@ -57,7 +57,7 @@ void UpdateResourceAssignmentInMPP::Run()
         
         // Create resource assignment
         System::SharedPtr<ResourceAssignment> assn = project1->get_ResourceAssignments()->Add(task, rsc);
-        assn->Set<System::String>(Asn::Notes(), u"Newly added assignment");
+        assn->Set<System::String>(Asn::NotesText(), u"Newly added assignment");
         
         // Save project as MPP
         project1->Save(dataDir + u"UpdateResourceAssignment_out.mpp", Aspose::Tasks::Saving::SaveFileFormat::Mpp);

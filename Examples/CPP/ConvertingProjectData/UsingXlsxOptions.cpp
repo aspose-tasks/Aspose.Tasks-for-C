@@ -50,17 +50,17 @@ RTTI_INFO_IMPL_HASH(654405702u, ::Aspose::Tasks::Examples::CPP::ConvertingProjec
 
 System::String UsingXlsxOptions::_anonymous_method_0(System::SharedPtr<Task> task)
 {
-    return task->Get(Tsk::WBS());
+    return task->get_WBS();
 }
 
 System::String UsingXlsxOptions::_anonymous_method_1(System::SharedPtr<Resource> resource)
 {
-    return resource->Get<System::String>(Rsc::CostCenter());
+    return resource->get_CostCenter();
 }
 
 System::String UsingXlsxOptions::_anonymous_method_2(System::SharedPtr<ResourceAssignment> assignment)
 {
-    return assignment->Get<System::String>(Asn::Notes());
+    return assignment->get_NotesText();
 }
 
 void UsingXlsxOptions::Run()
