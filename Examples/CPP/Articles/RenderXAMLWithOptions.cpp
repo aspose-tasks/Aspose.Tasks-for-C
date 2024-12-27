@@ -16,8 +16,10 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <aspose.tasks.cpp/saving/Xaml/XamlOptions.h>
 #include <aspose.tasks.cpp/saving/SaveOptions.h>
 #include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Saving/LegendDrawingOptions.h>
 
 #include "RunExamples.h"
+
 
 
 using namespace Aspose::Tasks::Saving;
@@ -44,7 +46,7 @@ void RenderXAMLWithOptions::Run()
     const System::String resultFile = u"RenderXAMLWithOptions_out.xaml";
     System::SharedPtr<SaveOptions> options = System::MakeObject<XamlOptions>();
     options->set_FitContent(true);
-    options->set_LegendOnEachPage(false);
+    options->set_LegendDrawingOptions(LegendDrawingOptions::NoLegend);
     options->set_Timescale(Aspose::Tasks::Visualization::Timescale::ThirdsOfMonths);
     project->Save(dataDir + resultFile, options);
     // ExEnd:RenderXAMLWithOptions

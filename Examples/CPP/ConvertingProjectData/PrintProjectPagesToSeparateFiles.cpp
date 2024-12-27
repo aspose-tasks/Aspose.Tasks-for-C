@@ -25,6 +25,7 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <aspose.tasks.cpp/Prj.h>
 #include <aspose.tasks.cpp/Key.h>
 #include <aspose.tasks.cpp/enums/PrjKey.h>
+#include <aspose.tasks.cpp/Saving/LegendDrawingOptions.h>
 #include <drawing/color.h>
 
 #include "RunExamples.h"
@@ -56,7 +57,7 @@ void PrintProjectPagesToSeparateFiles::Run()
     saveOptions->set_EndDate(project->Get<System::DateTime>(Prj::FinishDate()));
     
     saveOptions->set_MarkCriticalTasks(true);
-    saveOptions->set_LegendOnEachPage(false);
+    saveOptions->set_LegendDrawingOptions(LegendDrawingOptions::NoLegend);
     
     saveOptions->set_Gridlines(System::MakeObject<System::Collections::Generic::List<System::SharedPtr<Gridline>>>());
     

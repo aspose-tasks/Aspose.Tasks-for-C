@@ -15,6 +15,7 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <aspose.tasks.cpp/saving/SaveOptions.h>
 #include <aspose.tasks.cpp/saving/Pdf/PdfSaveOptions.h>
 #include <aspose.tasks.cpp/Project.h>
+#include <aspose.tasks.cpp/Saving/LegendDrawingOptions.h>
 
 #include "RunExamples.h"
 
@@ -43,7 +44,7 @@ void HideLegendsDuringSave::Run()
     System::SharedPtr<SaveOptions> saveOptions = System::MakeObject<PdfSaveOptions>();
     
     // Set the LegendOnEachPage property to false to hide legends
-    saveOptions->set_LegendOnEachPage(false);
+    saveOptions->set_LegendDrawingOptions(LegendDrawingOptions::NoLegend);
     // ExEnd:HideLegendsDuringSave
     
     project->Save(dataDir + u"HideLegendsDuringSave_out.pdf", saveOptions);
