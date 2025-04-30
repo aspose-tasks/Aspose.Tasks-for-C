@@ -51,11 +51,11 @@ void RenderMultipageTIFF::Run()
     // Save the project with CCITT4 compression
     System::SharedPtr<ImageSaveOptions> options = System::MakeObject<ImageSaveOptions>(Aspose::Tasks::Saving::SaveFileFormat::Tiff);
     options->set_TiffCompression(Aspose::Tasks::Saving::TiffCompression::Ccitt4);
-    project->Save(dataDir + u"RenderMultipageTIFF_options_out.tif", System::ExplicitCast<Aspose::Tasks::Saving::SaveOptions>(options));
+    project->Save(dataDir + u"RenderMultipageTIFF_options_out.tif", options);
     
     // Remove the compression
     options->set_TiffCompression(Aspose::Tasks::Saving::TiffCompression::None);
-    project->Save(dataDir + u"RenderMultipageTIFF_comp_none_out.tif", System::ExplicitCast<Aspose::Tasks::Saving::SaveOptions>(options));
+    project->Save(dataDir + u"RenderMultipageTIFF_comp_none_out.tif", options);
     // ExEnd:RenderMultipageTIFF
 }
 

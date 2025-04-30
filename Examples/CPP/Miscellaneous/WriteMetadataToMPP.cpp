@@ -90,13 +90,11 @@ void WriteMetadataToMPP::Run()
         
         // Add tasks and set task meta data
         System::SharedPtr<Task> task = project->get_RootTask()->get_Children()->Add(u"Task 1");
-        task->Set<TimeUnitType>(Tsk::DurationFormat(), Aspose::Tasks::TimeUnitType::Day);
         task->Set<Duration>(Tsk::Duration(), project->GetDuration(3));
         task->Set<System::String>(Tsk::Contact(), u"Rsc 1");
         task->Set<bool>(Tsk::IsMarked(), true);
         task->Set<bool>(Tsk::IgnoreWarnings(), true);
         System::SharedPtr<Task> task2 = project->get_RootTask()->get_Children()->Add(u"Task 2");
-        task2->Set<TimeUnitType>(Tsk::DurationFormat(), Aspose::Tasks::TimeUnitType::Day);
         task2->Set<System::String>(Tsk::Contact(), u"Rsc 2");
         
         // Link tasks

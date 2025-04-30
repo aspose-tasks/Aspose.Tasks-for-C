@@ -51,7 +51,6 @@ void AddNewTask::Run()
     
     // Set duration in hours
     task->Set<Duration>(Tsk::Duration(), project->GetDuration(24, Aspose::Tasks::TimeUnitType::Hour));
-    task->Set<TimeUnitType>(Tsk::DurationFormat(), Aspose::Tasks::TimeUnitType::Day);
     
     // Save the Project as XML
     project->Save(dataDir + u"AddNewTask_out.xml", Aspose::Tasks::Saving::SaveFileFormat::Xml);

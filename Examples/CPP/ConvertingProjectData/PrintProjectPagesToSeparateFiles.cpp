@@ -69,11 +69,11 @@ void PrintProjectPagesToSeparateFiles::Run()
     
     // Save the whole project layout to one file
     saveOptions->set_RenderToSinglePage(true);
-    project->Save(dataDir + u"PrintProjectPagesToSeparateFiles1_out.png", System::ExplicitCast<Aspose::Tasks::Saving::SaveOptions>(saveOptions));
+    project->Save(dataDir + u"PrintProjectPagesToSeparateFiles1_out.png", saveOptions);
     
     // Save project layout to separate files
     saveOptions->set_RenderToSinglePage(false);
-    project->Save(dataDir + u"PrintProjectPagesToSeparateFiles2_out.png", System::ExplicitCast<Aspose::Tasks::Saving::SaveOptions>(saveOptions));
+    project->Save(dataDir + u"PrintProjectPagesToSeparateFiles2_out.png", saveOptions);
     // ExEnd:PrintProjectPagesToSeparateFiles
 }
 

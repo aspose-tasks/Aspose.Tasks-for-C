@@ -63,7 +63,6 @@ void UpdateTaskData::Run()
         task1->Set<Duration>(Tsk::Duration(), project->GetDuration(3));
         task1->Set(Tsk::Deadline(), task1->Get<System::DateTime>(Tsk::Start()).AddDays(10));
         task1->Set<System::String>(Tsk::NotesText(), u"The first task.");
-        task1->Set<TimeUnitType>(Tsk::DurationFormat(), Aspose::Tasks::TimeUnitType::MinuteEstimated);
         task1->Set<ConstraintType>(Tsk::ConstraintType(), Aspose::Tasks::ConstraintType::FinishNoLaterThan);
         task1->Set(Tsk::ConstraintDate(), task1->Get<System::DateTime>(Tsk::Deadline()).AddDays(-1));
         
@@ -73,7 +72,6 @@ void UpdateTaskData::Run()
         {
             System::SharedPtr<Task> subTask = summary->get_Children()->Add(System::String::Format(u"Task{0}",i + 2));
             subTask->Set<Duration>(Tsk::Duration(), task1->Get<Duration>(Tsk::Duration()).Add(project->GetDuration(i + 1)));
-            subTask->Set<TimeUnitType>(Tsk::DurationFormat(), Aspose::Tasks::TimeUnitType::Day);
             subTask->Set(Tsk::Deadline(), task1->Get<System::DateTime>(Tsk::Deadline()).AddDays(i + 1));
         }
         

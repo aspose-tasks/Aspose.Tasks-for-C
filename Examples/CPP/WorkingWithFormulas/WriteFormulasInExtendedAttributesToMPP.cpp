@@ -52,7 +52,6 @@ void WriteFormulasInExtendedAttributesToMPP::Run()
     try
     {
         auto lic = System::MakeObject<License>();
-        lic->SetLicense(u"E:\\Aspose\\License\\Aspose.Tasks.lic");
         
         // ExStart:WriteFormulasInExtendedAttributesToMPP
         // Create project instance

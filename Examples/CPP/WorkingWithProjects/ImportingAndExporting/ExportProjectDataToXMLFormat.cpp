@@ -39,7 +39,7 @@ void ExportProjectDataToXMLFormat::Run()
     System::String dataDir = RunExamples::GetDataDir(System::Reflection::MethodBase::GetCurrentMethod(ASPOSE_CURRENT_FUNCTION)->get_DeclaringType().get_FullName());
     
     // ExStart:ExportProjectDataToXMLFormat
-    System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"Project1.mpp");
+    System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"Project5.mpp");
     
     // Save project in desired format
     project->Save(dataDir + u"ExportProjectDataToXMLFormat_out.xml", Aspose::Tasks::Saving::SaveFileFormat::PrimaveraP6Xml);
