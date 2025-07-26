@@ -66,11 +66,6 @@ void ReadGroupDefinitionData::Run()
     System::Console::WriteLine(System::String(u"Criterion Cell Color: ") + criterion->get_CellColor());
     System::Console::WriteLine(System::String(u"Criterion Pattern: ") + System::ObjectExt::ToString(criterion->get_Pattern()));
     
-    if (taskGroup == criterion->get_ParentGroup())
-    {
-        System::Console::WriteLine(u"Parent Group is equval to task Group.");
-    }
-    
     System::Console::WriteLine(u"\n*********** Retreivnig Criterion's Font Information ***********");
     System::Console::WriteLine(System::String(u"Font Name: ") + criterion->get_Font()->get_FontFamily());
     System::Console::WriteLine(System::String(u"Font Size: ") + criterion->get_Font()->get_Size());
