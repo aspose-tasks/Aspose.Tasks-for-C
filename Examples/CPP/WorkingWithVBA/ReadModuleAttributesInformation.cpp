@@ -12,7 +12,6 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <aspose.tasks.cpp/vba/VbaModuleAttributeCollection.h>
 #include <aspose.tasks.cpp/vba/VbaModuleAttribute.h>
 #include <aspose.tasks.cpp/vba/VbaModule.h>
-#include <aspose.tasks.cpp/vba/IVbaModule.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -45,7 +44,7 @@ void ReadModuleAttributesInformation::Run()
     // ExStart:ReadModuleAttributesInformation
     System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"VbaProject1.mpp");
     System::SharedPtr<VbaProject> vbaProject = project->get_VbaProject();
-    System::SharedPtr<IVbaModule> vbaModule = vbaProject->get_Modules()->ToList()->idx_get(0);
+    System::SharedPtr<VbaModule> vbaModule = vbaProject->get_Modules()->ToList()->idx_get(0);
     
     System::Console::WriteLine(System::String(u"Attributes Count: ") + vbaModule->get_Attributes()->get_Count());
     System::Console::WriteLine(System::String(u"VB_Name: ") + vbaModule->get_Attributes()->ToList()->idx_get(0)->get_Key());

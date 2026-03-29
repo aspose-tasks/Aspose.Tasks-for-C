@@ -10,7 +10,6 @@ please feel free to contact us using https://forum.aspose.com/c/tasks
 #include <aspose.tasks.cpp/vba/VbaProject.h>
 #include <aspose.tasks.cpp/vba/VbaModuleCollection.h>
 #include <aspose.tasks.cpp/vba/VbaModule.h>
-#include <aspose.tasks.cpp/vba/IVbaModule.h>
 #include <system/type_info.h>
 #include <system/string.h>
 #include <system/shared_ptr.h>
@@ -46,7 +45,7 @@ void ReadModulesInformation::Run()
     System::SharedPtr<VbaProject> vbaProject = project->get_VbaProject();
     System::Console::WriteLine(System::String(u"Total Modules Count: ") + vbaProject->get_Modules()->get_Count());
     
-    System::SharedPtr<IVbaModule> vbaModule = vbaProject->get_Modules()->ToList()->idx_get(0);
+    System::SharedPtr<VbaModule> vbaModule = vbaProject->get_Modules()->ToList()->idx_get(0);
     System::Console::WriteLine(System::String(u"Module Name: ") + vbaModule->get_Name());
     System::Console::WriteLine(System::String(u"Source Code: ") + vbaModule->get_SourceCode());
     // ExEnd:ReadModulesInformation
